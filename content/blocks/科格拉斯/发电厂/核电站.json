@@ -1,0 +1,47 @@
+{
+    "name": "核电站",
+    "description": "利用辐射物散发的能量发电。",
+    "details":"注意安全",
+    "size":5,
+    "armor":10,
+    "health":100,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemDuration":60,
+    //发电时间
+    "powerProduction":25,
+    //发电量
+    "itemCapacity":50,
+    //物品容量
+    "generateEffect": "generatespark",
+    	"consumes": {
+		"itemRadioactive":{},
+		"liquids": [
+            {
+                "liquid": "原版拓展-氦气",
+                "amount": 0.5
+            }
+        ]
+	},
+    "drawer": [
+        "DrawDefault",
+			{
+				"type":"DrawDefault"
+			},
+            {
+				"type": "DrawRegion",
+				"suffix": "-转",
+				"spinSprite": true,
+				"rotateSpeed": 10
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-顶",
+			},
+			],
+    "ambientSound": "smelter",
+    "ambientSoundVolume":0.04,
+    "category": "power",
+   // "researchCostMultiplier":40,
+  //  "research": "能量中枢"
+}

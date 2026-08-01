@@ -1,0 +1,16 @@
+{
+    "type": "battery",
+    "name": "锂电池",
+    "description": "拥有一定的蓄电能力",
+    "details": "可以蓄电",
+    "size": 1,
+    "health": 110,
+    "requirements": [
+        "原版拓展-锂/20"
+    ],
+    "consumes": {
+        "powerBuffered": 1000
+    },
+    "category": "power",
+    "research": "原版拓展-大功率火力发电机"
+}

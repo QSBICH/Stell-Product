@@ -1,0 +1,8 @@
+{
+    "name": "原版拓展",
+    "displayName": "这是一个模组",
+    "description": "基于原版的内容延伸并制作的模组"
+    "minGameVersion": 154,
+    "author": "追木",
+    "version": "1.0"
+}

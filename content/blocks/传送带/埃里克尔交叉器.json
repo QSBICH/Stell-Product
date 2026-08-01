@@ -1,0 +1,13 @@
+{
+   "type":"DuctJunction",
+    "name":"黄铜交叉器",
+    "description": "两条管道的连接处，使两条管道相交不混带，血量极低"
+    "details":"我自己做出来的烂东西好用到哪去\n————核心机zero如是说"
+    "health":40,
+    "size":1,
+	"speed": 6,//运输速度
+    "requirements": [
+        "钢铁/2"
+    ],
+    "category":"distribution"
+}

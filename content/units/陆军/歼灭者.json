@@ -1,0 +1,92 @@
+{
+    "details": "歼灭者",
+    "armor": 13,
+    "description": "携带了机枪以及大口径加农炮，同时配备了两个导弹发射仓，一次性能发射出10枚巡航导弹",
+    "immunities": ["burning"],
+    "speed": 1,
+    "health": 3000,
+    "boostMultiplier": 1.5,
+    "engineOffset": 5,
+    "engineSize": 4,
+    "canBoost": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "JM枪",
+            "reload": 8,
+            "x": 3,
+            "y": 3,
+            "rotate": false,
+            "inaccuracy": 0,
+            "alternate": true,
+            "top": false,
+            "ejectEffect": "casing1",
+            "shootSound": "shootDuo",
+            "bullet": {
+                "damage": 50,
+                "speed": 8,
+                "lifetime": 30,
+                "width": 5,
+                "height": 8
+            }
+        }, 
+        {
+            "name": "j枪",
+            "reload": 32,
+            "x": 7.5,
+            "y": 0,
+            "rotate": false,
+            "inaccuracy": 0,
+            "alternate": true,
+            "top": false,
+            "ejectEffect": "casing1",
+            "shootSound": "shootArtillery",
+            "buildingDamageMultiplier": 1.5,
+            "bullet": {
+                "damage": 70,
+                "splashDamageRadius": 35,
+                "splashDamage": 45,
+                "homingDelay": 20,
+                "status": "blasted",
+                "hitEffect": "flakExplosionBig",
+                "despawnEffect": "flakExplosionBig",
+                "smokeEffect": "none",
+                "speed": 5,
+                "lifetime": 90,
+                "width": 16,
+                "height": 16
+            }
+        }, 
+        {
+            "name": "巫妖2",
+            "reload": 48,
+            "x": 2.5,
+            "y": -2,
+            "shootY": 6,
+            "shoot": {
+                "shots": 5,
+                "shotDelay": 1
+            },
+            "rotate": true,
+            "inaccuracy": 10,
+            "alternate": false,
+            "shootSound": "shootMissile",
+            "ejectEffect": "casing1",
+            "bullet": {
+                "type": "MissileBulletType",
+                "damage": 30,
+                "splashDamageRadius": 35,
+                "splashDamage": 40,
+                "homingDelay": 20,
+                "status": "blasted",
+                "hitEffect": "flakExplosionBig",
+                "despawnEffect": "flakExplosionBig",
+                "smokeEffect": "none",
+                "speed": 6,
+                "lifetime": 60,
+                "width": 7,
+                "height": 8
+            }
+        } 
+    ],
+}

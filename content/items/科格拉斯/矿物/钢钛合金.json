@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "钢钛合金",
+    "description": "通过工厂加工获得",
+    "details": "很强力的材料",
+    "color": "5C666CFF",
+    "cost": 20,
+    "hardness": 2,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0.25,
+    "flammability": 0,
+    "research": "原版拓展-钻石"
+}

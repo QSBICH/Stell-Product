@@ -1,0 +1,11 @@
+{
+	"name": "反应堆",
+	"health": 450,
+	"requirements": [
+		"钢铁/20",
+		"铀原矿/20"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-核电站核心"
+}

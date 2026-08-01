@@ -1,0 +1,14 @@
+{
+	"type": "Router",
+	"name": "铝制路由器",
+	"speedBoost": 2,
+	"description": "向其他三个方向平均的输送资源",
+	"details":"路由器，效率比较低下"
+	"speed": 0.1
+	"health":80
+	"requirements": [
+		{"item": "原版拓展-铝土矿", "amount": 2},
+		],
+	"category": "distribution",
+	"research": "原版拓展-铝制交叉器"
+}

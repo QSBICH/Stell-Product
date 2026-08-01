@@ -1,0 +1,48 @@
+{
+	"type": "tank",
+	"name": "围剿",
+	"squareShape": true,
+	"omniMovement": false,
+	"rotateMoveFirst": false,
+	"rotateSpeed": 3,
+	"speed": 2.4,
+	"hitSize": 9.5,
+	"ammoCapacity": 300,
+	"health": 500,
+	"armor": 2,
+	"drag": 0.08,
+	"accel": 0.1,
+	"itemCapacity": 5,
+	"faceTarget": false,
+	"research": {
+		"parent": "原版拓展-坦克组装厂",
+    "requirements":[
+        "原版拓展-铝土矿/100",
+        "原版拓展-硅冰石/50"
+        ]
+	},  
+	"weapons": [
+		{
+			"name": "围剿1",
+			"reload": 8,
+			"recoil": 0,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"rotateSpeed": 12.5,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "casing1",
+			"shootSound": "shootDuo",
+			"alternate": false,
+			"bullet": {
+				"damage": 35,
+				"speed": 9,
+				"buildingDamageMultiplier": 1,
+				"lifetime": 18,
+				"width": 3,
+				"height": 10
+			}
+		}
+	]
+}

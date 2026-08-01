@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "多重铜铅压缩厂",
+    "description": "利用爆炸混合物（blast-compound）弄成碎片，然后利用投影技术，制作出铜铅混合体，需要水冷却。",
+    "details": "铜铅压缩厂升级版",
+    "itemCapacity": 15,
+    "liquidCapacity": 50,
+    "health": 240,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 180,
+    "updateEffect": "hitEmpSpark",
+    "consumes": {
+        "power": 10,
+        "items": [
+            "copper/5"
+            "lead/5"
+            "blast-compound/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-铜铅混合体",
+        "amount": 12
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/200"
+        "copper/500"
+        "lead/400",
+        "graphite/100"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-铜铅压缩厂"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "Floor",
+    "name": "核废水",
+    "speedMultiplier":0.2,
+    "drownTime":300,
+    //溺水时间
+    "variants":0,
+    "status":"原版拓展-核辐射",
+    "statusDuration": 600,
+    "cacheLayer": "water",
+    "albedo": 0.9,
+    //反照率
+    "isLiquid": true,
+    "liquidMultiplier": 0.3,
+    "placeableOn":false,
+    //是否能放置方块
+}

@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "铜铅混合体",
+    "description": "铜铅混合的强力材料",
+    "details": "需要特定的工厂",
+    "color": "#800080",
+    "cost": 1,
+    "hardness": 0,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "lead"
+}

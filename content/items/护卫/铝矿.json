@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "铝矿",
+    "description": "铝土矿加工后的产物",
+    "details": "需要加工",
+    "color": "FFFFFF",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-铝土矿"
+}

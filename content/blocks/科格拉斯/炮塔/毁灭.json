@@ -1,0 +1,95 @@
+{
+    "type": "ItemTurret",
+    "name": "毁灭",
+    "health": 1950,
+    "size": 4,
+    "reload": 16,
+    "range": 560,
+    "shootSound": "shootSpectre",
+    "ammoPerShot": 2,
+    "hasLiquids": false,
+      "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+        {
+            "type": "RegionPart",
+            "suffix": "-后",
+            "x": 0,
+            "y": 0,
+            "mirror": true,
+			"moveX": 2,
+			"moveRot": -20
+        }
+    ]
+}
+    "shoot": {
+        "shots": 1,
+        "shotDelay": 1,
+        "type": "ShootAlternate",
+        "barrels": 2,
+        "spread": 8
+    },
+    "xRand": 1,
+    "ammoUseEffect": "casing2Double",
+    "inaccuracy": 1,
+    "rotateSpeed": 12,
+    "shake": 1,
+    "ammoTypes": {
+        "原版拓展-铁矿": {
+            "speed": 6,
+            "damage": 80,
+            "lifetime": 115,
+            "width": 14,
+            "height": 16,
+            "buildingDamageMultiplier": 0.375,
+            "ammoMultiplier": 2,
+            "shootEffect": "shootBig"
+        },
+        "原版拓展-金刚石": {
+            "speed": 6,
+            "damage": 120,
+            "lifetime": 120,
+            "width": 14,
+            "height": 16,
+            "buildingDamageMultiplier": 0.375,
+            "ammoMultiplier": 3,
+            "shootEffect": "shootBig"
+        },
+        "原版拓展-钢铁": {
+            "speed": 6,
+            "damage": 200,
+            "lifetime": 125,
+            "width": 14,
+            "height": 16,
+            "buildingDamageMultiplier": 0.375,
+            "ammoMultiplier": 4,
+            "shootEffect": "shootBig"
+        },
+        "原版拓展-钻石": {
+            "speed": 6,
+            "damage": 360,
+            "lifetime": 120,
+            "width": 14,
+            "height": 16,
+            "buildingDamageMultiplier": 0.375,
+            "ammoMultiplier": 5,
+            "shootEffect": "shootBig"
+        },
+    },
+    "category": "turret",
+    "researchCostMultiplier": 0.5,
+    "requirements": [
+        "原版拓展-钻石/500",
+        "原版拓展-铀原矿/300",
+        "原版拓展-零件/100"
+    ],
+    "research": {
+        "parent": "原版拓展-屏障",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "增殖区"
+            }
+        ]
+    }
+}

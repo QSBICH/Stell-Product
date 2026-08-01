@@ -1,0 +1,20 @@
+{
+    "speedMultiplier":1.1,
+    //单位在上面的速率
+    "dragMultiplier":0.8,
+    //地板摩擦
+    "damageTaken":0,
+    //单位在上面受到的伤害
+    "hasShadow":true,
+    //是否有阴影
+    "hidden":true,//隐藏
+    // "status":"none",//单位在上面的效果
+    // "statusDuration":12,//效果的持续时间
+    "attributes":{
+            "heat":0,//冷却液
+            "spores":0,//孢子
+            "water":1.4,//水
+            "oil":0,//石油
+            "冰水":1.2//mod独有水
+    },//地板属性
+}

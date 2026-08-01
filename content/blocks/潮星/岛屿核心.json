@@ -1,0 +1,16 @@
+{
+	"name":"岛屿核心",
+	"description": "尺寸较小，为了适应新星球的地理环境",
+	"requirements": [
+		"原版拓展-黄铜/800",
+	],
+	"unitType": "原版拓展-巡飞者",
+	"alwaysUnlocked":true,
+	"armor":28,
+	"health": 500,
+	"itemCapacity": 4000,
+	"size": 2,
+	"breakable": true,
+	"unitCapModifier": 6,
+	"category": "effect"
+}

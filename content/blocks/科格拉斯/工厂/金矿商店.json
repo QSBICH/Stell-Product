@@ -1,0 +1,33 @@
+{
+    "name":"金矿商店",
+    //"type":"GenericCrafter",
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            }
+        ]
+    },
+    "itemCapacity":70,
+    "hasLiquids":false,
+    "hasItems":true,
+    "hasPower": false,
+    "health":12000,
+    "description":"很全能",
+    "details":"全能",
+    "size":2,
+    "requirements":[
+        "原版拓展-钻石/200",
+        "原版拓展-零件/100",
+        "原版拓展-硅/100"
+    ],
+    "ambientSound": "购买",
+    "ambientSoundVolume": 1,
+    "category":"crafting"
+}

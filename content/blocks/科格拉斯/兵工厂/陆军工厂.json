@@ -1,0 +1,32 @@
+{
+	"type": "UnitFactory",
+	"name": "陆军工厂",
+	"size":3,
+	"consumes": {
+		"power": 1,
+			}
+	"plans": [
+		{
+			"unit": "原版拓展-铁刃",
+			"time": 600,
+			"requirements": [
+				"原版拓展-钢铁/30",
+				"原版拓展-红宝石/25"
+			]
+		}
+	],
+	"category":"units",
+	"requirements": [
+		"原版拓展-钢铁/30",
+		"原版拓展-红宝石/25"
+	]
+	"research": {
+		"parent": "原版拓展-钢铁冶炼厂",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "矿区遗迹"
+			}
+		]
+	}
+}

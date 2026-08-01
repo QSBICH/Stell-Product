@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "name": "铅墙",
+    "description": "强度比铜墙高",
+    "details": "铅制作的墙",
+    "health": 400,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+   
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "lead",  // 煤炭
+            "amount": 6       // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "copper-wall"
+}

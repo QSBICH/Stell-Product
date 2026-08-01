@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "铁传送带",
+	"health": 100,
+	"requirements": [
+		"原版拓展-铁矿/1"
+	],
+	"category": "distribution",
+	"research":"原版拓展-铁矿",
+	"speed": 0.06,
+	"displayedSpeed": 6
+	"bridgeReplacement":"铁制桥梁",//默认桥
+    "junctionReplacement":"铁制交叉器",//默认交叉器
+}

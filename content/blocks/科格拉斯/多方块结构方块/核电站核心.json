@@ -1,0 +1,13 @@
+{
+	"name": "核电站核心",
+	"health": 450,
+	"description":"点击后显示按钮，按钮里有教程",
+	"requirements": [
+		"钢钛合金/175",
+		"锂/200",
+		"零件/150"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-钢钛合金冶炼厂控制器"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "铀矿II",
+    "description": "具有放射性",
+    "details": "要谨慎保管",
+    "color": "CFFF70FF",
+    "cost": 2,
+    "hardness": 4,
+    "explosiveness": 0.25,
+    "radioactivity": 1,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-铀原矿"
+}

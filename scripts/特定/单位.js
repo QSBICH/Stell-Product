@@ -1,0 +1,37 @@
+function newUnit(name, unitType) {
+	const u = extend(UnitType, name, {});
+	u.constructor = () => extend(unitType, {});
+	return exports[name] = u;
+}
+
+/*"flying" -> UnitEntity;
+"mech" -> MechUnit;
+"legs" -> LegsUnit;
+"naval" -> UnitWaterMove;
+"payload" -> PayloadUnit;
+"missile" -> TimedKillUnit;
+"tank" -> TankUnit;
+"hover" -> ElevationMoveUnit;
+"tether" -> BuildingTetherPayloadUnit;
+"crawl" -> CrawlUnit;*/
+newUnit("铁刃",MechUnit);
+newUnit("剿灭",MechUnit);
+newUnit("清算",MechUnit);
+newUnit("修复",MechUnit);
+newUnit("斩杀",MechUnit);
+newUnit("巡飞者",UnitEntity);
+newUnit("组装无人机",UnitEntity);
+newUnit("蜉蝣",UnitEntity);
+newUnit("飞船",UnitEntity);
+newUnit("忠诚",UnitEntity);
+newUnit("载荷",UnitEntity);
+newUnit("流浪者",MechUnit);
+newUnit("歼灭者",MechUnit);
+newUnit("巡逻者",MechUnit);
+newUnit("巡回者",MechUnit);
+newUnit("报告者",LegsUnit);
+newUnit("勘探者",LegsUnit);
+newUnit("爬行勘探器",LegsUnit);
+newUnit("漂流",UnitWaterMove);
+newUnit("兵蚁",LegsUnit);
+newUnit("蚁后",LegsUnit);

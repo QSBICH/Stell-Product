@@ -1,0 +1,63 @@
+{
+    "details": "漂流",
+    "health": 300,
+    "speed": 1,
+    "boostMultiplier": 1.5,
+    "engineOffset": 5,
+    "engineSize": 4,
+    "canBoost": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "zd枪",
+            "reload": 8,
+            "x": 4,
+            "y": 3,
+            "rotate": false,
+            "rotateSpeed": 6.25,
+            "inaccuracy": 0,
+            "alternate": true,
+            "top": false,
+            "ejectEffect": "casing1",
+            "bullet": {
+                "damage": 10,
+                "speed": 8,
+                "lifetime": 20,
+                "width": 5,
+                "height": 8
+            },
+        }
+        {
+			"name": "pd枪",
+			"reload": 48,
+			"x": 5,
+			"y": -1,
+			"shootY": 6,
+			"shoot": {
+				"shots": 1,
+				"shotDelay": 1
+			},
+			"rotate": true,
+			"rotateSpeed": 12.5,
+			"inaccuracy": 10,
+			"alternate": true,
+			"shootSound": "shootMissile",
+			"ejectEffect": "casing1",
+			"bullet": {
+				"type": "MissileBulletType",
+				"damage": 5,
+				"splashDamageRadius": 10,
+				"splashDamage": 10,
+				"homingDelay": 20,
+				"status": "blasted",
+				"hitEffect": "flakExplosionBig",
+				"despawnEffect": "flakExplosionBig",
+				"smokeEffect": "none",
+				"speed": 5,
+				"lifetime": 45,
+				"width": 7,
+				"height": 8
+			}
+		}
+	]
+}

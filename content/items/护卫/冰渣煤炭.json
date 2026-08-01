@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "冰渣煤炭",
+    "description": "在远古时期的树形成的，里面含有少量的冰渣",
+    "details": "少数地方会有裸露",
+    "color": "#3A3434FF",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-铝土矿"
+}

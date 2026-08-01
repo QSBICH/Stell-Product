@@ -1,0 +1,22 @@
+{
+    "type": "PowerNode",
+    "name": "大型铁制电力节点",
+    "description": "利用铁制作的电力节点，导电效率远不如赛普罗的电力节点",
+    "details": "范围更大",
+    "size": 2,
+    "health": 450,
+    "armor": 3,
+    "maxNodes": 15,
+    "laserRange": "20",
+    "hasPower": true,
+    "consumesPower": true,
+    "outputsPower": true,
+    "consumes": {
+        "powerBuffered": 250
+    },
+    "requirements": [
+        "原版拓展-钢铁/30"
+    ],
+    "category": "power",
+    "research": "原版拓展-氧气燃烧室"
+}

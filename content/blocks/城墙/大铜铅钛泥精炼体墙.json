@@ -1,0 +1,20 @@
+{
+    "type": "Wall",
+    "name": "大铜铅钛泥精炼体墙",
+    "description": "利用了铜铅钛泥强度更好的材料",
+    "details": "强度极高",
+    "health": 32000,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "铜铅钛泥精炼体",
+            "amount": 24
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-小铜铅钛泥精炼体墙"
+}

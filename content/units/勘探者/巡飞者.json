@@ -1,0 +1,34 @@
+{
+	"details": "巡飞者",
+	"name": "巡飞者",
+	"health": 400,
+	"mineSpeed": 10,
+	"mineTier": 1,
+	"buildSpeed": 1.25,
+	"mineFloor":true,
+    //能否挖地
+    "mineWalls":true,
+    //能否挖墙
+	"speed": 3,
+	"flying":true
+	"weapons": [
+		{
+			"name": "A枪",
+			"reload": 7,
+			"x": 2.5,
+			"y": 1.5,
+			"rotate": false,
+			"inaccuracy": 0,
+			"shootSound": "shootDuo",
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 12,
+				"speed": 5,
+				"lifetime": 30,
+				"width": 6,
+				"height": 9
+			}
+		}
+	]
+}

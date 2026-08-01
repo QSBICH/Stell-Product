@@ -1,0 +1,106 @@
+{
+    "type": "ItemTurret",
+    "name": "多重",
+    "reload": 40,
+    "range": 160,
+    "health": 420,
+    "size": 3,
+    "shootSound": "shootFuse",
+    "category": "turret",
+    "shoot": {
+        "type": "ShootSpread",
+        "shots": 5,
+        "spread": 12.5
+    },
+    "requirements": [
+        "原版拓展-硅冰石/110",
+        "原版拓展-铝矿/60"
+    ],
+    "rotateSpeed": 16,
+    "ammoTypes": {
+        "原版拓展-铝土矿": {
+            "type": "ShrapnelBulletType",
+            "length": 110,
+            "width": 17,
+            "damage": 60,
+            "ammoMultiplier": 4,
+            "reloadMultiplier": 1.7,
+            "shootEffect": {
+                "type": "ParticleEffect",
+                "particles": 9,
+                "line": true,
+                "lenFrom": 25,
+                "lenTo": 0,
+                "length": 55,
+                "baseLength": 0,
+                "lifetime": 25,
+                "colorFrom": "FFFFFF",
+                "colorTo": "C0C0C0FF",
+                "cone": 30
+            },
+            "smokeEffect": "none",
+            "spawnBullets": [
+                {
+                    "type": "ShrapnelBulletType",
+                    "length": 220,
+                    "rangeChange": 10,
+                    "damage": 240,
+                    "pierceArmor": true,
+                    "statusDuration": 44,
+                    "ammoMultiplier": 5,
+                    "fromColor": "FFFFFF",
+                    "toColor": "C0C0C0FF"
+                }
+            ]
+        },
+        "原版拓展-铝矿": {
+            "type": "ShrapnelBulletType",
+            "inaccuracy": 3,
+            "length": 80,
+            "rangeChange": 42,
+            "damage": 240,
+            "pierceArmor": true,
+            "reloadMultiplier": 1,
+            "statusDuration": 44,
+            "ammoMultiplier": 4,
+            "fromColor": "EEC591A8",
+            "toColor": "EEC591",
+            "shootEffect": {
+                "type": "ParticleEffect",
+                "particles": 9,
+                "line": true,
+                "lenFrom": 25,
+                "lenTo": 0,
+                "length": 55,
+                "baseLength": 0,
+                "lifetime": 25,
+                "colorFrom": "FFFFFF",
+                "colorTo": "7575C8FF",
+                "cone": 30
+            },
+            "smokeEffect": "none",
+            "spawnBullets": [
+                {
+                    "type": "ShrapnelBulletType",
+                    "length": 256,
+                    "rangeChange": 10,
+                    "damage": 240,
+                    "pierceArmor": true,
+                    "statusDuration": 44,
+                    "ammoMultiplier": 5,
+                    "fromColor": "FFFFFF",
+                    "toColor": "7575C8FF"
+                }
+            ]
+        }
+    }
+    "research": {
+        "parent": "原版拓展-分割",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "冰川"
+            }
+        ]
+    }
+}

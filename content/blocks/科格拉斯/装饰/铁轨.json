@@ -1,0 +1,19 @@
+{
+    "type": "Wall",
+    "name": "铁轨",
+    "description": "铁轨",
+    "details": "铁轨",
+    "health": 8800,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "原版拓展-钢铁",
+            "amount": 24
+        }
+    ],
+    "category": "defense",
+}

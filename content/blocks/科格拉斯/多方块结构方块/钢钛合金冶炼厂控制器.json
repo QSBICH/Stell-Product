@@ -1,0 +1,24 @@
+{
+	"name": "钢钛合金冶炼厂控制器",
+	"health": 450,
+	"description":"点击后显示按钮，按钮里有教程",
+	"requirements": [
+		"钻石/200",
+		"红宝石/200",
+		"锂/200",
+		"钢铁/200",
+		"硅/200",
+		"零件/150"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": {
+    "parent": "原版拓展-微型处理器"
+    "objectives": [
+				{
+         "type": "SectorComplete",
+					"preset": "核电站"
+				}
+			]
+		}
+}

@@ -1,0 +1,12 @@
+{
+    "category": "logic",
+    "displaySize": 82,
+    "description": "显示大小128*128像素点",
+    "size": 3,
+    "requirements": [
+    "原版拓展-硅/50",
+    "原版拓展-钢铁/60"
+    ],
+    "research": "原版拓展-微型处理器",
+    "name": "逻辑显示器"
+}

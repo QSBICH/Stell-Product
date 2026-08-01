@@ -1,0 +1,50 @@
+{
+    "name":"奇袭"
+    "description":"出其不意！"
+	"damageMultiplier":1.5,
+	//攻击力倍率（数值越大，攻击力越高）
+	"healthMultiplier":1.1,
+	//血量倍率（数值越大，血量最大上限越高）
+	"speedMultiplier":2,
+	//速度倍率（数值越大，移动越快）
+//	"reloadMultiplier":1,
+	//射速倍率（数值越大，射速越快）
+	"damage":-0.05
+	//每1/60秒扣血速度（负数为回血）
+	"permanent":false,
+	//如果为ture
+	//这个状态永远存在于此单位身上，除非单位死亡
+	//如果为false 则没有永远存在的效果
+	"reactive":false,
+	//如果为true，则此效果将仅与其他效果反应无法应用
+	"color":"CFFF70FF",
+	//状态颜色
+	"disarm":false,
+	//是否解除武装
+	/*"opposites":[
+	"离子灼烧"
+	    ],
+	排斥
+	"transitionDamage":500,
+	影响因素造成的伤害
+	"affinities":[//亲和元素
+	    "wet",
+	    "freezing",
+	    "melting",
+	    "freezing",        
+	    ],
+	    影响因素*/
+	"effect": {
+	    "type":"ParticleEffect"
+	   // "region":"合晶工业-粒子"
+	    "particles":7,
+	    "lifetime":15,
+	    "length":10,
+	    "sizeFrom":2
+	    "sizeTo":0
+	    "colorFrom":"CFFF70FF"
+	    "colorTo":"CFFF70FF"
+	},
+	"effectChance":0,
+	//效果数量（数值越大,效果越多越密集）
+}

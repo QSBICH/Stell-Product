@@ -1,0 +1,17 @@
+{
+	"type": "ItemBridge",
+	"name": "铁制桥梁",
+	"health": 200,
+	"armor": 8,
+	"range": 6,
+	"transportTime":10,
+	"arrowSpacing": 8,
+	"arrowOffset": 4,
+	"arrowTimeScl": 12,
+	"bridgeWidth": 8,
+	"requirements": [
+		"原版拓展-铁矿/20"
+	],
+	"category": "distribution",	
+	"research": "原版拓展-铁传送带"
+}

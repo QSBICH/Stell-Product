@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+    "name": "氧气浓缩厂",
+    "description": "将氧气浓缩成液体，科格拉斯的平均温度不低于50℃，不需要矿渣等提温",
+    "details": "要妥善保管，氧气能很高效的助燃",
+	"health": 360,
+	"outputLiquid": {
+		"liquid": "原版拓展-氧气",
+		"amount": 0.15
+	},
+	"itemCapacity": 14,
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "原版拓展-氧气"
+			},
+			"DrawDefault"
+		]
+	},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 90,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 1.5
+	},
+	"requirements": [
+		"原版拓展-铁矿/60"
+	],
+	"category": "crafting",
+	"research": "原版拓展-铁钻头"
+}

@@ -1,0 +1,35 @@
+{
+    "type": "Reconstructor",
+    "name": "机器人改造厂",
+    "size": 3,
+    "consumes": {
+        "power": 5,
+        "items": [
+            "原版拓展-零件/60",
+            "原版拓展-硅/60"
+            "原版拓展-机器人蓝图/1"
+        ],
+    },
+    "upgrades": [
+        ["原版拓展-流浪者", "原版拓展-巡回者"] // 添加了缺失的闭合方括号 ']'
+        // 如果有更多升级项，可以在这里继续添加，例如：
+        // ["升级项名称", "升级效果名称"]
+    ],
+    "constructTime": 1200,
+    "requirements": [
+        "原版拓展-硅/120",
+        "原版拓展-零件/120"
+    ],
+    "category": "units",
+    "buildVisibility": "shown",
+    "researchCostMultiplier": 0,
+    	"research": {
+		"parent": "原版拓展-小型机器人组装厂",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "单位合成区"
+			},
+		],
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "name": "铁墙",
+    "armor":1,
+    "description": "利用铁制作的墙",
+    "details": "具有较强的强度",
+    "health": 2500,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "原版拓展-铁矿",
+            "amount": 24
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-小铁墙"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "PayloadUnloader",
+    "name": "质量卸载器",
+    "regionSuffix": "-dark",
+    "hasPower": true,
+    "category":"units",
+    "requirements": [
+		"原版拓展-钢铁/50",
+		"钻石/20",
+		"零件/10",
+		"钢钛合金/5"
+	],
+    "consumes": {
+        "power": 1,
+    },
+    "size": 3,
+    "fogRadius": 5,
+    "research": "原版拓展-质量卸载器"
+  }

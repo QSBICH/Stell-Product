@@ -1,0 +1,35 @@
+{
+    "name": "勘探者",
+    "description": "保护基础核心，可建造建筑。",
+      "immunities": ["原版拓展-分解","原版拓展-核辐射"],
+    "controller": "BuilderAI",
+    "flying": false,
+    "lowAltitude": true,
+    "speed":1.5,
+    "accel":0.3,
+    //加速
+    "drag": 0.1,
+    "itemCapacity":50,
+    "legCount":4,
+    "legLength":9,
+    "legForwardScl":0.6,
+    "legMoveSpace":1.4,
+    "rotateSpeed": 4,
+    "buildSpeed": 2,
+    "buildBeamOffset":3,
+    "mineFloor":true,
+    //能否挖地
+    "mineWalls":true,
+    //能否挖墙
+    "mineSpeed":10,
+    //挖矿速度
+    "mineTier":2,
+    //挖矿等级
+    "engineOffset":6.5,
+    "hitSize":8,
+    "health":400,
+    "armor":3,
+    "envDisabled":0,
+    //需要的环境
+    "coreUnitDock":true
+}

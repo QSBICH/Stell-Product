@@ -1,0 +1,14 @@
+{
+    "type": "Conduit",
+	"name": "黄铜导管",
+	"description": "传输液体",
+	"health": 10,
+	"speed": 15,
+	"liquidCapacity":20,
+	"leakResistance": 20,
+	"requirements": [
+		{"item": "原版拓展-黄铜", "amount": 1 },
+			],
+	"category": "liquid",
+	"research":"原版拓展-黄铜管"
+}

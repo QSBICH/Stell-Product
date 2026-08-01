@@ -1,0 +1,40 @@
+{
+	"type":"SolidPump",
+	"name":"石油钻井",
+	"description": "采取地下的石油。",
+	"size":3,
+	"consumes": {
+		"power": 4.5,
+		"items": [
+			"原版拓展-沙子/2"
+		],
+		"liquid": "water/0.025"
+	},
+		"hasPower": false,
+		"hasLiquid":true,
+	"health":400,
+	"pumpAmount":0.5,//每帧泵量
+	"baseEfficiency": 1,//基础效率
+	"result":"石油",//所泵液体
+	"rotateSpeed":0.5,//贴图转速
+	"attribute":"石油",//地形加成
+	"liquidCapacity":50,
+	"requirements": [
+            "原版拓展-钢铁/150",
+            "原版拓展-零件/100"
+        ],
+	"category": "production",
+	"research": {
+		"parent": "原版拓展-钢铁钻头",
+		"requirements": [
+            "原版拓展-钢铁/1500",
+            "原版拓展-零件/1000"
+        ],
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "石油钻井平台"
+			},
+		],
+	},
+}

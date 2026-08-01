@@ -1,0 +1,16 @@
+{
+    "type": "Conduit",
+	"name": "铁导管",
+	"description": "传输液体",
+	"health": 80,
+	"speed": 15,
+	"liquidCapacity":20,
+	"leakResistance": 20,
+	"requirements": [
+		{"item": "原版拓展-铁矿", "amount": 1 },
+			],
+			"bridgeReplacement":"铁制导管桥",//默认桥
+    "junctionReplacement":"铁制交叉器",//默认交叉器
+	"category": "liquid",
+	"research":"原版拓展-氧气浓缩厂"
+}

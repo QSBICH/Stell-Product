@@ -1,0 +1,67 @@
+{
+	"details": "专业反建筑",
+	"flying":true
+	"speed": 3,
+	"targetAir": true,
+	"circleTarget": true,
+	"hitSize": 6,
+	"health": 80,
+	"ammoType": "pyratite",
+	"ammoCapacity": 80,
+	"abilities": [
+		{
+			"type": "StatusFieldAbility",
+			"duration": 150,
+			"reload": 600,
+			"range": 8,
+			"applyEffect": "none",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 1,
+				"sizeFrom": 8,
+				"sizeTo": 40,
+				"strokeFrom": 2,
+				"strokeTo": 0,
+				"colorFrom": "FFFFFF",
+				"colorTo": "FFFFFF"
+			},
+			"effect": "原版拓展-奇袭"
+		}
+	],
+	"weapons": [
+		{
+			"name": "炸药1",
+			"minShootVelocity": 1.5,
+			"reload": 85,
+			"shoot": {
+				"shots": 2,
+				"shotDelay": 4
+			},
+			"x": 0,
+			"y": 0,
+			"ignoreRotation": true,
+			"rotate": true,
+			"shootCone": 120,
+			"inaccuracy": 15,
+			"mirror": false,
+			"shootSound": "none",
+			"bullet": {
+				"type": "BombBulletType",
+				"splashDamage": 20,
+				"splashDamageRadius": 32,
+				"status": "blasted",
+				"buildingDamageMultiplier": 5,
+				"incendAmount": 1,
+				"incendSpread": 16,
+				"incendChance": 0.06,
+				"lifetime": 30,
+				"width": 9,
+				"height": 15,
+				"shootEffect": "none",
+				"smokeEffect": "none",
+				"hitEffect": "flakExplosion",
+				"despawnEffect": "flakExplosion"
+			}
+		}
+	]
+}

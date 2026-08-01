@@ -1,0 +1,14 @@
+{
+	"type": "junction",
+	"name": "铁制交叉器",
+	"speedBoost": 2,
+	"description": "分出两条道路",
+	"details":"交叉器，把路线分开"
+	"speed": 0.1
+	"health":80
+	"requirements": [
+		{"item": "原版拓展-铁矿", "amount": 2},
+		],
+	"category": "distribution",
+	"research": "原版拓展-铁传送带"
+}

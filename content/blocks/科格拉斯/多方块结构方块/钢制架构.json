@@ -1,0 +1,10 @@
+{
+	"name": "钢制架构",
+	"health": 450,
+	"requirements": [
+		"钢铁/20"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-钢钛合金冶炼厂控制器"
+}

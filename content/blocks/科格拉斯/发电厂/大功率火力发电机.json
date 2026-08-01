@@ -1,0 +1,77 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "大功率火力发电机",
+    "description": "利用可燃物燃烧发电。",
+    "details":"这颗星球的煤炭纯度极高，可产生的电力极高",
+    "size":1,
+    "armor":1,
+    "health":300,
+    //"hasLiquids": true,
+    "hasItems": true,
+    "itemDuration":90,
+    //发电时间
+    "powerProduction":1.25,
+    //发电量
+    "itemCapacity":10,
+    //物品容量
+    "generateEffect": "generatespark",
+    	"consumes": {
+		"itemFlammable":{}
+	},
+    "requirements": [
+        "原版拓展-铁矿/30",
+    ],
+    "drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type":"DrawArcSmelt"
+				"particleLife":40
+				"particleRad":26
+				"particleColorFrom":"#8B0000"
+				"particleColorTo":"#8B0000"
+			},
+			
+			   
+			{
+				"type":"DrawCrucibleFlame"
+				"particleLife":60
+				"particleRad":15
+				"particleSize":5
+				"alpha":0.35
+				"particles":18
+				"particleColorFrom":"#8B0000"
+				"particleColorTo":"#8B0000"
+			},
+			/*
+			{
+				"type":"DrawCells"
+				"color":"#8B0000"
+				"particleColorFrom":"#8B0000"
+				"particleColorTo":"#8B0000"
+						"particles":27
+						"range":20
+			},
+			*/
+			{
+				"type":"DrawDefault"
+			},
+			{
+				"type":"DrawWarmupRegion",
+				//发热特效
+			}
+		]
+	}
+    "ambientSound": "smelter",
+    "ambientSoundVolume":0.04,
+    "category": "power",
+    "research": "原版拓展-铁钻头"
+    "objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "盆地"
+			},
+		],
+   // "researchCostMultiplier":40,
+  //  "research": "能量中枢"
+}

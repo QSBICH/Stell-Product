@@ -1,0 +1,24 @@
+{
+    "type": "liquid",
+	"name":"石油",
+	"description":"石油",
+	// "cells": 4,
+	 "spreadTarget": "water",
+	 "maxSpread": 0.5,
+	 "spreadConversion": 0.5,
+	 "spreadDamage": 0,
+	"color":"25282AFF",
+	"barColor":"25282AFF",
+	"lightColor":"FFFFFF00",
+	"incinerable": true,//可燃
+	"flammability":1,//燃烧性
+	"temperature":0.2,//液体温度
+	"heatCapacity":0,//比热容
+	"viscosity":0.1,//粘稠度
+	"explosiveness":0.1//爆炸性
+	//"effect":"overdrive"
+	//"research":"固态能"
+			"research": {
+		"parent": "氧气",
+	},
+}

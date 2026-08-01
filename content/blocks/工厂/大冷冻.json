@@ -1,0 +1,47 @@
+{
+	"type": "GenericCrafter",
+	"name": "大型冷冻机",
+	"health": 360,
+	"outputLiquid": {
+		"liquid": "cryofluid",
+		"amount": 0.5
+	},
+	"itemCapacity": 14,
+	"size": 3,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "cryofluid"
+			},
+			"DrawDefault"
+		]
+	},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 4.5,
+		"items": [
+			"titanium/2"
+		],
+		"liquid": "water/0.5"
+	},
+	"requirements": [
+		"thorium/150",
+		"metaglass/40",
+		"silicon/40",
+		"原版拓展-铜铅混合体/60"
+	],
+	"category": "crafting",
+	"research": "原版拓展-多重铜铅压缩厂"
+}

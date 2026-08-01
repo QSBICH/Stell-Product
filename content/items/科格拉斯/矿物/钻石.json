@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "钻石",
+    "description": "通过金刚石提纯获取",
+    "details": "纯度极高的金刚石",
+    "color": "7575C8FF",
+    "cost": 5,
+    "hardness": 2,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-金刚石"
+}

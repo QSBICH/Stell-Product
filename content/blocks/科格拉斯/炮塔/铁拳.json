@@ -1,0 +1,70 @@
+{
+    "type": "ItemTurret",
+    "name": "铁拳",
+    "health": 530,
+    "size": 1,
+    "reload": 40,
+    "range": 150,
+    "ammoPerShot": 2,
+    "hasLiquids": false,
+    "shoot": {
+        "shots": 2,
+        "shotDelay": 3,
+        "type": "ShootAlternate",
+        "barrels": 2,
+        "spread": 5
+    },
+    "xRand": 1,
+    "ammoUseEffect": "casing2Double",
+    "inaccuracy": 1,
+    "rotateSpeed": 12,
+    "shake": 1,
+    "drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"progress": "recoil",
+				"x": 0,
+				"y": 0,
+				"suffix": "-后",
+				"under": true,
+				"moveX": 0,
+				"moveY": -1.5
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"progress": "recoil",
+				"x": 0,
+				"y": 0,
+				"suffix": "-后2",
+				"under": true,
+				"moveX": 0,
+				"moveY": -1.5
+			}
+		]
+	}
+    "ammoTypes": {
+        "原版拓展-铁矿": {
+            "speed": 5,
+            "damage": 30,
+            "lifetime": 90,
+            "width": 6,
+            "buildingDamageMultiplier": 0.375,
+            "height": 8,
+            "ammoMultiplier": 2,
+            "shootEffect": "shootSmall"
+        }
+    },
+    "researchCostMultiplier": 0.5,
+    "requirements": [
+        {
+            "item": "铁矿",
+            "amount": 35
+        },
+    ],
+    "category": "turret",
+    "research": "原版拓展-铁钻头"
+}

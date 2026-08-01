@@ -1,0 +1,33 @@
+{
+    "type": "Drill",
+    "name": "铝钻头",
+    "description": "利用铝和简单的机械结构，可以一定的效率挖矿",
+    "details": "效率还可以",
+    "size": 2,
+    "health": 60,
+    "itemCapacity": 10,
+    "liquidCapacity": 10,
+    "tier": 2,
+    "drillTime": 200,
+    "rotateSpeed": 1,
+    "drawMineltem": true,
+     "liquidBoostIntensity": "1.28",
+    "consumes": {
+        "liquid": {
+            "liquid": "原版拓展-冰水",
+            "amount": 0.1,
+            "optional": true,
+            "booster": true
+        },
+        }
+    "requirements": [
+        "原版拓展-铝土矿/12"
+    ],
+    "category": "production",
+    "research": {
+	"parent": "原版拓展-铝传送带"//科技树前置
+			"requirements":[
+		"原版拓展-铝土矿/50",
+		]
+		},
+}

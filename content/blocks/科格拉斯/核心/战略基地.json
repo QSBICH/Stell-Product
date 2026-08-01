@@ -1,0 +1,35 @@
+{
+    "name": "战略基地",
+    "armor":12,
+    "description": "装备了更多的装甲，能携带更多的物资",
+    "requirements": [
+            "原版拓展-红宝石/1200",
+            "原版拓展-钻石/900",
+            "原版拓展-零件/600",
+            "原版拓展-铀原矿/200"
+    ], 
+    "unitType": "原版拓展-爬行勘探器",
+    "alwaysUnlocked": false,
+    "armor": 28,
+    "health": 3600,
+    "itemCapacity": 7500,
+    "size": 5,
+    "unitCapModifier": 40,
+    "category": "effect",
+    "breakable": true,
+    "research": {
+		"parent": "原版拓展-战线基地",
+		"requirements": [
+            "原版拓展-红宝石/12000",
+            "原版拓展-钻石/9000",
+            "原版拓展-零件/6000",
+            "原版拓展-铀原矿/2000"
+        ],
+	"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "增殖区"
+			},
+		],
+	},
+}

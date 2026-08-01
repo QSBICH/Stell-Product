@@ -1,0 +1,28 @@
+{
+	"type":"SolidPump",
+	"name":"高效抽水机",
+	"description": "采取地下的水。",
+	"size":2,
+	"consumes":{
+	"power":0.2
+	}
+		"hasPower": false,
+		"hasLiquid":true,
+	"health":400,
+	"pumpAmount":0.5,//每帧泵量
+	"baseEfficiency": 1.5,//基础效率
+	"result":"water",//所泵液体
+	"rotateSpeed":10,//贴图转速
+	"attribute":"water",//地形加成
+	"liquidCapacity":50,
+	"requirements": [
+	"原版拓展-钻石/30"
+		],
+	"category": "production",
+	"research": {
+	"parent": "原版拓展-铁钻头"//科技树前置
+			"requirements":[
+		"原版拓展-钻石/150",
+		]
+		},
+}

@@ -1,0 +1,22 @@
+{
+    "type": "Wall",
+    "name": "硅墙",
+    "description": "利用了硅可塑性，但是有什么意义",
+    "details": "屎",
+    "health": 250,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "deflect": true,//反弹子弹
+"chanceDeflect":25,//反弹概率（1=1%）
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "silicon",  // 修改为硅
+            "amount": 6         // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "copper-wall"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "liquid"
+	"name":"冰水",
+	"description":"一种液体，在地下广泛分布，比热容较高",
+	// "cells": 4,
+	 "spreadTarget": "water",
+	 "maxSpread": 0.5,
+	 "spreadConversion": 0.5,
+	 "spreadDamage": 0,
+	"color":"00BAFFFF",
+	"barColor":"00BAFFFF",
+	"lightColor":"FFFFFF00",
+	"incinerable": false,//可燃
+	"flammability":0,//燃烧性
+	"temperature":0.5,//液体温度
+	"heatCapacity":0.2,//比热容
+	"viscosity":0.1,//粘稠度
+	"explosiveness":0//爆炸性
+	//"effect":"overdrive"
+	//"research":"固态能"
+			"research": {
+		"parent": "一阶基地",
+		"objectives": [
+        "冰水"
+    ],
+	},
+}

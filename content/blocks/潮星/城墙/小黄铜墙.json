@@ -1,0 +1,20 @@
+{
+    "type": "Wall",
+    "name": "黄铜墙",
+    "description": "利用黄铜制作的墙",
+    "details": "具有较差的强度",
+    "health": 280,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "原版拓展-黄铜",
+            "amount": 6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-黄铜钻机"
+}

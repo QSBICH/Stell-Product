@@ -1,0 +1,21 @@
+{
+    "type":"Floor",
+    "name":"虫蚀恶地",
+    "variants":3,
+    //贴图数量
+    "hasShadow":true,
+    //是否有阴影
+    "wall": "虫蚀墙"//对应的墙,java用，json和js可以直接删
+    "hidden":true,//隐藏
+    // "status":"none",//单位在上面的效果
+    // "statusDuration":12,//效果的持续时间
+    "drawEdgeOut": false,
+    "drawEdgeIn": false,
+    "attributes":{
+            "heat":0,//冷却液
+            "spores":0,//孢子
+            "water":0,//水
+            "oil":0,//石油
+            "石油":0.1,//石油
+    },//地板属性
+}

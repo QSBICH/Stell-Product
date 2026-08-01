@@ -1,0 +1,17 @@
+{
+	"type": "ArmoredConduit",
+	"name": "铝导管",
+	"health": 240,
+	"armor": 8,
+	"insulated": true,
+	"absorbLasers": true,
+	"displayFlow": true,
+	"placeableLiquid": true,
+	"liquidCapacity": 60,
+	"liquidPressure": 2,
+	"requirements": [
+		"原版拓展-铝土矿/1"
+	],
+	"category": "liquid",
+	"research": "原版拓展-抽水机"
+}

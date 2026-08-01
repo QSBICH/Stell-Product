@@ -1,0 +1,33 @@
+{
+	"type": "UnitFactory",
+	"name": "小型机器人组装厂",
+	"size":3,
+	"consumes": {
+		"power": 2,
+			}
+	"plans": [
+		{
+			"unit": "原版拓展-流浪者",
+			"time": 600,
+			"requirements": [
+				"原版拓展-钻石/50",
+				"原版拓展-零件/30",
+				"原版拓展-机器人蓝图/1"
+			]
+		}
+	],
+	"category":"units",
+	"requirements": [
+		"原版拓展-钻石/50",
+		"原版拓展-零件/30"
+	]
+	"research": {
+		"parent": "原版拓展-高精度零件加工厂",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "机器人组装厂"
+			},
+		],
+	}
+}

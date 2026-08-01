@@ -1,0 +1,36 @@
+/*basicAssemblerModule = new UnitAssemblerModule("basic-assembler-module"){{
+            requirements(Category.units, with(Items.carbide, 300, Items.thorium, 500, Items.oxide, 250, Items.phaseFabric, 400));
+            consumePower(3.5f);
+            regionSuffix = "-dark";
+            researchCostMultiplier = 0.75f;
+
+            size = 5;
+        }}; 此为源代码*/
+{
+"name": "基本模块组装厂",
+"type": "UnitAssemblerModule",
+"category": "units",
+   "description": "将方向对准合成单位的区域，就可以提升模块等级",
+"health":600,
+   "size":5,
+   "requirements":
+		    [
+		    "原版拓展-铀原矿/100"
+		    "原版拓展-钻石/50"
+		    "原版拓展-零件/10"
+		    ]
+      "consumes":{
+       "power":2,
+       "liquid": {"liquid": "原版拓展-氧气", "amount":0.1 }
+   },
+   "researchCostMultiplier": 0,
+    	"research": {
+		"parent": "原版拓展-机器人重构厂",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "增殖区"
+			},
+		],
+	}
+}

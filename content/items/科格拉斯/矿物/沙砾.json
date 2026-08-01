@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "沙砾",
+    "description": "不能自己挖掘",
+    "details": "少数地方会有",
+    "color": "#A08660",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-铁矿"
+}

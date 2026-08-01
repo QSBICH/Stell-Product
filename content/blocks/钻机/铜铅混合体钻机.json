@@ -1,0 +1,31 @@
+{
+    "type": "Drill",
+    "name": "铜铅混合体钻机",
+    "description": "利用了铜铅混合体，能够高效率采集矿物，同时需要电力驱动",
+    "details": "高效率采集钻机",
+    "size": 4,
+    "health": 280,
+    "itemCapacity": 100,
+    "liquidCapacity": 15,
+    "tier": 5,
+    "drillTime": 16,
+    "rotateSpeed": 0.8,
+    "drawMineltem": true,
+    "liquidBoostIntensity": "2",
+    "consumes": {
+        "power": 5,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/60"
+        "silicon/60"
+        "titanium/100"
+    ],
+    "category": "production",
+    "research": "laser-drill"
+}

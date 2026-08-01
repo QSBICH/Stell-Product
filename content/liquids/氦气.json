@@ -1,0 +1,15 @@
+{
+    "type": "liquid",
+    "name": "氦气",
+    "color": "78B2EBFF",
+    "darColor": "78B2EBFF",
+    "lightColor": "78B2EBFF",
+    "flammability": 1,
+    "explosiveness": "0.1",
+    "viscosity": 0.4,
+    "charge": 0,
+    "heatCapacity": 1,
+    "temperature": 0.1,
+    "gas": true,
+    "research": "原版拓展-氧气"
+}

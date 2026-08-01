@@ -1,0 +1,34 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "大型火力发电机",
+	"size": 2,
+	"health": 280,
+	"hasItems": true,
+	"itemDuration": 120,
+	"powerProduction": 10,
+	"itemCapacity": 10,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawGlowRegion",
+				"glowScale": 4,
+				"alpha": 0.9
+			}
+		]
+	},
+	"generateEffect": "none",
+	"consumes": {
+		"itemFlammable":{}
+	},
+	"requirements": [
+		"原版拓展-铜铅混合体/80",
+		"graphite/100",
+		"silicon/80"
+	],
+	"ambientSound": "smelter",
+	"ambientSoundVolume": 0.25,
+	"category": "power",
+	"research": "原版拓展-爆炸发电机"
+}

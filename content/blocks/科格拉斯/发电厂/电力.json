@@ -1,0 +1,21 @@
+{
+    "type": "PowerNode",
+    "name": "铁制电力节点",
+    "description": "利用铁制作的电力节点，导电效率远不如赛普罗的电力节点",
+    "details": "效率低下",
+    "size": 1,
+    "health": 220,
+    "maxNodes": 6,
+    "laserRange": "7.5",
+    "hasPower": true,
+    "consumesPower": true,
+    "outputsPower": true,
+    "consumes": {
+        "powerBuffered": 100
+    },
+    "requirements": [
+        "原版拓展-铁矿/15"
+    ],
+    "category": "power",
+    "research": "原版拓展-大功率火力发电机"
+}

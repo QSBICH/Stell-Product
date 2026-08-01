@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "黄铜",
+    "description": "不错的材料",
+    "details": "还可以",
+    "color": "FF9F45FF",
+    "cost": 2,
+    "hardness": 0,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-岛屿核心"
+}

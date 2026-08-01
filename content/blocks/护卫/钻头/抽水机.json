@@ -1,0 +1,28 @@
+{
+	"type":"SolidPump",
+	"name":"抽水机",
+	"description": "这颗星球底层有大量的地下水。",
+	"size":2,
+	"consumes":{
+	"power":0.15
+	}
+		"hasPower": false,
+		"hasLiquid":true,
+	"health":400,
+	"pumpAmount":0.11,//每帧泵量
+	"baseEfficiency": 1,//基础效率
+	"result":"冰水",//所泵液体
+	"rotateSpeed":3,//贴图转速
+	"attribute":"冰水",//地形加成
+	"liquidCapacity":15,
+	"requirements": [
+	"原版拓展-铝土矿/15"
+		],
+	"category": "production",
+	"research": {
+	"parent": "原版拓展-铝钻头"//科技树前置
+			"requirements":[
+		"原版拓展-铝土矿/150",
+		]
+		},
+}

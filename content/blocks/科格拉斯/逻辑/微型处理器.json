@@ -1,0 +1,27 @@
+{
+	"range":80,
+	"instructionsPerTick":0.5,
+	"size":1,
+	"armor":1,
+	"health":350,
+	"name":"微型处理器",
+	"category": "logic",
+	"requirements":[
+		"原版拓展-硅/50",
+		"原版拓展-钢铁/50"
+		],
+		"research": {
+		"parent":"原版拓展-前线基地",
+		"requirements":[
+		"原版拓展-硅/500",
+		"原版拓展-钢铁/500"
+		],
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "数据库中心遗骸"
+			},
+		],
+	},
+	"description":"循环运行一系列逻辑指令，可用于控制单位和建筑物"
+}

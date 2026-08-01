@@ -1,0 +1,29 @@
+{
+	"details": "最低等的飞行器",
+	"health": 220,
+	"mineSpeed": 7,
+	"mineTier": 2,
+	"buildSpeed": 0.75,
+	"speed": 3.6,
+	"weapons": [
+		{
+			"name": "A枪",
+			"reload": 7,
+			"x": 2.5,
+			"y": 1.5,
+			"rotate": false,
+			"inaccuracy": 0,
+			"shootSound": "shootDuo",
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"buildingDamageMultiplier": 0.1,
+				"damage": 15,
+				"speed": 2.5,
+				"lifetime": 64,
+				"width": 7,
+				"height": 10
+			}
+		}
+	]
+}

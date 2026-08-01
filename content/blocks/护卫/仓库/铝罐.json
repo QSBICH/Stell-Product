@@ -1,0 +1,16 @@
+{
+	"requirements": [
+		"原版拓展-铝矿/100"
+   ],
+	"type": "StorageBlock",
+	"name": "铝罐",
+	"size": 2,
+	"itemCapacity": 150,
+	"research": {
+	"parent": "原版拓展-铝传送带"//科技树前置
+			"requirements":[
+		"原版拓展-铝矿/600",
+		]
+		},
+	"category": "effect"
+}

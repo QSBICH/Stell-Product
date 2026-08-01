@@ -1,0 +1,8 @@
+{
+    "type": "Wall",
+    "name": "信号塔",
+    "description": "利用钢铁制作的墙",
+    "details": "具有较强的强度",
+    "health": 600,
+    "size": 3
+}

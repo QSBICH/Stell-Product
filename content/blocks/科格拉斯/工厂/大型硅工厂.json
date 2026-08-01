@@ -1,0 +1,59 @@
+{
+    "type": "GenericCrafter",
+    "name": "大型硅工厂",
+    "description": "使用煤炭和沙子进行混合",
+    "details": "高效率硅工厂",
+    "itemCapacity": 30,
+    "liquidCapacity": 20,
+    "health": 950,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 2.5,
+        "items": [
+            "原版拓展-沙子/5",
+            "原版拓展-煤矿/3"
+        ],
+                "liquids": [
+            {
+                "liquid": "原版拓展-氧气",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-硅",
+        "amount": 4
+    },
+    "requirements": [
+        "原版拓展-钢铁/180",
+        "原版拓展-零件/120"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            }
+        ]
+    },
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-硅工厂",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "工业区2号"
+            }
+        ]
+    }
+}

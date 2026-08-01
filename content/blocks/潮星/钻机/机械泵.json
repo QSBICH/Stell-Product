@@ -1,0 +1,16 @@
+{
+	"type": "Pump",
+	"name": "机械泵",
+	"size": 1,
+	"squareSprite": false,
+	"health": 300,
+	"liquidCapacity": 100,
+	"hasLiquids": true,
+	"pumpAmount": 0.1,
+	"requirements": [
+		"原版拓展-黄铜/200",
+		"原版拓展-锰/200"
+	],
+	"category": "liquid",
+	"research": "原版拓展-黄铜钻机"
+}

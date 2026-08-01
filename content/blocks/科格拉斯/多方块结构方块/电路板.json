@@ -1,0 +1,12 @@
+{
+	"name": "电路板",
+	"health": 450,
+	"requirements": [
+		"钢铁/50",
+		"红宝石/10"
+		"硅/30"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-钢钛合金冶炼厂控制器"
+}

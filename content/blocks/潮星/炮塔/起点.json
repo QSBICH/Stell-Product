@@ -1,0 +1,51 @@
+{
+    "type": "ItemTurret",
+    "name": "起点",
+    "health": 150,
+    "size": 1,
+    "reload": 4,
+    "range": 160,
+    "ammoPerShot": 2,
+    "hasLiquids": false,
+    "shoot": {
+        "shots": 1,
+        "shotDelay": 3,
+        "type": "ShootAlternate",
+        "barrels": 1,
+        "spread": 0
+    },
+    "xRand": 1,
+    "ammoUseEffect": "casing2Double",
+    "inaccuracy": 1,
+    "rotateSpeed": 12,
+    "shake": 1,
+    "ammoTypes": {
+        "原版拓展-黄铜": {
+            "speed": 5,
+            "buildingDamageMultiplier": 0.375,
+            "damage": 5,
+            "lifetime": 90,
+            "width": 6,
+            "height": 8,
+            "ammoMultiplier": 2,
+            "shootEffect": "shootSmall"
+        },
+        "原版拓展-锰": {
+            "speed": 6,
+            "buildingDamageMultiplier": 0.375,
+            "damage": 8,
+            "lifetime": 90,
+            "width": 6,
+            "height": 8,
+            "ammoMultiplier": 4,
+            "shootEffect": "shootSmall"
+        }
+    },
+    "researchCostMultiplier": 0.5,
+    "requirements": [
+        "原版拓展-黄铜/50",
+        "原版拓展-锰/30"
+    ],
+    "category": "turret",
+    "research": "原版拓展-黄铜钻机"
+}

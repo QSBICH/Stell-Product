@@ -1,0 +1,31 @@
+{
+"type": "BeamDrill",
+"name":"等离子切割机",
+"description": "利用高压的离子激光挖掘矿石，消耗量大",
+"tier":6
+"drillTime":240,
+"size":2
+"range": 5,
+"liquidBoostIntensity": "1.34",
+    "consumes": {
+        "liquid": {
+            "liquid": "原版拓展-氧气",
+            "amount": 0.2,
+            "optional": true,
+            "booster": true
+        }
+    },
+"research": {
+		"parent": "原版拓展-铁钻头",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "山林"
+			}
+		]
+	}
+"requirements": [
+        "原版拓展-铁矿/120"
+    ],
+"category": "production",
+}

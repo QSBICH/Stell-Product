@@ -1,0 +1,30 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "火力发电机",
+    "description": "利用可燃物燃烧发电。",
+    "details":"这颗星球的煤炭纯度极高，可产生的电力极高",
+    "size":2,
+    "armor":1,
+    "health":300,
+    //"hasLiquids": true,
+    "hasItems": true,
+    "itemDuration":90,
+    //发电时间
+    "powerProduction":0.5,
+    //发电量
+    "itemCapacity":30,
+    //物品容量
+    "generateEffect": "generatespark",
+    	"consumes": {
+		"itemFlammable":{}
+	},
+    "requirements": [
+        "原版拓展-黄铜/200",
+    ],
+    "ambientSound": "smelter",
+    "ambientSoundVolume":0.04,
+    "category": "power",
+    "research": "原版拓展-黄铜钻机"
+   // "researchCostMultiplier":40,
+  //  "research": "能量中枢"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "粗金",
+    "description": "一种很珍贵的矿石",
+    "details": "大大滴珍贵",
+    "color": "#FFCD66FF",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-金刚石"
+}

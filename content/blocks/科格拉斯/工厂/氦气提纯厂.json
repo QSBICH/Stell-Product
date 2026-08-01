@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+    "name": "氦气提纯厂",
+    "description": "将氦气浓缩成液体，科格拉斯的平均温度不低于50℃，不需要矿渣等提温",
+    "details": "要妥善保管，别让他飞走了！",
+	"health": 360,
+	"outputLiquid": {
+		"liquid": "原版拓展-氦气",
+		"amount": 0.25
+	},
+	"itemCapacity": 14,
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "原版拓展-氦气"
+			},
+			"DrawDefault"
+		]
+	},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 90,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 4.5
+	},
+	"requirements": [
+		"原版拓展-钻石/50",
+		"原版拓展-钢铁/30",
+		"原版拓展-零件/20"
+	],
+	"category": "crafting",
+	"research": "原版拓展-氧气浓缩厂"
+}

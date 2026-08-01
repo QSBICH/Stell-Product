@@ -1,0 +1,33 @@
+{
+    "type": "GenericCrafter",
+    "name": "铜铅压缩厂",
+    "description": "将铜和铅进行压缩",
+    "details": "铜铅混合工厂",
+    "itemCapacity": 10,
+    "liquidCapacity": 0,
+    "health": 100,
+    "size": 2,
+    "hasPower": false,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 90,
+    "updateEffect": "none",
+    "consumes": {
+        "items": [
+            "copper/2",
+            "lead/2"
+        ]
+        // 移除了power和liquids消耗项
+    },
+    "outputItem": {
+        "item": "原版拓展-铜铅混合体",
+        "amount": 1
+    },
+    "requirements": [
+        "copper/100",
+        "lead/100",
+        "graphite/20"
+    ],
+    "category": "crafting",
+    "research": "graphite-press"
+}

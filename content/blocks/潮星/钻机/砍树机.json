@@ -1,0 +1,15 @@
+{"type": "WallCrafter",
+"name": "砍树机",
+"description": "利用黄铜，黄铜和简单的机械结构，可以低效率砍树",
+"details": "光头强不准砍树",
+"category":"production",
+"drillTime": 300,
+"size" :1,
+"requirements":[
+"原版拓展-锰/30",
+"原版拓展-黄铜/50"
+],
+"attribute": "木头",
+"output":"原版拓展-木",
+"research": "原版拓展-黄铜钻机"
+}

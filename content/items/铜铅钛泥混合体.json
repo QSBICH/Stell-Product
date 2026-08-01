@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "铜铅钛泥混合体",
+    "description": "将钛泥和铜铅混合体进行了压缩",
+    "details": "强度绝佳的高，具有很高的熔点+很高的硬度",
+    "color": "4B5BABFF",
+    "cost": 2.5,
+    "hardness": 0,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-钛泥"
+}

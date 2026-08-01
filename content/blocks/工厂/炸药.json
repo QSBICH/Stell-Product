@@ -1,0 +1,33 @@
+{
+    "type": "GenericCrafter",
+    "name": "集束炸药压缩厂",
+    "description": "将爆炸混合物进行压缩，产出具有高爆性的集束炸药",
+    "details": "一定要妥善保管",
+    "itemCapacity": 20,
+    "liquidCapacity": 0,
+    "health": 160,
+    "size": 2,
+    "hasPower": false,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "none",
+    "consumes": {
+        "items": [
+            "blast-compound/4"
+        ]
+        // 移除了power和liquids消耗项
+    },
+    "outputItem": {
+        "item": "原版拓展-集束炸药",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/200",
+        "silicon/100",
+        "graphite/100",
+        "titanium/100",
+    ],
+    "category": "crafting",
+    "research": "原版拓展-多重铜铅压缩厂"
+}

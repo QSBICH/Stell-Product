@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "name": "钢化玻璃墙",
+    "description": "意义不明",
+    "details": "纯纯的狗屎",
+    "health": 12,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+   
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "metaglass",  // 煤炭
+            "amount": 6        // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-大沙墙"
+}
