@@ -7,7 +7,6 @@ require("blocks/核心");
 require("blocks/三代核心");
 require("blocks/二代核心");
 require("blocks/一阶核心");
-require("blocks/吸血1");
 require("科技树");
 require("科技树2");
 require("科技树3");

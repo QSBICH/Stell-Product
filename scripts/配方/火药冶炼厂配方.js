@@ -5,7 +5,7 @@ const myliquids = require("特定/物品");
 const 火药冶炼厂 = library.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "火药冶炼厂", [
     {
         input: {
-            items: ["原版拓展-沙子/5", "原版拓展-煤矿/5"],
+            items: ["原版拓展-沙子/5", "原版拓展-煤矿/5","原版拓展-细胞/1"],
             power: 3
         },
         output: {
@@ -15,7 +15,7 @@ const 火药冶炼厂 = library.MultiCrafter(GenericCrafter, GenericCrafter.Gene
             {
                 title: "合成基础火药@minor 用沙子和煤矿混合，浓缩空气中的易爆成分",
                 bartitle: "加工中",
-                input: ["沙子", "煤矿"],     
+                input: ["沙子", "煤矿","细胞"],     
                 output: ["火药"]           
             }
         ],      
@@ -23,7 +23,7 @@ const 火药冶炼厂 = library.MultiCrafter(GenericCrafter, GenericCrafter.Gene
     },
     {
         input: {
-            items: ["原版拓展-沙子/5", "原版拓展-煤矿/5", "原版拓展-铀矿I/1"],
+            items: ["原版拓展-沙子/5", "原版拓展-煤矿/5", "原版拓展-铀矿I/1","原版拓展-细胞/1"],
             power: 6
         },
         output: {
@@ -33,7 +33,7 @@ const 火药冶炼厂 = library.MultiCrafter(GenericCrafter, GenericCrafter.Gene
             {
                 title: "合成新种火药@minor 用沙子和煤矿混合，浓缩空气中的易爆成分，就是铀点问题",
                 bartitle: "加工中",
-                input: ["沙子", "煤矿", "铀I"],
+                input: ["沙子", "煤矿", "铀I","细胞"],
                 output: ["辐射火药"]
             }
         ],

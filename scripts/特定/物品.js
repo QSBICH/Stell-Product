@@ -33,3 +33,4 @@ newItem("铀原矿");
 newItem("铀矿III");
 newItem("铀矿II");
 newItem("铀矿I");
+newItem("细胞");
