@@ -11,6 +11,7 @@
 */
 const lib = require("base/lib");
 const {前线基地} = require("blocks/核心");
+const {科沃德} = require("planets/科沃德");
 const {战线基地} = require("blocks/二代核心");
 const {细胞培养皿} = require("特定/工厂");
 
@@ -26,7 +27,7 @@ NoiseMesh(Planet planet, int seed, int divisions, Color color, float radius, int
 */
         this.super$load();
     }//行星构建
-}, "科格拉斯", Planets.sun, 2.5);//名字: ,母星: ,大小: (单位塞普罗)
+}, "科格拉斯", 科沃德, 2.5);//名字: ,母星: ,大小: (单位塞普罗)
 
 科格拉斯.cloudMeshLoader = prov(() => new MultiMesh(
     new HexSkyMesh(科格拉斯, 2, 0.15, 0.14, 5, Color.valueOf("7E493380"), 2, 1, 1, 0.43),//种子，旋转速度，半径，精细度，颜色，噪声层数，噪声衰减，缩放比例，筛选

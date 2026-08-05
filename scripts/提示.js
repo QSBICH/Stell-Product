@@ -28,7 +28,7 @@ Events.on(EventType.ClientLoadEvent, cons(e => {
 		const titleRandVar = Math.floor(GlobalVars.rand.nextDouble() * (titles.length));
 		titleRand = titles[titleRandVar];
 		ln.thislog(1, titleRandVar+"号随机标题:"+titleRand);
-		table.add("[red]钢铁工业[beta]2.1\n\n关于本mod\n[red]mod还在制作期,还会有很多问题\n可以跟作者反馈,[green]如果你有想投\n稿的东西，请带上贴图和你的描\n\n\n有没有会画像素画并且有意\n愿加入作者的制作组的可以 \n联系作者,原画师因为部分原\n因无法继续创作，下次创作不\n知到是多久，所以出此下策，非\n常感谢愿意加入的人!对绘画水准大概可以做到制\n作方块就行了，兵种这些可以\n慢慢学\n\n\n[gold]由于未知原因带资源默认\n会带铅和铜,发射核心时需要\n点击核心图标以恢复正常.\n目前因为技术原因无法制作\n本星球的数字区块生成同时\n作者推荐在熟悉游戏机制\n后再游玩新星球，同时赛普罗\n也有新物品，可以更好的游玩\n\n如果你有建议或者有问题，可\n以进群:1076753049\n或者在创意工坊页面留言\n\n\nmod已在github开源了:https://github.com/QSBICH/Stell-Product\n\n\n"+titleRand)
+		table.add("[red]钢铁工业[beta]2.1\n\n关于本mod\n[red]mod还在制作期,还会有很多问题\n可以跟作者反馈,[green]如果你有想投\n稿的东西，请带上贴图和你的描\n\n\n有没有会画像素画并且有意\n愿加入作者的制作组的可以 \n联系作者,原画师因为部分原\n因无法继续创作，下次创作不\n知到是多久，所以出此下策，非\n常感谢愿意加入的人!对绘画水准大概可以做到制\n作方块就行了，兵种这些可以\n慢慢学\n\n\n[gold]由于未知原因带资源默认\n会带铅和铜,发射核心时需要\n点击核心图标以恢复正常.\n目前因为技术原因无法制作\n本星球的数字区块生成同时\n作者推荐在熟悉游戏机制\n后再游玩新星球，同时赛普罗\n也有新物品，可以更好的游玩\n\n如果你有建议或者有问题，可\n以进群:947959067\n或者在创意工坊页面留言\n\n\nmod已在github开源了:https://github.com/QSBICH/Stell-Product\n\n\n"+titleRand)
 		table.row();
 	})
 	

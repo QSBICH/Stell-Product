@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "智能墙壁",
+    "size": 1,
+    "health": 200,
+    "configurable": true,
+    "alwaysUnlocked": true,
+    "localizedName": "智能墙壁",
+    "description": "点击选择一种物品，墙壁会显示对应的颜色",
+    "category": "defense",
+    "buildVisibility": "shown"
+}

@@ -1,56 +1,75 @@
-Vars.maxSchematicSize = 99;//蓝图最大尺寸
-MapResizeDialog.minSize = 1//地图最小尺寸
-MapResizeDialog.maxSize = 5000//地图最大尺寸
-//------------------------------------
-require("base/lib");
-require("blocks/核心");
-require("blocks/三代核心");
-require("blocks/二代核心");
-require("blocks/一阶核心");
-require("科技树");
-require("科技树2");
-require("科技树3");
-require("blocks/岛屿核心");
-require("特定/物品");
-require("blocks/前哨基地");
-require("library");
-require("提示");
-require("log");
-require("多方块/电弧炉FTKJ");
-require("多方块/机床FTKJ");
-require("配方/多功能冶炼厂配方");
-require("配方/铀矿提纯厂配方");
-require("配方/火药冶炼厂配方");
-require("配方/金矿商店配方");
-const ln = require("log")
-ln.loadContent("blocks/核心");
-ln.loadContent("blocks/三代核心");
-ln.loadContent("blocks/二代核心");
-ln.loadContent("blocks/一阶核心");
-ln.loadContent("科技树");
-ln.loadContent("科技树2");
-ln.loadContent("科技树3");
-ln.loadContent("blocks/岛屿核心");
-ln.loadContent("特定/物品");
-ln.loadContent("blocks/前哨基地");
-ln.loadContent("library");
-ln.loadContent("提示");
-ln.loadContent("log");
-ln.loadContent("多方块/电弧炉FTKJ");
-ln.loadContent("多方块/机床FTKJ");
-ln.loadContent("配方/多功能冶炼厂配方");
-ln.loadContent("配方/铀矿提纯厂配方");
-ln.loadContent("配方/火药冶炼厂配方");
-ln.loadContent("配方/金矿商店配方");
-ln.thislog(1, "科格拉斯的js已全部加载")
-ln.thislog(0, "。。。")
-ln.thislog(0, "此次mod测试唯一性编号:"+Math.floor(Date.now()/315576000000)+"-"+
-Date.now()%315576000000)
-//type
-require("特定/辅助");
-require("特定/单位工厂");
-require("特定/工厂");
-require("特定/物品");
-require("特定/地形加成");
-require("特定/逻辑");
-require("特定/单位")
+// ============================================
+// 蓝图/地图尺寸设置
+// ============================================
+Vars.maxSchematicSize = 99; // 蓝图最大尺寸
+MapResizeDialog.minSize = 1; // 地图最小尺寸
+MapResizeDialog.maxSize = 5000; // 地图最大尺寸
+
+// ============================================
+// 日志模块（最先加载，用于记录后续所有加载）
+// ============================================
+const ln = require("log");
+ln.thislog(1, "========== 科格拉斯模组加载开始 ==========");
+
+// ============================================
+// 批量加载所有模块（使用 loadContents）
+// ============================================
+
+// 基础模块
+ln.loadContents([
+    "base/lib",
+    "library",
+    "提示",
+    "log",
+    "wall"
+]);
+
+// 核心
+ln.loadContents([
+    "blocks/核心",
+    "blocks/三代核心",
+    "blocks/二代核心",
+    "blocks/一阶核心",
+    "blocks/岛屿核心",
+    "blocks/前哨基地"
+]);
+
+// 科技树
+ln.loadContents([
+    "科技树",
+    "科技树2",
+    "科技树3"
+]);
+
+// 特定内容
+ln.loadContents([
+    "特定/物品",
+    "特定/辅助",
+    "特定/单位工厂",
+    "特定/工厂",
+    "特定/地形加成",
+    "特定/逻辑",
+    "特定/单位"
+]);
+
+// 多方块结构
+ln.loadContents([
+    "多方块/电弧炉FTKJ",
+    "多方块/机床FTKJ"
+]);
+
+// 配方
+ln.loadContents([
+    "配方/多功能冶炼厂配方",
+    "配方/铀矿提纯厂配方",
+    "配方/火药冶炼厂配方",
+    "配方/金矿商店配方"
+]);
+
+// ============================================
+// 完成日志
+// ============================================
+ln.thislog(1, "科格拉斯的js已全部加载");
+ln.thislog(0, "。。。");
+ln.thislog(0, "此次mod测试唯一性编号:" + Math.floor(Date.now() / 315576000000) + "-" + Date.now() % 315576000000);
+ln.thislog(1, "========== 科格拉斯模组加载完成 ==========");
