@@ -7,8 +7,8 @@
 	],
 	"category": "distribution",
 	"research":"原版拓展-铁矿",
-	"speed": 0.06,
-	"displayedSpeed": 6
+	"speed": 0.07567,
+	"displayedSpeed": 7.5
 	"bridgeReplacement":"铁制桥梁",//默认桥
     "junctionReplacement":"铁制交叉器",//默认交叉器
 }

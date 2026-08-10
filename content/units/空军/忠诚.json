@@ -4,6 +4,7 @@
 	"details": "你说我诞生的意义是什么？",
 	"speed": 3,
 	"health": 120,
+                 "targetFlags":["generator","drill"],//ai攻击目标
 	"hitSize":8,//碰撞箱
 	"weapons": [
 		{

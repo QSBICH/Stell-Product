@@ -1,6 +1,6 @@
 {
     "type": "Wall",
-    "name": "铁墙",
+    "name": "大型铁墙",
     "armor":1,
     "description": "利用铁制作的墙",
     "details": "具有较强的强度",

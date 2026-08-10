@@ -8,11 +8,6 @@
     "maxNodes": 6,
     "laserRange": "7.5",
     "hasPower": true,
-    "consumesPower": true,
-    "outputsPower": true,
-    "consumes": {
-        "powerBuffered": 100
-    },
     "requirements": [
         "原版拓展-铁矿/15"
     ],

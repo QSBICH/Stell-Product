@@ -6,7 +6,7 @@
   "payloadCapacity": 160,
   "flying": false,
   "lowAltitude": true,
-  "speed": 1.6,
+  "speed": 2.2,
   "accel": 0.3,
   "legSplashDamage": 40,
   "legSplashRange": 30,

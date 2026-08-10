@@ -9,11 +9,6 @@
     "maxNodes": 15,
     "laserRange": "20",
     "hasPower": true,
-    "consumesPower": true,
-    "outputsPower": true,
-    "consumes": {
-        "powerBuffered": 250
-    },
     "requirements": [
         "原版拓展-钢铁/30"
     ],

@@ -230,8 +230,7 @@
 	"collidesGround":true,//可攻击到空军，对空炮台关了就会变成纯废物
 	"ammoTypes": {
 		"铁矿": {
-		    //铜
-			"speed":7.5,
+			"speed":8,
 			"damage":30,
 			"reloadMultiplier":0.8,
 			"ammoMultiplier":3,
@@ -239,30 +238,29 @@
 			"height":8,
 			"inaccuracy":2,
 			"smokeEffect": "none",
-			"lifetime":70,
+			"lifetime":30,
 		},
 		"钢铁": {
-		    //铜
-			"speed":5,
-			"damage":60,
-			"reloadMultiplier":2,
+			"speed":8,
+			"damage":35,
+                                                   "rangeChange":4,
+			"reloadMultiplier":1.5,
 			"ammoMultiplier":3,
 			"width":5,
 			"height":8,
 			"inaccuracy":2,
 			"smokeEffect": "none",
-			"lifetime":70
+			"lifetime":32
 		}
 		"钻石": {
-		    //铅
-			"speed":5,
-			"damage":200,
+			"speed":8,
+			"damage":75,
 			"reloadMultiplier":1,
 			"ammoMultiplier":2,
 			"width":5,
 			"height":8,
 			"smokeEffect": "none",
-			"lifetime":80,
+			"lifetime":42,
 			"rangeChange":80,
 		},
 	}

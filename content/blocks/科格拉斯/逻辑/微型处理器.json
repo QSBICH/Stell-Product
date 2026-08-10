@@ -1,6 +1,6 @@
 {
 	"range":80,
-	"instructionsPerTick":0.5,
+	"instructionsPerTick":1,
 	"size":1,
 	"armor":1,
 	"health":350,
