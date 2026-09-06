@@ -1,6 +1,6 @@
 {
-    "type": "Wall",
-    "name": "小钻石墙",
+    //"type": "Wall",
+    "name": "钻石墙",
     "description": "利用钻石制作的墙",
     "details": "具有极高的强度",
     "health": 2200,

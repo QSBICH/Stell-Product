@@ -1,7 +1,7 @@
 {
-    "type": "Wall",
-    "name": "大强化钢铁墙",
-    "armor":3,
+    //"type": "Wall",
+    "name": "大型强化钢铁墙",
+    "armor":10,
     "description": "利用红宝石制作的墙",
     "details": "具有较强的强度",
     "health": 3800,

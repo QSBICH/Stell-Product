@@ -3,6 +3,8 @@
 	"name": "导弹发射器",
 	"health": 1850,
 	"size": 3,
+                 "armor": 12,
+                 "maxAmmo": 12,
 	"reload": 150,
 	"range": 600,
 	"customShadow": false,
@@ -110,7 +112,7 @@
 			"width": 10,
 			"height": 40,
 			"hitShake": 1,
-			"ammoMultiplier": 1,
+			"ammoMultiplier": 2,
 			"smokeEffect": "shootSmallFlame",
 			"hitEffect": "flakExplosionBig",
 			"despawnEffect": "hitBulletColor"

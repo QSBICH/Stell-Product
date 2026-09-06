@@ -1,0 +1,47 @@
+{
+    "name": "计算机",
+    "description": "搭载了K-1100的CPU 16KB的内存 128MB的硬盘，这是我们在这颗星球研究出来的计算机，可靠性没的说!",
+    "details": "信息时代",
+    "itemCapacity": 10,
+    "liquidCapacity": 100,
+    "health": 320,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "updateEffect": "pulverizeMedium",
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            }
+        ]
+    },
+    "requirements": [
+        "钢钛合金/300",
+        "硅/500",
+        "零件/500",
+        "金/220"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "战线基地",
+        "objectives": [
+            "原版拓展-A100主板",
+            "原版拓展-K1100",
+            "原版拓展-内存16KB",
+            "原版拓展-硬盘128MB" ,
+            "原版拓展-电源50W"
+            {
+                "type": "SectorComplete",
+                "preset": "工业区2号"
+            }
+        ]
+    }
+}

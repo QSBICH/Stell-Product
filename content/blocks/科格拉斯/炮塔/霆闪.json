@@ -3,6 +3,7 @@
     "name": "霆闪",
     "health": 800,
     "size": 2,
+    "maxAmmo": 20,
     "reload": 12.8,
     "range": 192,
     "ammoPerShot": 2,
@@ -31,7 +32,7 @@
         "原版拓展-钢钛合金": {
     "speed": 5,
     "type": "MissileBulletType",
-    "damage": 50,
+    "damage": 60,
     "lifetime": 40,
     "width": 10,
     "height": 16,
@@ -41,7 +42,7 @@
     "homingRange": 80,
     "homingPower": 0.15,
     "lightningColor": "AB99D3FF",
-    "lightningDamage": 50,
+    "lightningDamage": 55,
     "lightning": 8,
     "lightningLength": 20,
     "splashDamageRadius":40,
@@ -57,6 +58,14 @@
         {
             "item": "红宝石",
             "amount": 100
+        },
+        {
+            "item": "零件",
+            "amount": 80
+        },
+        {
+            "item": "铀原矿",
+            "amount": 20
         }
     ],
     "category": "turret",

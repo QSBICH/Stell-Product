@@ -68,8 +68,8 @@ sS.planetGrid(科格拉斯, 3);//行星网格数量10*3^n+2
 科格拉斯.alwaysUnlocked = true;//默认解锁
 科格拉斯.clearSectorOnLose = false;//不知道什么玩意,关了吧
 科格拉斯.allowLaunchLoadout = true;//允许带资源发射核心
-科格拉斯.startSector = 83;//星球起始公转方向(相对于太阳,1~360随便填)
-科格拉斯.orbitRadius = 110;//星球轨道半径
+科格拉斯.startSector = 83;//我以前写的没改，这里写你第一个区块的区块ID，否则会报错
+科格拉斯.orbitRadius = 100;//星球轨道半径
 科格拉斯.tidalLock = false//星球潮汐锁定
 科格拉斯.iconColor = Color.valueOf("#228B22");//图标颜色
 科格拉斯.rotateTime = 476;//星球自转一周的时间
@@ -342,12 +342,12 @@ objectives: Seq.with(
     });
 });
 
-const map18 = new SectorPreset("黄金之路", 科格拉斯, 265);
+const map18 = new SectorPreset("黄金入口", 科格拉斯, 265);
 map18.alwaysUnlocked = false;//默认解锁此区块
 map18.captureWave = 15//敌人波数
 map18.difficulty = 2;//难度
 map18.description = "这里曾经是原住民的淘金厂，这里或许还有一些原住民留下的东西";//统计资料顶上的简介
-map18.localizedName = "黄金之路";//区块名
+map18.localizedName = "黄金入口";//区块名
 exports.map18 = map18//地图排序
 Events.on(ContentInitEvent, (e) => {
     lib.addToResearch(map18, {
@@ -386,6 +386,37 @@ lib.addToResearch(map20, {
         parent: '辐射区',
 objectives: Seq.with(
             new Objectives.SectorComplete(map13)
+        )
+    });
+});
+
+const map21 = new SectorPreset("废墟遗址", 科格拉斯, 91);
+map21.alwaysUnlocked = false;//默认解锁此区块
+map21.captureWave = 20//敌人波数
+map21.difficulty = 4;//难度
+map21.description = "这里曾是以前科格拉斯人的居民区，但是遭到了未知势力侵袭\n经调查并不是目前的敌人所为，是一个未知的阵营";//统计资料顶上的简介
+map21.localizedName = "废墟遗址";//区块名
+exports.map21 = map21//地图排序
+Events.on(ContentInitEvent, (e) => {
+lib.addToResearch(map21, {
+        parent: '石油钻井平台',
+objectives: Seq.with(
+            new Objectives.SectorComplete(map17)
+        )
+    });
+});
+
+const map22 = new SectorPreset("激光技术总部", 科格拉斯, 177);
+map22.alwaysUnlocked = false;//默认解锁此区块
+map22.difficulty = 6;//难度
+map22.description = "在这里我们或许可以获取新的，革命性的技术!";//统计资料顶上的简介
+map22.localizedName = "激光技术总部";//区块名
+exports.map22 = map22//地图排序
+Events.on(ContentInitEvent, (e) => {
+lib.addToResearch(map22, {
+        parent: '废墟遗址',
+objectives: Seq.with(
+            new Objectives.SectorComplete(map19)
         )
     });
 });

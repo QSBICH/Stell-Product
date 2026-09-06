@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "存储了激光技术的硬盘",
+    "description": "一块封存着高能激光核心数据的硬盘，记录了从聚焦透镜到热管理系统的完整技术链。它不仅是解锁定向能武器的钥匙，更记载着科格拉斯的能源秘密，似乎还藏着那个被遗忘时代的终极实验日志——但数据需要计算机才能读取\n80MB",
+    "details": "尘封的技术",
+    "color": "5C666CFF",
+    "cost": 2,
+    "hardness": 2,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-硬盘"
+}

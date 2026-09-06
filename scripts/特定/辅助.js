@@ -1,4 +1,3 @@
-
 const 资源发射台 = extend(LaunchPad, "资源发射台", {});
 exports.资源发射台 = 资源发射台;
 

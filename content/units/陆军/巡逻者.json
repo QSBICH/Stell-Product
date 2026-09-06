@@ -1,8 +1,8 @@
 {
 	"details": "巡逻者",
-	"armor": 4,
+	"armor": 6,
 	"speed": 1.5,
-	"health": 1200,
+	"health": 1750,
 	"engineOffset": 5,
 	"engineSize": 2,
 	"canBoost": false,

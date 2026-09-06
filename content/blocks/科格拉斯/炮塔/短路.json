@@ -2,6 +2,7 @@
     "type": "PowerTurret",
     "name": "短路",
     "health": 1800,
+    "armor": 10,
     "size": 2,
     "category": "turret",
     "accurateDelay": true,
@@ -37,7 +38,7 @@
     },
     "shoot": {
         "type": "ShootPattern",
-        "firstShotDelay": 60
+        "firstShotDelay": 45
     },
     "reload": 130,
     "shootSound": "shootLancer",

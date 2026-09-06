@@ -1,10 +1,10 @@
 {
     "details": "歼灭者",
-    "armor": 13,
+    "armor": 18,
     "description": "携带了机枪以及大口径加农炮，同时配备了两个导弹发射仓，一次性能发射出10枚巡航导弹",
     "immunities": ["burning"],
     "speed": 1,
-    "health": 3000,
+    "health": 4250,
     "boostMultiplier": 1.5,
     "engineOffset": 5,
     "engineSize": 4,

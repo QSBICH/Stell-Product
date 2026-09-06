@@ -1,7 +1,7 @@
 {
-    "details": "剿灭",
-    "armor": 20,
-    "health": 5000,
+    "details": "修复",
+    "armor": 25,
+    "health": 7550,
     "speed": 0.8,
     "hitSize":12,//碰撞箱
     "mineSpeed": 5,
@@ -29,7 +29,8 @@
 				"type": "LaserBulletType",
 				"healPercent": 9.6,
 				"recoil": 1,
-				"damage": 80,
+				"damage": 75,
+                                                                    "blockArmorMultiplier": 0.9,
 				"collidesTeam": true,
 				"laserAbsorb": false,
 				"shootEffect": "bigShockwave",
@@ -43,7 +44,7 @@
 					"FFFFFF"
 				],
 				"width": 16,
-				"length": 200
+				"length": 210
 			}
 		}
 	]

@@ -1,0 +1,11 @@
+{
+	"type": "OreBlock",//类型 这个是覆盖矿石
+	"variants":1,//贴图数量
+	"playerUnmineable":false,//不能自己挖 否 沙子为true
+	"itemDrop": "原版拓展-石英",//挖出来的物品
+	"oreDefault" :false//自定义地图自动生成
+    "oreScale" :20//自动生成的默认规模
+    "oreThreshold" :0.94////自动生成的默认密集度
+	"mapColor":"#FFFFFF",//地板颜色
+    "useColor":true,//是否是小地图的颜色
+}

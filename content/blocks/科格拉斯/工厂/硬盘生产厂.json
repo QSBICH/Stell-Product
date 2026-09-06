@@ -1,0 +1,60 @@
+{
+    "type": "GenericCrafter",
+    "name": "硬盘生产厂",
+    "description": "组合硬盘",
+    "details": "存一些...比较♂的东西!",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 600,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 600,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 5,
+        "items": [
+            "钢铁/2",
+            "红磷/1",
+            "硅/1",
+            "金/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "原版拓展-氦气",
+                "amount": 0.3
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "硬盘",
+        "amount": 1
+    },
+    "requirements": [
+        "钢钛合金/100",
+        "硅/80",
+        "金/5",
+        "红宝石/10"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+   "research": {
+    "parent": "原版拓展-蓝图打印机",
+    "objectives": [
+        "原版拓展-激光技术"
+    ]
+}
+}

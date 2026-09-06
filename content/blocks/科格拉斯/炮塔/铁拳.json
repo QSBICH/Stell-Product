@@ -1,7 +1,9 @@
 {
     "type": "ItemTurret",
     "name": "铁拳",
-    "health": 530,
+    "health": 620,
+    "maxAmmo": 10,
+    "armor": 2,
     "size": 1,
     "reload": 40,
     "range": 150,
@@ -14,7 +16,7 @@
         "barrels": 2,
         "spread": 5
     },
-    "xRand": 1,
+    "xRand": 10,
     "ammoUseEffect": "casing2Double",
     "inaccuracy": 1,
     "rotateSpeed": 12,
@@ -49,12 +51,12 @@
     "ammoTypes": {
         "原版拓展-铁矿": {
             "speed": 5,
-            "damage": 30,
+            "damage": 18,
             "lifetime": 90,
             "width": 6,
             "buildingDamageMultiplier": 0.375,
             "height": 8,
-            "ammoMultiplier": 2,
+            "ammoMultiplier": 1,
             "shootEffect": "shootSmall"
         }
     },

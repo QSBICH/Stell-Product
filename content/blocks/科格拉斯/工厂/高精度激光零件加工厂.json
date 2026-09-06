@@ -1,0 +1,50 @@
+{
+    "type": "GenericCrafter",
+    "name": "高精度零件加工厂",
+    "description": "仪器拥有极高的精度进行生产零件，使用激光进行了切割技术",
+    "details": "高精度零件厂",
+    "itemCapacity": 10,
+    "health": 980,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 150,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 3,
+        "items": [
+            "原版拓展-铁矿/2"
+        ],
+"liquids": [
+            {
+                "liquid": "原版拓展-氦气",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-零件",
+        "amount": 2
+    },
+    "requirements": [
+        "原版拓展-钢钛合金/50",
+        "原版拓展-红宝石/35"
+        "零件/30",
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": "原版拓展-高精度零件加工厂"  
+}

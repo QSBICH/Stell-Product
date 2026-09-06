@@ -1,0 +1,31 @@
+{
+    "type": "Drill",
+    "name": "激光钻头",
+    "description": "利用钢铁和复杂的机械结构，并搭配上激光技术，能够做到更高的效率!",
+    "details": "激光切割术 chua chua chua",
+    "size": 3,
+    "health": 800,
+    "itemCapacity": 20,
+    "liquidCapacity": 20,
+    "tier": 5,
+    "drillTime": 175,
+    "rotateSpeed": 1,
+    "drawMineltem": true,
+    "liquidBoostIntensity": "1.4",
+    "consumes": {
+        "liquid": {
+            "liquid": "原版拓展-氦气",
+            "amount": 0.25,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        "原版拓展-钢钛合金/50"
+        "红宝石/30",
+        "零件/20",
+        
+    ],
+    "category": "production",
+    "research": "原版拓展-钢铁钻头"
+}

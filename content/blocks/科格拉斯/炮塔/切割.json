@@ -3,6 +3,7 @@
     "name": "切割",
     "reload": 40,
     "range": 150,
+    "maxAmmo": 22,
     "health": 2280,
     "size": 3,
     "shootSound": "shootFuse",
@@ -13,8 +14,9 @@
         "spread": 12.5
     },
     "requirements": [
-        "原版拓展-钻石/110",
-        "原版拓展-零件/20"
+        "钻石/110",
+        "红宝石/60",
+        "零件/20"
     ],
     "rotateSpeed": 16,
     "ammoTypes": {
@@ -64,7 +66,7 @@
             "pierceArmor": true,
             "reloadMultiplier": 1,
             "statusDuration": 44,
-            "ammoMultiplier": 4,
+            "ammoMultiplier": 1,
             "fromColor": "EEC591A8",
             "toColor": "EEC591",
             "shootEffect": {

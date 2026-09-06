@@ -1,0 +1,57 @@
+{
+	"name": "唤醒",
+	"flying": true,
+	"details": "站在科格拉斯的废土上，我总会想起迪钠德。那里没有这些冰冷的钢铁，\n只有铺天盖地的沙尘暴，和能把人撕碎的风。我们曾在高处建造了高空城市，可\n如今……全被[red]敌人毁之一旦了。",
+	"speed": 4,
+	"health": 375,
+	"hitSize": 12,
+	"weapons": [
+		{
+			"name": "唤醒武器",
+			"mirror": false,
+			"top": false,
+			"shake": 3,
+			"rotate": false,
+			"x": 0,
+			"y": 0,
+			"shootY": 7,
+			"recoil": 0,
+			"reload": 55,
+			"shootSound": "shootLocus",
+			"continuous": true,
+			"bullet": {
+				"type": "LaserBulletType",
+				"damage": 75,
+				"buildingDamageMultiplier": 1.1,
+				"shootEffect": {
+					"type": "ParticleEffect",
+					"particles": 5,
+					"line": true,
+					"strokeFrom": 0,
+					"strokeTo": 0,
+					"lenFrom": 20,
+					"lenTo": 0,
+					"length": 150,
+					"baseLength": 0,
+					"lifetime": 30,
+					"colorFrom": "FEEBB3",
+					"colorTo": "FFFFFF",
+					"cone": 30
+				},
+				"status": "原版拓展-风暴",
+				"statusDuration": 600,
+				"sideAngle": 135,
+				"sideWidth": 1,
+				"sideLength": 55,
+				"colors": [
+					"FEEBB390",
+					"FEEBB3",
+					"FFFFFF"
+				],
+				"lifetime": 30,
+				"width": 18,
+				"length": 150
+			}
+		}
+	]
+}

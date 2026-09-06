@@ -1,5 +1,5 @@
 {
-   "type": "AutoDoor",
+   //"type": "AutoDoor",
    "name":"钢铁闸门"
    "description": "无法直接通过点按以开关，仅在己方陆军/海军通过时开启",
    "requirements":[

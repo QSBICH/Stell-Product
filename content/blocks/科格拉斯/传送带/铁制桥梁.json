@@ -4,7 +4,7 @@
 	"health": 200,
 	"armor": 8,
 	"range": 6,
-	"transportTime":10,
+	"transportTime":8,
 	"arrowSpacing": 8,
 	"arrowOffset": 4,
 	"arrowTimeScl": 12,

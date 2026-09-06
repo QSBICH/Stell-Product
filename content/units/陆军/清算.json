@@ -1,7 +1,7 @@
 {
   "name": "清算",
   "armor": 30,
-  "health": 16500,
+  "health": 22500,
   "speed": 1,
   "hitSize": 24,
   "boostMultiplier": 1.5,
@@ -22,6 +22,7 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 600,
+        "blockArmorMultiplier": 0,
         "mirror": true,
         "width": 4,
         "length": 160,
@@ -33,6 +34,7 @@
           "line": true,
           "recoil": 2,
           "rotate": false,
+          "alternate": true,
           "strokeFrom": 2,
           "strokeTo": 0,
           "lenFrom": 18,
@@ -65,7 +67,7 @@
       "trailWidth": 1.5,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 100,
+        "damage": 80,
         "speed": 10,
         "lifetime": 18,
         "width": 8,
@@ -86,7 +88,7 @@
       "buildingDamageMultiplier": 1.5,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 275,
+        "damage": 200,
         "splashDamageRadius": 40,
         "splashDamage": 200,
         "homingDelay": 40,

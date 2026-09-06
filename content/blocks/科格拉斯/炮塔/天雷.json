@@ -1,8 +1,9 @@
 {
     "type": "PowerTurret",
     "name": "触电",
-    "health": 510,
-    "reload": 30,
+    "health": 600,
+    "armor": 3,
+    "reload": 32,
     "shootCone": 360,
     "rotateSpeed": 60,
     "consumes": {
@@ -15,7 +16,7 @@
     "shootEffect": {
         "type": "ParticleEffect",
         "particles": 4,
-        "length": 45,
+        "length": 48,
         "baseLength": 0,
         "lifetime": 13,
         "line": true,

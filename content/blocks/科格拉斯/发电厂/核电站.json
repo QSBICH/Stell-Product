@@ -9,7 +9,7 @@
     "hasItems": true,
     "itemDuration":60,
     //发电时间
-    "powerProduction":25,
+    "powerProduction":30,
     //发电量
     "itemCapacity":50,
     //物品容量

@@ -1,0 +1,49 @@
+{
+    "name": "硬盘拷贝中心",
+    "description": "看我超级ctrl c ctrl v",
+    "details": "复制粘贴",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 450,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "updateEffect": "pulverizeMedium",
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-转",
+                "spinSprite": true,
+                "rotateSpeed": 10
+            }
+        ]
+    },
+    "requirements": [
+        "原版拓展-钢钛合金/60",
+        "原版拓展-晶体管/50",
+        "原版拓展-红磷/20",
+        "原版拓展-金/5",
+        "原版拓展-零件/35"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-硬盘生产厂",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "激光技术总部"
+            }
+        ]
+    }
+}

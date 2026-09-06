@@ -1,0 +1,45 @@
+{
+    "name": "抛射",
+    "flying":true
+	"details": "投弹无人机",
+	"speed": 2.5,
+	"health": 500,
+                 "armor": 2,
+                 "circleTarget": true,
+                 "targetFlags":["factory","drill"],//ai攻击目标
+	"hitSize":8,//碰撞箱
+	"weapons": [
+		{
+			"name": "抛射1",
+			"reload": 60,
+			"x": 0,
+			"y": 0,
+			"shootY": 6,
+			"shoot": {
+				"shots": 2,
+				"shotDelay": 1
+			},
+			"rotate": true,
+			"inaccuracy": 10,
+			"alternate": true,
+			"shootSound": "shootMissile",
+			"ejectEffect": "casing1",
+			"bullet": {
+				"type": "MissileBulletType",
+				"damage": 30,
+				"splashDamageRadius": 10,
+				"splashDamage": 30,
+                                                                     "blockArmorMultiplier": 0.3,
+				"homingDelay": 20,
+				"status": "blasted",
+				"hitEffect": "flakExplosionBig",
+				"despawnEffect": "flakExplosionBig",
+				"smokeEffect": "none",
+				"speed": 5,
+				"lifetime": 50,
+				"width": 7,
+				"height": 8
+			}
+		}
+	]
+}

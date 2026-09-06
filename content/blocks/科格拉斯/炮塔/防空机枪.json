@@ -1,18 +1,20 @@
 {
-	"type": "ItemTurret",
-	//炮塔类型有: 
 	"name": "防空机枪",
 	"description": "射速快，是低射程炮台的最佳拍档",
 	"details":"太快了!!!"
 	"health": 700,
 	"size": 2,
 	"shots":1,
+                 "maxAmmo": 16,
 	"reload":5,
 	//装弹时间，越小越快(60为1秒)
 	"range": 240,
 	//射程(半径,8代表一格)
 	"inaccuracy":1,
 	//子弹偏转度
+                 "consumes": {
+                 "power": 3,
+    },
 	"recoil":0,
 	"drawer": {
 		"type":"DrawTurret",
@@ -231,21 +233,23 @@
 	"ammoTypes": {
 		"铁矿": {
 			"speed":8,
-			"damage":30,
+			"damage":25,
 			"reloadMultiplier":0.8,
-			"ammoMultiplier":3,
+			"ammoMultiplier":4,
 			"width":5,
 			"height":8,
 			"inaccuracy":2,
+                                                   "buildingDamageMultiplier": 0.375,
 			"smokeEffect": "none",
 			"lifetime":30,
 		},
 		"钢铁": {
 			"speed":8,
-			"damage":35,
+			"damage":30,
+                                                   "buildingDamageMultiplier": 0.375,
                                                    "rangeChange":4,
 			"reloadMultiplier":1.5,
-			"ammoMultiplier":3,
+			"ammoMultiplier":2,
 			"width":5,
 			"height":8,
 			"inaccuracy":2,
@@ -254,9 +258,10 @@
 		}
 		"钻石": {
 			"speed":8,
-			"damage":75,
+			"damage":50,
 			"reloadMultiplier":1,
-			"ammoMultiplier":2,
+                                                   "buildingDamageMultiplier": 0.375,
+			"ammoMultiplier":1,
 			"width":5,
 			"height":8,
 			"smokeEffect": "none",
@@ -265,9 +270,10 @@
 		},
 	}
 	"requirements": [
-	    "钻石/40",
-	    "红宝石/30",
-	    "零件/30"
+	    "钻石/60",
+	    "红宝石/40",
+	    "零件/40",
+                     "钢铁/20" 
 	],
 	"category": "turret",
 	"research": {
@@ -275,7 +281,8 @@
 		"requirements":[
 		"钻石/400",
 	    "红宝石/300",
-	    "零件/150"
+	    "零件/150",
+                     "钢铁/50"
 		]
 	},
 }

@@ -6,6 +6,7 @@
     "reload": 32,
     "range": 200,
     "ammoPerShot": 2,
+    "maxAmmo": 22,
     "hasLiquids": false,
     "drawer": {
     "type": "DrawTurret",
@@ -41,7 +42,7 @@
             "lifetime": 39,
             "width": 6,
             "height": 8,
-            "ammoMultiplier": 2,
+            "ammoMultiplier": 4,
             "shootEffect": "shootSmall"
         },
         "原版拓展-钢铁": {
@@ -52,14 +53,14 @@
             "lifetime": 42,
             "width": 6,
             "height": 8,
-            "ammoMultiplier": 2,
+            "ammoMultiplier": 1,
             "shootEffect": "shootSmall"
         }
     },
     "researchCostMultiplier": 0.5,
     "requirements": [
-        "原版拓展-钢铁/50",
-        "原版拓展-红宝石/50"
+        "钢铁/75",
+        "红宝石/60"
     ],
     "category": "turret",
     "research": "原版拓展-铁拳"

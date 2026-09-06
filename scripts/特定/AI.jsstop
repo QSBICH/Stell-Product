@@ -1,0 +1,56 @@
+// ==========================================
+// 定义特效（必须定义，否则 damage 里会报错）
+// ==========================================
+const 特效 = extend(ExplosionEffect, {
+    waveRad: 12,
+    waveRadBase: 0,
+    waveColor: Color.valueOf("ff0000"),
+    waveStroke: 4,
+    waveLife: 15,
+    smokes: 0,
+});
+
+// ==========================================
+// 测试AI
+// ==========================================
+const 测试AI = extend(UnitType, "测试AI", {});  // 必须用 UnitType，下面随意
+测试AI.constructor = () => extend(UnitEntity, {
+    // [每帧更新] 单位活着的时候会一直执行
+    update() {
+        this.super$update(); // [必留]原版的移动逻辑
+    },
+    update(){
+        this.super$update();
+        let 目标 = Units.closestEnemy(this.team, this.X, this.y, 1000, u > !u.dead);
+    }
+
+    // [受击处理] 敌人打中单位时触发
+    damage(X) {
+        特效.at(this.x, this.y);
+        // 只要伤害大于1，damage=15 X或许可以换吧，我懒得换ORZ
+        if (X > 1) {
+            X = 15;
+        }
+        // 如果还有其他减伤逻辑，只在这一个地方改JS中÷其实是 x/y
+        // [必留] 把修改后的伤害传给原版扣血（且只能调用这一次！）
+        this.super$damage(X); 
+    },
+
+    // [存档ID] 独一无二的数字（0~255之间）不要乱动，不然单位的数据会反复消失
+    classId() { 
+        return 150;
+    },
+
+    // [存档写入]
+    write(write) {
+        this.super$write(write);
+    },
+
+    // [存档读取]
+    read(read) {
+        this.super$read(read);
+    }
+});
+
+EntityMapping.idMap[150] = 测试AI.constructor;
+exports.测试AI = 测试AI;

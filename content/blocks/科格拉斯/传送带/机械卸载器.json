@@ -1,7 +1,7 @@
 {
 	"health": 120,
 	"size": 1,
-	"speed": 7.5,
+	"speed": 8,
 	"update": "true",
 	"hasItems": "true",
 	"type": "Unloader",

@@ -7,9 +7,12 @@ var writer = Core.settings.getDataDirectory().child("科格拉斯.md").writer(fa
 writer.write("_#科格拉斯日志#_\n")
 writer.flush();
 
+var startTime = Date.now(); // ← 新增
+
 function thislogWarn(log, level) {
     if (level == null) level = "";
-    writer.write(level + Date.now() + " ms: " + log + "\n");
+    var elapsed = Date.now() - startTime; // ← 改成相对时间
+    writer.write(level + elapsed + "ms: " + log + "\n");
     writer.flush()
 };
 
@@ -26,7 +29,6 @@ function thislog(level, log, error) {
     thislogWarn(log + error, Lv)
 };
 
-// -------- 单个加载 --------
 function loadContent(loadThing) {
     try {
         require(loadThing);
@@ -36,18 +38,14 @@ function loadContent(loadThing) {
     };
 }
 
-// -------- 批量加载（新增） --------
 function loadContents(loadThings, loadroot) {
-    // 如果传入的是字符串，直接加载
     if (!Array.isArray(loadThings)) {
         loadContent(loadThings);
         return;
     }
-    // 如果传入的是数组，遍历加载
     for (var i = 0; i < loadThings.length; i++) {
         var item = loadThings[i];
         if (Array.isArray(item)) {
-            // 嵌套数组：递归处理
             var subRoot = loadroot + "/" + item[0] || loadroot;
             loadContents(item, subRoot);
         } else {
@@ -57,7 +55,6 @@ function loadContents(loadThings, loadroot) {
     }
 }
 
-// -------- 导出 --------
 exports.thislogWarn = thislogWarn;
 exports.thislog = thislog;
 exports.loadContent = loadContent;

@@ -1,7 +1,7 @@
 {
-    "type": "Wall",
-    "name": "大钻石墙",
-    "armor":5,
+    //"type": "Wall",
+    "name": "大型钻石墙",
+    "armor":12,
     "description": "利用钻石制作的墙",
     "details": "具有极高的强度",
     "health": 8800,

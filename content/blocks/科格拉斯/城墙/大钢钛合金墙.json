@@ -1,0 +1,21 @@
+{
+    //"type": "Wall",
+    "name": "大型钢钛合金墙",
+    "armor":16,
+    "description": "利用钻石制作的墙",
+    "details": "具有极高的强度",
+    "health": 10000,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "钢钛合金",
+            "amount": 24
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-小钢钛合金墙"
+}

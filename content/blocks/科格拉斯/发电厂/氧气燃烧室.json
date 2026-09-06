@@ -9,7 +9,7 @@
     "hasLiquids": true,
     "hasItems": true,
     "itemDuration": 60,
-    "powerProduction": 6.1,
+    "powerProduction": 4,
     "itemCapacity": 10,
     "generateEffect": "pulverizeMedium",
     "consumes": {
@@ -21,8 +21,10 @@
         ]
     },
     "requirements": [
-        "原版拓展-钻石/30",
-        "原版拓展-零件/10"
+        "原版拓展-钻石/50",
+        "红宝石/40",  
+        "钢铁/25",
+        "原版拓展-零件/20"
     ],
     "drawer": {
         "type": "DrawMulti",

@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "激光技术",
+    "description": "一套已破译的完整激光系统技术方案，包含聚焦透镜阵列设计、谐振腔结构、热管理回路及高频振荡器校准参数。文档体系完整，可直接用于定向能武器工程化。推测来自全体科拉人的遗留技术。",
+    "details": "科瑞半导体·已破译技术包",
+    "color": "5C666CFF",
+    "cost": 2,
+    "hardness": 2,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-存储了激光技术的硬盘"
+}

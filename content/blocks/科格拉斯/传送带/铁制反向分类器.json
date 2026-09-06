@@ -20,6 +20,6 @@
 	"requirements": [//建造消耗
 		"原版拓展-铁矿/2"
 		]
-	"speed": 0.05,//运输速度
-	"displayedSpeed":3,//显示速度
+	"speed": 0.08,//运输速度
+	"displayedSpeed":8,//显示速度
 }

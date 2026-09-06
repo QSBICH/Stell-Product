@@ -1,0 +1,16 @@
+{
+    "type": "Wall",
+    "name": "分支",
+    "alwaysUnlocked": false,
+    "description": "有更多的关卡了呢ORZ",
+    "details": "通关熔岩要塞",
+     "research": {
+        "parent": "成就3",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "熔岩要塞"
+            }
+        ]
+    }
+}

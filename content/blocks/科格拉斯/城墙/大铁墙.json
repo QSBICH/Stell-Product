@@ -1,5 +1,5 @@
 {
-    "type": "Wall",
+    //"type": "Wall",
     "name": "大型铁墙",
     "armor":1,
     "description": "利用铁制作的墙",

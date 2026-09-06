@@ -1,8 +1,8 @@
 {
     "speed": 1.5,
-    "armor": 4, 
+    "armor": 5, 
 	"name": "小型机器人",
-	"health": 1000,
+	"health": 1500,
 	"boostMultiplier": 1.5,
 	"engineOffset": 5,
 	"engineSize": 2,

@@ -23,7 +23,7 @@
 			"shootOnDeath": true,
 			"bullet": {
 				"killShooter": true,
-				"splashDamageRadius": 100,
+				"splashDamageRadius": 8,
 				"instantDisappear": true,
 				"collides": false,
 				"splashDamage": 100,

@@ -1,6 +1,6 @@
 {
 	"name": "钢钛合金冶炼厂控制器",
-	"health": 450,
+	"health": 400,
 	"description":"点击后显示按钮，按钮里有教程",
 	"requirements": [
 		"钻石/200",
