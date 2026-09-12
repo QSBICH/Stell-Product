@@ -3,15 +3,15 @@
 // 支持单个加载 (loadContent) 和批量加载 (loadContents)
 // ============================================
 
-var writer = Core.settings.getDataDirectory().child("科格拉斯.md").writer(false);
+var writer = Core.settings.getDataDirectory().child("科格拉斯.md").writer(false);//true就是续写 false为覆盖
 writer.write("_#科格拉斯日志#_\n")
 writer.flush();
 
-var startTime = Date.now(); // ← 新增
+var startTime = Date.now();
 
 function thislogWarn(log, level) {
     if (level == null) level = "";
-    var elapsed = Date.now() - startTime; // ← 改成相对时间
+    var elapsed = Date.now() - startTime;
     writer.write(level + elapsed + "ms: " + log + "\n");
     writer.flush()
 };

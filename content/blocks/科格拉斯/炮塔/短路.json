@@ -27,7 +27,7 @@
         "lightningDamage": 20,
         "lightningColor": "a9d8ff",
         "damage": 200,
-        "buildingDamageMultiplier": 0.375,
+        "buildingDamageMultiplier": 0.2,
         "ammoMultiplier": 1,
         "width": 18,
         "length": 226,

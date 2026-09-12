@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "name": "霆闪",
-    "health": 800,
+    "health": 1440,
     "size": 2,
     "maxAmmo": 20,
     "reload": 12.8,

@@ -51,10 +51,10 @@
     "ammoTypes": {
         "原版拓展-铁矿": {
             "speed": 5,
-            "damage": 18,
+            "damage": 20,
             "lifetime": 90,
             "width": 6,
-            "buildingDamageMultiplier": 0.375,
+            "buildingDamageMultiplier": 0.1,
             "height": 8,
             "ammoMultiplier": 1,
             "shootEffect": "shootSmall"

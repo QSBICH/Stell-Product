@@ -1,9 +1,9 @@
 {
     "type": "ItemTurret",
     "name": "屏障",
-    "health": 1950,
+    "health": 2050,
     "size": 2,
-    "reload": 32,
+    "reload": 30,
     "range": 240,
     "ammoPerShot": 2,
     "maxAmmo": 30,
@@ -37,8 +37,8 @@
     "ammoTypes": {
         "原版拓展-金刚石": {
             "speed": 5,
-            "buildingDamageMultiplier": 0.1,
-            "damage": 80,
+            "buildingDamageMultiplier": 0,
+            "damage": 75,
             "lifetime": 48,
             "width": 6,
             "height": 8,

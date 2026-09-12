@@ -12,7 +12,7 @@
     "hasLiquids": false,
     "targetAir": true,
     "targetGround": true,
-    "range": 146,
+    "range": 120,
     "shootEffect": {
         "type": "ParticleEffect",
         "particles": 4,

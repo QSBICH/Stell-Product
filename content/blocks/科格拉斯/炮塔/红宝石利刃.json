@@ -1,9 +1,9 @@
 {
     "type": "ItemTurret",
     "name": "利刃",
-    "health": 1200,
+    "health": 1280,
     "size": 2,
-    "reload": 32,
+    "reload": 28,
     "range": 200,
     "ammoPerShot": 2,
     "maxAmmo": 22,
@@ -38,7 +38,7 @@
         "原版拓展-铁矿": {
             "speed": 5,
             "damage": 50,
-            "buildingDamageMultiplier": 0.1,
+            "buildingDamageMultiplier": 0,
             "lifetime": 39,
             "width": 6,
             "height": 8,
@@ -48,7 +48,7 @@
         "原版拓展-钢铁": {
             "speed": 5,
             "damage": 125,
-            "buildingDamageMultiplier": 0.375,
+            "buildingDamageMultiplier": 0.1,
             "rangeChange":4,
             "lifetime": 42,
             "width": 6,

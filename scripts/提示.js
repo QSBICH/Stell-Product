@@ -1,16 +1,13 @@
 ///参考:合晶工业
 const ln = require("log");
-
 Events.on(EventType.ClientLoadEvent, cons(e => {
     var dialog = new BaseDialog("原版拓展");//新建一个显示窗口
     var dv = 0;
     var dialogTitle = "";
-
     dialog.cont.pane(table => {
         var titleRand = "";
         const Vars = Packages.mindustry.Vars;
         var name = "你好";
-
         if (Vars.player.name && Vars.steamPlayerName) {
             name += (Vars.player.name + ", 或者说" + Vars.steamPlayerName);
         } else if (Vars.player.name) {
@@ -18,7 +15,6 @@ Events.on(EventType.ClientLoadEvent, cons(e => {
         } else if (Vars.steamPlayerName) {
             name += (", " + Vars.steamPlayerName);
         }
-
         const titles = [
             "试试铁锈战争!",
             "加入了114514个虫族建筑!",
@@ -41,15 +37,11 @@ Events.on(EventType.ClientLoadEvent, cons(e => {
             "[#ff8844]激光技术已就绪...",
             "[#ff44ff]你需要更大的硬盘。"
         ];
-
         const titleRandVar = Math.floor(
             GlobalVars.rand.nextDouble() * (titles.length)
         );
-
         titleRand = titles[titleRandVar];
-
         ln.thislog(1, titleRandVar + "号随机标题:" + titleRand);
-
         table.add(
             "[red]钢铁工业[beta]2.4\n\n关于本mod\n" +
             "[red]mod还在制作期,还会有很多问题\n" +
@@ -81,23 +73,18 @@ Events.on(EventType.ClientLoadEvent, cons(e => {
 
         table.row();
     });
-
     // -------- 第一行按钮 --------
-
     dialog.buttons.button(
         "[#c000c0](看看注意事项!)关闭",
         run(() => {
             dialog.hide();//退出此界面
         })
     ).size(110, 64);
-
     // -------- 注意事项 --------
-
     dialog.buttons.button(
         "[red]注意事项",
         run(() => {
             var dialog2 = new BaseDialog("注意事项");
-
             dialog2.cont.pane(table => {
                 table.add(
                     "[red]极少数人可能会在游玩本mod时，因mod中的闪光或图形出\n" +
@@ -109,43 +96,37 @@ Events.on(EventType.ClientLoadEvent, cons(e => {
                     "低风险"
                 );
             });
-
             dialog2.buttons.defaults().size(210, 64);
             dialog2.addCloseButton();
             dialog2.show();
         })
     ).size(110, 64);
-
     // -------- 制作人员&致谢名单 --------
-
     dialog.buttons.button(
-        "[gold]制作人员&致谢名单",
-        run(() => {
-            var dialog3 = new BaseDialog("制作人员");
-
-            dialog3.cont.pane(table => {
-                table.add(
-                    " [gold]作者：[gold]月半猫(qq:3893990966)\n" +
-                    "[gold]美术: boebee\n" +
-                    "[gold]地图:云舒喵_\n" +
-                    "--------------------\n" +
-                    "[yellow]沉默是金:深度游玩了护卫并提出不足(●—●)\n" +
-                    "C-beverage:投稿了部分贴图\n" +
-                    "--------------------\n" +
-                    "[yellow]剧情人物:我方(sharder)\n" +
-                    "[red]敌方（crux）\n" +
-                    "[white]科格拉斯 及其卫星 原住民 虫族"
-                );
-            });
-
-            dialog3.buttons.defaults().size(210, 64);
-            dialog3.addCloseButton();
-            dialog3.show();
-        })
-    ).size(110, 96);
-
+    "[gold]制作人员&致谢名单",
+    run(() => {
+        var dialog3 = new BaseDialog("制作人员");
+        dialog3.cont.pane(table => {
+            table.add("[gold]本MOD为Lock创作室制作").row();
+            table.image(
+                Core.atlas.find("原版拓展-Lock创作室")
+            ).left().size(256, 256).pad(3).row();
+            table.add(
+                "--------------------\n" +
+                "[yellow]沉默是金:深度游玩了护卫并提出不足(●—●)\n" +
+                "C-beverage:投稿了部分贴图\n" +
+                "[gold]--------------------\n" +
+                "[yellow]剧情人物:我方(sharder)\n" +
+                "[red]敌方（crux）\n" +
+                "[white]科格拉斯 及其卫星 原住民 虫族"
+            );
+        });
+        dialog3.buttons.defaults().size(210, 64);
+        dialog3.addCloseButton();
+        dialog3.show();
+    })
+).size(110, 96);
     // -------- 建议与反馈 --------
-
     dialog.buttons.button(
         "[red]📝 建议与反馈",
         run(() => {
@@ -154,7 +135,6 @@ Events.on(EventType.ClientLoadEvent, cons(e => {
             );
         })
     ).size(210, 64).pad(10);
-
     dialog.show();
 }));
 
