@@ -1,0 +1,20 @@
+{
+    //"type": "Wall",
+    "name": "钻石墙",
+    "description": "利用钻石制作的墙",
+    "details": "具有极高的强度",
+    "health": 3000,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "原版拓展-钢钛合金",
+            "amount": 6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-大钻石墙"
+}

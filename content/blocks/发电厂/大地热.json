@@ -1,0 +1,31 @@
+{
+	"type": "ThermalGenerator",
+	"name": "大型地热发电机",
+	"size": 3,
+	"health": 460,
+	"powerProduction": 4,
+	"generateEffect": "redgeneratespark",
+	"effectChance": 0.08,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFade",
+				"scale": 10
+			}
+		]
+	},
+	"requirements": [
+		"graphite/250",
+		"metaglass/150",
+		"原版拓展-铜铅混合体/180",
+		"thorium/200"
+	],
+	"buildCostMultiplier": 0.95,
+	"floating": true,
+	"ambientSound": "hum",
+	"attribute": "heat",
+	"category": "power",
+	"research": "原版拓展-大型火力发电机"
+}

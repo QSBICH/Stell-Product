@@ -1,0 +1,64 @@
+{
+	"health": 400,
+	"details": "由beta核心机改进，需要終代核心，可以保卫核心",
+	"mineSpeed": 12,
+	"mineTier": 3,
+	"buildSpeed": 1.5,
+	"speed": 4.5,
+	"drag": 0.08,
+	"weapons": [
+		{
+			"name": "伽马1",
+			"reload": 6,
+			"x": -3.5,
+			"y": 3.5,
+			"rotate": false,
+			"top": false,
+			"inaccuracy": 0,
+			"shootSound": "shootDuo",
+			"alternate": true,
+			"ejectEffect": "casing2",
+			"bullet": {
+				"buildingDamageMultiplier": 0.3,
+				"damage": 40,
+				"backColor": "FF8C00",
+				"frontColor": "FFB90F",
+				"status": "burning",
+				"statusDuration": 600,
+				"speed": 5.5,
+				"lifetime": 45,
+				"width": 8,
+				"height": 13
+			}
+		},
+		{
+			"name": "伽马2",
+			"x": 0,
+			"y": 3,
+			"reload": 10,
+			"shootSound": "shootMissile",
+			"inaccuracy": 50,
+			"shoot":{
+				"shots":1
+			},
+			"bullet": {
+				"type": "MissileBulletType",
+				"backColor": "008000",
+				"frontColor": "FFFF00",
+				"trailColor": "008000",
+				"buildingDamageMultiplier": 1.5,
+				"damage": 10,
+				"splashDamageRadius": 10,
+				"splashDamage": 2,
+				"homingRange": 64,
+				"homingPower": 0.06,
+				"hitEffect": "blastExplosion",
+				"despawnEffect": "explosion",
+				"width": 8,
+				"height": 9,
+				"speed": 6,
+				"lifetime": 90
+			}
+		}
+	]
+}

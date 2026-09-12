@@ -1,0 +1,39 @@
+{
+    "type": "GenericCrafter",
+    "name": "沙砾分离机",
+    "description": "从沙砾中分离出沙子",
+    "details": "沙砾分离机",
+    "itemCapacity": 10,
+    "health": 440,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 180,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 3,
+        "items": [
+            "原版拓展-沙砾/3"
+        ],
+    },
+    "outputItem": {
+        "item": "原版拓展-沙子",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钢铁/50",
+        "原版拓展-红宝石/35"
+        "原版拓展-钻石/10"
+    ],
+    "category": "crafting",
+    "research": {
+    "parent": "原版拓展-高精度零件加工厂"
+    "objectives": [
+				{
+         "type": "SectorComplete",
+					"preset": "熔岩要塞"
+				}
+			]
+		}
+}

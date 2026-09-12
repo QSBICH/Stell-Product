@@ -1,0 +1,15 @@
+{
+	"type": "OverflowGate",
+	"invert":false,
+	"name": "铁制溢流器",
+	"speedBoost": 2,
+	"description": "前后堵住向左右输送物资",
+	"details":"溢流器"
+	"speed": 0.12
+	"health":80
+	"requirements": [
+		{"item": "原版拓展-铁矿", "amount": 3},
+		],
+	"category": "distribution",
+	"research": "原版拓展-铁制路由器"
+}

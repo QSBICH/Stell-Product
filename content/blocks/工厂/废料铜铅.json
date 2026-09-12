@@ -1,0 +1,35 @@
+{
+    "type": "GenericCrafter",
+    "name": "解离机铜铅压缩厂",
+    "description": "通过矿提取矿渣液中的铜和铅，来制作铜铅混合体",
+    "details": "效率不敢多说",
+    "itemCapacity": 20,
+    "liquidCapacity": 120,
+    "craftTime": 150,
+    "health": 450,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 2.5,
+        "liquids": [
+            {
+                "liquid": "slag",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-铜铅混合体",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/80",
+        "graphite/45",
+        "titanium/45"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-铜铅钛泥混合厂"
+}

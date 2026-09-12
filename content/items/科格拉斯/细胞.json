@@ -1,0 +1,15 @@
+{
+    "type": "items",
+    "name": "细胞",
+    "description": "大量的细胞",
+    "details": "少数地方会有裸露",
+    "color": "有一定的可燃性",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 2.5,
+    "research": "原版拓展-金刚石"
+    "frames":9,
+}

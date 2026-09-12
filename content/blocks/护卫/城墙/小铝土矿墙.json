@@ -1,0 +1,20 @@
+{
+    "type": "Wall",
+    "name": "铝土矿墙",
+    "description": "利用铝土矿制作的墙",
+    "details": "具有较强的强度",
+    "health": 550,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "原版拓展-铝土矿",
+            "amount": 6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-铝钻头"
+}

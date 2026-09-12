@@ -1,0 +1,37 @@
+{
+    "type": "GenericCrafter",
+    "name": "废料提取厂",
+    "description": "从废料中提取金刚石",
+    "details": "废料提取纯厂",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 320,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 1.5,
+        "items": [
+            "原版拓展-废料/2"
+        ],
+        "liquids": [
+            {
+                "liquid": "原版拓展-氧气",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-金刚石",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钢铁/35",
+        "原版拓展-钻石/35"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-金刚石提纯厂"
+}

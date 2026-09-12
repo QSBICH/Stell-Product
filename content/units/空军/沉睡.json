@@ -1,0 +1,58 @@
+{
+	"name": "沉睡",
+	"flying": true,
+                 "sprite": "unit-觉醒系列-沉睡"
+	"details": "Sleeping",
+	"speed": 4,
+	"health": 300,
+	"hitSize": 12,
+	"weapons": [
+		{
+			"name": "沉睡武器",
+			"mirror": false,
+			"top": false,
+			"shake": 3,
+			"rotate": false,
+			"x": 0,
+			"y": 0,
+			"shootY": 7,
+			"recoil": 0,
+			"reload": 60,
+			"shootSound": "shootLocus",
+			"continuous": true,
+			"bullet": {
+				"type": "LaserBulletType",
+				"damage": 50,
+				"buildingDamageMultiplier": 0.5,
+				"shootEffect": {
+					"type": "ParticleEffect",
+					"particles": 5,
+					"line": true,
+					"strokeFrom": 0,
+					"strokeTo": 0,
+					"lenFrom": 20,
+					"lenTo": 0,
+					"length": 120,
+					"baseLength": 0,
+					"lifetime": 30,
+					"colorFrom": "FEEBB3",
+					"colorTo": "FFFFFF",
+					"cone": 30
+				},
+				"status": "melting",
+				"statusDuration": 600,
+				"sideAngle": 135,
+				"sideWidth": 1,
+				"sideLength": 55,
+				"colors": [
+					"FEEBB390",
+					"FEEBB3",
+					"FFFFFF"
+				],
+				"lifetime": 25,
+				"width": 15,
+				"length": 120
+			}
+		}
+	]
+}

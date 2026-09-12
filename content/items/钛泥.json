@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "钛泥",
+    "description": "将钛和水泥进行了混合",
+    "details": "强度很高",
+    "color": "4DA6FFFF",
+    "cost": 3,
+    "hardness": 0,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-水泥"
+}

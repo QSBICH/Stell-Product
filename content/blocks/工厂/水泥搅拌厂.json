@@ -1,0 +1,38 @@
+{
+    "type": "GenericCrafter",
+    "name": "水泥搅拌厂",
+    "description": "进行简单的搅拌合成出水泥",
+    "details": "原理非常简单，只需要少量的电",
+    "itemCapacity": 20,
+    "liquidCapacity": 20,
+    "health": 220,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 0.1,
+        "items": [
+            "sand/2"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-水泥",
+        "amount": 2
+    },
+    "requirements": [
+        "copper/50",
+        "lead/50",
+        "titanium/20"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-铜铅压缩厂"
+}

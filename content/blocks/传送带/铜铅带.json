@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "铜铅传送带",
+	"health": 60,
+	"requirements": [
+		"原版拓展-铜铅混合体/1",
+		"silicon/1"
+	],
+	"category": "distribution",
+	"research":"原版拓展-铜铅压缩厂",
+	"speed": 0.181386861318,
+	"displayedSpeed": 18
+}

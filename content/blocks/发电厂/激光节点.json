@@ -1,0 +1,25 @@
+{
+    "type": "PowerNode",
+    "name": "激光节点",
+    "description": "使用激光传输电力，同时装备了装甲",
+    "details": "能够大范围传输电力，但是只能连接少量电力",
+    "size": 3,
+    "health": 320,
+    "maxNodes": 8,
+    "laserRange": "38.75",
+    "hasPower": true,
+    "consumesPower": true,
+    "outputsPower": true,
+    "consumes": {
+        "powerBuffered": 100
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/15",
+        "titanium/12"
+        "silicon/6"
+        "surge-alloy/1"
+        
+    ],
+    "category": "power",
+    "research": "原版拓展-爆炸发电机"
+}

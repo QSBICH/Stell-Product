@@ -1,0 +1,39 @@
+{
+    "type": "GenericCrafter",
+    "name": "泥钛冶炼厂",
+    "description": "将水泥和钛进行组合，需要水冷却",
+    "details": "强度太高了",
+    "itemCapacity": 20,
+    "liquidCapacity": 20,
+    "health": 250,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 1,
+        "items": [
+            "原版拓展-水泥/1"
+            "titanium/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-钛泥",
+        "amount": 1
+    },
+    "requirements": [
+        "copper/100"
+        "lead/100",
+        "titanium/100"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-水泥搅拌厂"
+}

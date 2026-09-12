@@ -1,0 +1,16 @@
+{
+    "type": "Wall",
+	"name":"兵种发现",
+	"alwaysUnlocked":false,
+	"description": "根据调查，敌方拥有特殊兵种，我们将这个机器人命名为: 巡逻者\n它会漫无目的的巡逻，同时他是流浪者的改进版，拥有更好的护甲和更强的武器"
+	"details":"『重要情报』"
+	"research": {
+		"parent": "情报1",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "机器人组装厂"
+			}
+		]
+	}
+}

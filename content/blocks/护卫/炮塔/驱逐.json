@@ -1,0 +1,51 @@
+{
+    "type": "LiquidTurret",
+	"name": "驱逐",
+	"health": 600,
+	"size": 2,
+	"reload": 0.6,
+	"range": 144,
+	"recoilTime": 1,
+	"recoil": 0.5,
+	"targetAir": true,
+	"inaccuracy": 0,
+	"rotateSpeed": 7.5,
+	"shoot":{
+		"type":"ShootAlternate",
+		"barrels":1,
+		//炮口数量
+		"spread":0,
+		//炮口间距设定
+	}
+	"liquidCapacity": 200,
+	"ammoTypes": {
+		"冰水": {
+			"type": "LiquidBulletType",
+			"liquid": "冰水",
+			"lifetime": 30,
+			"speed": 10,
+			"puddleSize": 4,
+			"orbSize": 3,
+			"knockback": 1,
+			//"healPercent": 5,
+			//"collidesTeam": true,//攻击己方
+			"damage": 1
+		},
+	},
+	"requirements": [
+		"铝土矿/50"
+	],
+	"category": "turret",
+	"research": {
+		"parent": "原版拓展-分割",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "冰川"
+			}
+		]
+		"requirements": [
+			"原版拓展-铝土矿/500"
+		],
+	}
+}

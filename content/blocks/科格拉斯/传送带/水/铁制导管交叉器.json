@@ -1,0 +1,13 @@
+{
+    "type": "LiquidJunction",
+	"name": "铁制导管交叉器",
+	"description": "可以穿过另一条导管，互不干扰",//"介绍": "？",
+	"health":100
+	"idleSound":"none"
+	"requirements": [
+		{"item": "原版拓展-铁矿", "amount": 2}
+		],
+	"category": "liquid",
+	"displayedSpeed":20
+	"research": "原版拓展-铁导管"
+}

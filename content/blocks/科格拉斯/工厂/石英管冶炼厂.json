@@ -1,0 +1,52 @@
+{
+    "type": "GenericCrafter",
+    "name": "晶体管冶炼厂",
+    "description": "把石英精细的提取出来，不能有一点意外",
+    "details": "精度之高，一眼能吓死",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 2,
+        "items": [
+            "石英/2"
+        ],
+        "liquids": [
+            {
+                "liquid": "氦气",
+                "amount": 0.2
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-晶体管",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钻石/50",
+        "原版拓展-红宝石/40",
+        "零件/30",
+        "钢铁/15"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": "原版拓展-硬盘生产厂"
+}

@@ -1,0 +1,39 @@
+{
+    "type": "GenericCrafter",
+    "name": "铜铅钛泥混合厂",
+    "description": "把铜铅混合体和钛泥进行压缩",
+    "details": "强度非常高",
+    "itemCapacity": 50,
+    "liquidCapacity": 50,
+    "health": 300,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 3,
+        "items": [
+            "原版拓展-铜铅混合体/1"
+            "原版拓展-钛泥/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.5
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-铜铅钛泥混合体",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/100"
+        "titanium/100",
+        "silicon/100"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-钛泥混合厂"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "ItemTurret",
+  "name": "断川",
+  "category": "turret",
+  "size": 3,
+  "reload": 120,
+  "rotateSpeed": 2,
+  "shootSound": "shootForeshadow",
+  "requirements": [
+    "钢钛合金/500",
+    "红宝石/300",
+    "零件/200",
+    "石英/200",
+    "金/5"
+  ],
+  "range": 1200,
+  "ammoTypes": {
+    "钢钛合金": {
+      "type": "RailBulletType",
+      "damage": 2200,
+      "buildingDamageMultiplier": 5,
+      "maxDamageFraction": 1,
+      "pierceDamageFactor": 2.0,
+      "length": 1250,
+      "hitShake": 6.0,
+      "ammoMultiplier": 2,
+      "pointEffectSpace": 20.0,
+      "shootEffect": "instShoot",
+      "hitEffect": "instHit",
+      "pierceEffect": "railHit",
+      "smokeEffect": "smokeCloud",
+      "pointEffect": "instTrail",
+      "despawnEffect": "instBomb"
+    }
+  },
+  "research": {
+    "parent": "毁灭",
+    "objectives": [
+      "存储了激光技术的硬盘"
+    ]
+  }
+}

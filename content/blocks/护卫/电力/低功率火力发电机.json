@@ -1,0 +1,78 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "低功率火力发电机",
+    "description": "利用可燃物燃烧发电。",
+    "details":"这颗星球的煤炭混杂着大量的杂志，纯度极低",
+    "size":1,
+    "armor":1,
+    "health":100,
+    //"hasLiquids": true,
+    "hasItems": true,
+    "itemDuration":90,
+    //发电时间
+    "powerProduction":0.75,
+    //发电量
+    "itemCapacity":10,
+    //物品容量
+    "generateEffect": "generatespark",
+    "consumes": {
+        "items": ["原版拓展-冰渣煤炭/1"]
+    },
+    "requirements": [
+        "原版拓展-镁钛低温辉石/30",
+        "原版拓展-硅冰石/15"
+    ],
+    "drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type":"DrawArcSmelt"
+				"particleLife":40
+				"particleRad":26
+				"particleColorFrom":"#8B0000"
+				"particleColorTo":"#8B0000"
+			},
+			
+			   
+			{
+				"type":"DrawCrucibleFlame"
+				"particleLife":60
+				"particleRad":15
+				"particleSize":5
+				"alpha":0.35
+				"particles":18
+				"particleColorFrom":"#8B0000"
+				"particleColorTo":"#8B0000"
+			},
+			/*
+			{
+				"type":"DrawCells"
+				"color":"#8B0000"
+				"particleColorFrom":"#8B0000"
+				"particleColorTo":"#8B0000"
+						"particles":27
+						"range":20
+			},
+			*/
+			{
+				"type":"DrawDefault"
+			},
+			{
+				"type":"DrawWarmupRegion",
+				//发热特效
+			}
+		]
+	}
+    "ambientSound": "smelter",
+    "ambientSoundVolume":0.04,
+    "category": "power",
+    "research": {
+        "parent": "原版拓展-太阳能板",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "冰川"
+            }
+        ]
+    }
+}

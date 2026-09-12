@@ -1,0 +1,13 @@
+{
+    "name":"开关",
+    "description":"可切换的开关，开关状态可以用逻辑处理器读取和控制。"
+    "size":1,
+    "armor":1,
+    "health":120,
+    "research":"原版拓展-微型处理器",
+    "category": "logic",
+    "requirements":[
+    "原版拓展-硅/5",
+    "原版拓展-钢铁/5"
+    ],
+}

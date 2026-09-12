@@ -1,0 +1,46 @@
+{
+	"type": "GenericCrafter",
+	"name": "煤炭分离机",
+	"health": 360,
+	"outputLiquid": {
+		"liquid": "oil",
+		"amount": 0.21
+	},
+	"itemCapacity": 14,
+	"size": 3,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "oil"
+			},
+			"DrawDefault"
+		]
+	},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 5,
+		"items": [
+			"coal/2"
+		],
+		"liquid": "water/0.1"
+	},
+	"requirements": [
+		"thorium/50",
+		"metaglass/40",
+		"原版拓展-铜铅混合体/30"
+	],
+	"category": "crafting",
+	"research": "原版拓展-大型冷冻机"
+}

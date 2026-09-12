@@ -1,0 +1,60 @@
+{
+    "details": "修复",
+    "armor": 25,
+    "health": 7550,
+    "speed": 0.8,
+    "hitSize":12,//碰撞箱
+    "mineSpeed": 5,
+	"mineTier": 4,
+	"buildSpeed": 0.25,
+    "boostMultiplier": 1.5,
+    "engineOffset": 5,
+    "engineSize": 6,
+    "canBoost": true,
+    "flying": false,
+    "weapons": [
+	{
+			"name": "修复1",
+			"reload": 50,
+			"x": 9.75,
+			"y": -1,
+			"rotate": false,
+			"top": false,
+			"recoil": 4,
+			"inaccuracy": 0,
+			"alternate": true,
+			"shootSound": "shootLancer",
+			"shake": 2,
+			"bullet": {
+				"type": "LaserBulletType",
+				"healPercent": 9.6,
+				"recoil": 1,
+				"damage": 75,
+                                                                    "blockArmorMultiplier": 0.9,
+				"collidesTeam": true,
+				"laserAbsorb": false,
+				"shootEffect": "bigShockwave",
+				"pierceCap": 6,
+				"sideAngle": 35,
+				"sideWidth": 1,
+				"sideLength": 70,
+				"colors": [
+					"7CF38990",
+					"98FFA980",
+					"FFFFFF"
+				],
+				"width": 16,
+				"length": 210
+			}
+		}
+	]
+	  "research": {
+		"parent": "原版拓展-机器人重构厂",
+		"requirements": [
+            "原版拓展-硅/8000",
+            "原版拓展-钻石/6000",
+            "原版拓展-零件/1200",
+            "原版拓展-铀原矿/800"
+        ],
+    }
+}

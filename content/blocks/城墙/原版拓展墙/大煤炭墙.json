@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "name": "大煤炭墙",
+    "description": "意义不明",
+    "details": "纯纯的狗屎",
+    "health": 500,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+   
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "coal",  // 煤炭
+            "amount": 24         // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-煤炭墙"
+}

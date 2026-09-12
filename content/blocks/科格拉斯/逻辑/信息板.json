@@ -1,0 +1,15 @@
+{
+	"name": "讯息板",
+	"description": "保存文字信息，用于队友间进行交流。",
+	"health":100,
+	"armor":1,
+	"maxTextLength":300,//最大字数
+	//除非你想遇到数据包大小方面的问题，否则不要过多地修改这个(引用源码中的原句)
+	"maxNewlines":24,//最多行数
+	"requirements": [
+		"原版拓展-硅/5",
+		"原版拓展-钢铁/5"
+	],
+	"research":"原版拓展-微型处理器"
+	"category": "logic",
+}

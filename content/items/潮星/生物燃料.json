@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "生物燃料",
+    "description": "燃料",
+    "details": "燃料",
+    "color": "DE9458FF",
+    "cost": 2,
+    "hardness": 0,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 1,
+    "research": "原版拓展-鱼"
+}

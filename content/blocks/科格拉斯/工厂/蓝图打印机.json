@@ -1,0 +1,36 @@
+{
+    "type": "GenericCrafter",
+    "name": "蓝图打印机",
+    "description": "打印机器人蓝图",
+    "details": "打印机器人蓝图",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 330,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 0.5,
+    },
+    "outputItem": {
+        "item": "原版拓展-机器人蓝图",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钻石/35",
+        "原版拓展-零件/35"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-金刚石提纯厂",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "机器人组装厂"
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "零件",
+    "description": "加工后的产物",
+    "details": "精度较高",
+    "color": "2F2A22FF",
+    "cost": 2,
+    "hardness": 2,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-钢铁"
+}

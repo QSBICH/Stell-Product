@@ -1,0 +1,22 @@
+{
+    "type": "Wall",
+    "name": "大型硅墙",
+    "description": "利用了硅的可塑性，但是血量有点不近人意。。。",
+    "details": "屎",
+    "health": 1000,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "deflect": true,//反弹子弹
+"chanceDeflect":25,//反弹概率（1=1%）
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "silicon",  // 修改为硅
+            "amount": 24         // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "copper-wall"
+}

@@ -1,0 +1,36 @@
+{
+	"health": 220,
+	"mineSpeed": 9,
+	"mineTier": 2,
+	"buildSpeed": 1,
+	"speed": 4,
+	"faceTarget": false,
+	"weapons": [
+		{
+			"name": "B枪",
+			"reload": 15,
+			"x": 2.8,
+			"y": 1,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"inaccuracy": 0,
+			"shoot": {
+				"shots": 3,
+				"shotDelay": 3
+			},
+			"shootSound": "shootDuo",
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"buildingDamageMultiplier": 0.25,
+				"homingRange": 80,
+				"homingPower": 0.1,
+				"damage": 20,
+				"speed": 3.5,
+				"lifetime": 72,
+				"width": 7,
+				"height": 10
+			}
+		}
+	]
+}

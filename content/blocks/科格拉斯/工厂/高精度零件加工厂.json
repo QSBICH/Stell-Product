@@ -1,0 +1,44 @@
+{
+    "type": "GenericCrafter",
+    "name": "高精度零件加工厂",
+    "description": "仪器拥有极高的精度进行生产零件",
+    "details": "高精度零件厂",
+    "itemCapacity": 10,
+    "health": 340,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 180,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 3,
+        "items": [
+            "原版拓展-铁矿/1"
+        ],
+    },
+    "outputItem": {
+        "item": "原版拓展-零件",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钢铁/50",
+        "原版拓展-红宝石/35"
+        "原版拓展-钻石/10"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": "原版拓展-金刚石提纯厂"  
+}

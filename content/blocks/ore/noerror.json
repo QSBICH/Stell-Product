@@ -1,0 +1,4 @@
+{
+"type": "StaticWall",//类型,墙
+"name":"noerror",//显示名
+}

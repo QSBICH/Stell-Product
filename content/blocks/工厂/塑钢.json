@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "多重塑钢冶炼厂",
+    "description": "通过更好的效率来制作塑钢，同时可以储备大量的石油",
+    "details": "更高效率制作塑钢",
+    "itemCapacity": 20,
+    "liquidCapacity": 120,
+    "health": 450,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "craftTime": 60, 
+    "hasItems": true,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 7.5,
+        "items": [
+            "titanium/3"
+        ],
+        "liquids": [
+            {
+                "liquid": "oil",
+                "amount": 0.6
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "plastanium",
+        "amount": 3
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/200",
+        "graphite/120",
+        "plastanium/80",
+        "metaglass/40",
+        "titanium/200",
+        "silicon/150"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-多重铜铅压缩厂"
+}

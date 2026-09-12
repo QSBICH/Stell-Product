@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "金刚石",
+    "description": "裸露在外的坚硬矿石",
+    "details": "到处都是",
+    "color": "7575C8FF",
+    "cost": 2,
+    "hardness": 4,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-红宝石"
+}

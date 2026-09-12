@@ -1,0 +1,51 @@
+{
+    "type": "GenericCrafter",
+    "name": "铝矿冶炼厂",
+    "description": "将铝土矿原矿进行提纯",
+    "details": "铝矿冶炼厂",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 100,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 0.5,
+        "items": [
+            "原版拓展-铝土矿/2"
+        ],
+    },
+    "outputItem": {
+        "item": "原版拓展-铝矿",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-铝土矿/35"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": {
+    "parent": "原版拓展-铝钻头"
+    "objectives": [
+				{
+         "type": "SectorComplete",
+					"preset": "冰川"
+				}
+			]
+		}
+}

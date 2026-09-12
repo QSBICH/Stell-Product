@@ -1,0 +1,16 @@
+{
+    "type": "battery",
+    "name": "小型电池",
+    "description": "拥有一定的蓄电能力",
+    "details": "可以蓄电",
+    "size": 1,
+    "health": 80,
+    "requirements": [
+        "原版拓展-硅冰石/20"
+    ],
+    "consumes": {
+        "powerBuffered": 600
+    },
+    "category": "power",
+    "research": "原版拓展-太阳能板"
+}

@@ -1,0 +1,288 @@
+{
+	"name": "防空机枪",
+	"description": "射速快，是低射程炮台的最佳拍档",
+	"details":"太快了!!!"
+	"health": 700,
+	"size": 2,
+	"shots":1,
+                 "maxAmmo": 16,
+	"reload":5,
+	//装弹时间，越小越快(60为1秒)
+	"range": 240,
+	//射程(半径,8代表一格)
+	"inaccuracy":1,
+	//子弹偏转度
+                 "consumes": {
+                 "power": 3,
+    },
+	"recoil":0,
+	"drawer": {
+		"type":"DrawTurret",
+		"basePrefix": "CG-",//自定义底座 命名格式  key内字符-block-N(size)
+		"parts": [
+			{
+				"type": "RegionPart",
+				"suffix": "-mid",
+				"progress": "reload",
+				"x": 0,
+				"y": 0,
+				"under": true,
+				"layerOffset": -0.003,
+				"mirror": false,
+				"moves": [
+					{
+						"x": 0,
+						"y": -2,
+						"progress": {
+							"type": "reload",
+							"op": "mul",
+							"other": "reload"
+						}
+					},
+					{
+						"x": -2.25,
+						"y": 0,
+						"progress": {
+							"type": "reload",
+							"ops": [
+								{
+									"op": "mul",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": -0.5
+								},
+								{
+									"op": "add",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": 2
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-mid",
+				"progress": "reload",
+				"x": 2.25,
+				"y": -2,
+				"under": true,
+				"layerOffset": -0.002,
+				"mirror": false,
+				"moves": [
+					{
+						"x": -2.25,
+						"y": 0,
+						"progress": {
+							"type": "reload",
+							"op": "mul",
+							"other": "reload"
+						}
+					},
+					{
+						"x": 0,
+						"y": 2,
+						"progress": {
+							"type": "reload",
+							"ops": [
+								{
+									"op": "mul",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": -0.5
+								},
+								{
+									"op": "add",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": 2
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-mid",
+				"progress": "reload",
+				"x": 0,
+				"y": -2,
+				"under": true,
+				"layerOffset": -0.005,
+				"mirror": false,
+				"moves": [
+					{
+						"x": 0,
+						"y": 2,
+						"progress": {
+							"type": "reload",
+							"op": "mul",
+							"other": "reload"
+						}
+					},
+					{
+						"x": 2.25,
+						"y": 0,
+						"progress": {
+							"type": "reload",
+							"ops": [
+								{
+									"op": "mul",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": -0.5
+								},
+								{
+									"op": "add",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": 2
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-mid",
+				"progress": "reload",
+				"x": -2.25,
+				"y": -2,
+				"under": true,
+				"layerOffset": -0.004,
+				"mirror": false,
+				"moves": [
+					{
+						"x": 2.25,
+						"y": 0,
+						"progress": {
+							"type": "reload",
+							"op": "mul",
+							"other": "reload"
+						}
+					},
+					{
+						"x": 0,
+						"y": -2,
+						"progress": {
+							"type": "reload",
+							"ops": [
+								{
+									"op": "mul",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": -0.5
+								},
+								{
+									"op": "add",
+									"other": "reload"
+								},
+								{
+									"op": "mul",
+									"amount": 2
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+	//后坐力
+	"alternate":true,
+	"ejectEffect": "casing1",//打出子弹的特效
+	//炮口是否轮流射击
+		"shoot":{
+    	"type":"ShootAlternate",
+    	"barrels":2,
+		//炮口数量
+		"spread":0.5,
+		//炮口间距设定
+		"shots":1,
+    }
+	"rotateSpeed":5,
+	//炮台转动速度
+	"maxAmmo":60,
+	//弹药量
+	"targetAir":true,
+    //是否攻击空军
+    "targetGround": true,
+    //是否攻击地面单位
+	"alwaysUnlocked":false,
+	//科技树里是否默认解锁
+	"collidesAir":true,//可攻击到空军，对空炮台关了就会变成纯废物
+	"collidesGround":true,//可攻击到空军，对空炮台关了就会变成纯废物
+	"ammoTypes": {
+		"铁矿": {
+			"speed":8,
+			"damage":25,
+			"reloadMultiplier":0.8,
+			"ammoMultiplier":4,
+			"width":5,
+			"height":8,
+			"inaccuracy":2,
+                                                   "buildingDamageMultiplier": 0.375,
+			"smokeEffect": "none",
+			"lifetime":30,
+		},
+		"钢铁": {
+			"speed":8,
+			"damage":30,
+                                                   "buildingDamageMultiplier": 0.375,
+                                                   "rangeChange":4,
+			"reloadMultiplier":1.5,
+			"ammoMultiplier":2,
+			"width":5,
+			"height":8,
+			"inaccuracy":2,
+			"smokeEffect": "none",
+			"lifetime":32
+		}
+		"钻石": {
+			"speed":8,
+			"damage":50,
+			"reloadMultiplier":1,
+                                                   "buildingDamageMultiplier": 0.375,
+			"ammoMultiplier":1,
+			"width":5,
+			"height":8,
+			"smokeEffect": "none",
+			"lifetime":42,
+			"rangeChange":80,
+		},
+	}
+	"requirements": [
+	    "钻石/60",
+	    "红宝石/40",
+	    "零件/40",
+                     "钢铁/20" 
+	],
+	"category": "turret",
+	"research": {
+		"parent": "原版拓展-红宝石利刃",
+		"requirements":[
+		"钻石/400",
+	    "红宝石/300",
+	    "零件/150",
+                     "钢铁/50"
+		]
+	},
+}

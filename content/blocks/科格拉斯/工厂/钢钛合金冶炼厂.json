@@ -1,0 +1,59 @@
+{
+    "name": "钢钛合金冶炼厂",
+    "description": "混合大量材料进行加工，得到强力材料",
+    "details": "加工的材料有点贵",
+    "itemCapacity": 24,
+    "liquidCapacity": 90,
+    "health": 1220,
+    "size": 4,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 5,
+        "items": [
+            "原版拓展-钻石/8",
+            "原版拓展-硅/5",
+            "原版拓展-钢铁/8",
+            "原版拓展-铀矿I/1",
+        ],
+        "liquids": [
+            {
+                "liquid": "原版拓展-氦气",
+                "amount": 0.5
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-钢钛合金",
+        "amount": 2
+    },
+    "requirements": [
+        "原版拓展-钻石/300",
+        "原版拓展-红宝石/250",
+        "原版拓展-零件/200",
+        "原版拓展-铀原矿/100"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    //"research": {
+		//"parent": "原版拓展-金刚石提纯厂",
+		//"objectives": [
+			//"辐射区"
+		//],
+	//},
+}

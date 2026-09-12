@@ -1,0 +1,25 @@
+{
+    "type":"Duct"
+	"name":"黄铜管",
+	"description":"由废料制成的管道，便宜量大，但由于材料限制，只能以极慢的速度向前运输物品",
+	"details":"前文明留下的科技之一，这说明了前文明的衰亡及其当时科技的落后和科技链的断裂",
+	"health":20,
+	"armor":2,
+	"requirements": [
+	    "原版拓展-黄铜/1",
+	    ]
+		"research": {
+		"parent": "岛屿核心",
+    "requirements":[
+        "原版拓展-黄铜/20",
+        ]
+	},
+	"category": "distribution",
+	"speed":12,
+	"bridgeReplacement":"海上桥梁",//默认桥
+    "junctionReplacement":"黄铜交叉器",//默认交叉器
+	"placeableLiquid": false,
+	//能否在液体上构建
+	"requiresWater": false,
+	//是否只能在水上
+}

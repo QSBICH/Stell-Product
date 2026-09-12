@@ -1,0 +1,68 @@
+{
+    "type": "ItemTurret",
+    "name": "屏障",
+    "health": 1950,
+    "size": 2,
+    "reload": 32,
+    "range": 240,
+    "ammoPerShot": 2,
+    "maxAmmo": 30,
+    "hasLiquids": false,
+    "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+        {
+            "type": "RegionPart",
+            "suffix": "-后",
+            "x": 0,
+            "y": 0,
+            "mirror": true,
+			"moveX": 0.6,
+			"moveRot": -15
+        }
+    ]
+}
+    "shoot": {
+        "shots": 4,
+        "shotDelay": 3,
+        "type": "ShootAlternate",
+        "barrels": 1,
+        "spread": 0
+    },
+    "xRand": 1,
+    "ammoUseEffect": "casing2Double",
+    "inaccuracy": 1,
+    "rotateSpeed": 12,
+    "shake": 1,
+    "ammoTypes": {
+        "原版拓展-金刚石": {
+            "speed": 5,
+            "buildingDamageMultiplier": 0.1,
+            "damage": 80,
+            "lifetime": 48,
+            "width": 6,
+            "height": 8,
+            "ammoMultiplier": 3,
+            "shootEffect": "shootSmall"
+        },
+        "原版拓展-钻石": {
+            "speed": 6,
+            "buildingDamageMultiplier": 0.1,
+            "damage": 180,
+            "lifetime": 44,
+            "rangeChange":8,
+            "width": 6,
+            "height": 8,
+            "ammoMultiplier": 1,
+            "shootEffect": "shootSmall"
+        }
+    },
+    "researchCostMultiplier": 0.5,
+    "requirements": [
+        "红宝石/100",
+        "钢铁/80",
+        "钻石/60"
+    ],
+    "category": "turret",
+    "research": "原版拓展-铁拳"
+}

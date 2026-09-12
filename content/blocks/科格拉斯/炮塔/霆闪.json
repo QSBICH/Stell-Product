@@ -1,0 +1,73 @@
+{
+    "type": "ItemTurret",
+    "name": "霆闪",
+    "health": 800,
+    "size": 2,
+    "maxAmmo": 20,
+    "reload": 12.8,
+    "range": 192,
+    "ammoPerShot": 2,
+    "consumes": {
+        "power": 2,
+                "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.1
+            }
+        ]
+    },
+    "shoot": {
+        "shots": 1,
+        "shotDelay": 3,
+        "type": "ShootAlternate",
+        "barrels": 1,
+        "spread": 0
+    },
+    "xRand": 1,
+    "ammoUseEffect": "casing2Double",
+    "inaccuracy": 1,
+    "rotateSpeed": 12,
+    "shake": 1,
+    "ammoTypes": {
+        "原版拓展-钢钛合金": {
+    "speed": 5,
+    "type": "MissileBulletType",
+    "damage": 60,
+    "lifetime": 40,
+    "width": 10,
+    "height": 16,
+    "ammoMultiplier": 4,
+    "shootEffect": "shootSmall",
+    "homingDelay": 20,
+    "homingRange": 80,
+    "homingPower": 0.15,
+    "lightningColor": "AB99D3FF",
+    "lightningDamage": 55,
+    "lightning": 8,
+    "lightningLength": 20,
+    "splashDamageRadius":40,
+	"splashDamage":60,
+    }
+    },
+    "researchCostMultiplier": 0.5,
+    "requirements": [
+        {
+            "item": "钢钛合金",
+            "amount": 50
+        },
+        {
+            "item": "红宝石",
+            "amount": 100
+        },
+        {
+            "item": "零件",
+            "amount": 80
+        },
+        {
+            "item": "铀原矿",
+            "amount": 20
+        }
+    ],
+    "category": "turret",
+    "research": "屏障"
+}

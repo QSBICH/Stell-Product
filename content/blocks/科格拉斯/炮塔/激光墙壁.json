@@ -1,0 +1,72 @@
+{
+    "type": "PowerTurret",
+    "name": "激光墙壁",
+    "health": 6400,
+    "armor": 5,
+    "size": 2,
+    "reload": 60,
+    "shootCone": 360,
+    "rotateSpeed": 60,
+    "recoil": 0,
+    "targetAir": true,
+    "targetGround": true,
+    "range": 64,
+    "inaccuracy": 30,
+    "shootSound": "shootArc",
+    "shootY": 0,
+    "hasLiquids": false,
+    "category": "defense"
+    "requirements": [
+        "钢钛合金/16",
+        "金/6",
+        "锂/2"
+    ],
+    "consumes": {
+        "power": 0.5
+    },
+    "shoot": {
+        "type": "ShootSpread",
+        "shots": 4
+    },
+    "shootType": {
+        "type": "LightningBulletType",
+        "damage": 20,
+        "buildingDamageMultiplier": 0.375,
+        "lightningLength": 10,
+        "lightningLengthRand": 1,
+        "ammoMultiplier": 1
+    },
+    "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 4,
+        "length": 48,
+        "baseLength": 0,
+        "lifetime": 13,
+        "line": true,
+        "lenFrom": 8,
+        "lenTo": 18,
+        "strokeFrom": 2,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "FFFFFF"
+    },
+    "drawer": {
+        "type": "DrawTurret",
+        "basePrefix": "JG-",
+        "parts": [
+            {
+                "type": "RegionPart",
+                "suffix": "-mid",
+                "progress": "recoil",
+                "under": false,
+                "moveY": -1
+            }
+        ]
+    },
+"research": {
+        "parent": "大钻石墙",
+        "objectives": [
+            "原版拓展-激光技术"
+        ]
+    }
+}

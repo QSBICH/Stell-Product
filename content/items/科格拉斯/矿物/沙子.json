@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "细沙",
+    "description": "会混在沙砾里面",
+    "details": "少数地方会有",
+    "color": "#A08660",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-沙砾"
+}

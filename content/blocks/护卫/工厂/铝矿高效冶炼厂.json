@@ -1,0 +1,39 @@
+{
+    "type": "GenericCrafter",
+    "name": "铝矿高效冶炼厂",
+    "description": "将铝土矿进行提纯，同时内置发动机，能够进行高效的制作",
+    "details": "效率一定的提升",
+    "itemCapacity": 20,
+    "health": 220,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 30,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 2,
+        "items": [
+            "原版拓展-铝土矿/2"
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-铝矿",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-铝矿/40",
+        "原版拓展-铝硅/10",
+        "原版拓展-镁钛低温辉石/30"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-铝矿冶炼厂",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "寒冷林区"
+            }
+        ]
+    }
+}

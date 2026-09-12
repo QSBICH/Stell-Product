@@ -1,0 +1,41 @@
+{
+    //"type": "GenericCrafter",
+    "name": "铀矿提纯厂",
+    "description": "将铀矿原矿进行提纯，可以自由选择纯度",
+    "details": "铀矿提纯厂",
+    "itemCapacity": 60,
+    "liquidCapacity": 30,
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "requirements": [
+        "原版拓展-钻石/80",
+        "原版拓展-硅/60",
+        "原版拓展-零件/50",
+        "原版拓展-红宝石/30"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": {
+		"parent": "原版拓展-金刚石提纯厂",
+		"objectives": [
+			"辐射区"
+		],
+	},
+}

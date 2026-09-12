@@ -1,0 +1,13 @@
+{
+   //"type": "AutoDoor",
+   "name":"钢铁闸门"
+   "description": "无法直接通过点按以开关，仅在己方陆军/海军通过时开启",
+   "requirements":[
+   "原版拓展-硅/24"
+   "原版拓展-钢铁/24"
+   ]
+   "health":2800
+   "category": "defense"
+   "research":"原版拓展-大钢铁墙"
+   "size":2
+}

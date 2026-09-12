@@ -1,0 +1,29 @@
+{
+	"name": "储能块",
+	"health": 300,
+	"requirements": [
+		"钢铁/30",
+		"锂/10"
+	],
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault"
+			{
+				"type": "DrawPower",
+				"emptyLightColor": "69C2E7",
+				"fullLightColor": "FFFFFF"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-top"
+			}
+		]
+	},
+	"consumes": {
+		"powerBuffered": 1000
+	},
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-电路板"
+}

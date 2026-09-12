@@ -1,0 +1,8 @@
+{
+	"details": "载荷",
+	"name": "载荷",
+	"health": 360,
+	"speed": 3,
+	"flying":true
+	"payloadCapacity": 128,
+}

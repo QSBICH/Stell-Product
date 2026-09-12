@@ -1,0 +1,69 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "氧气燃烧室",
+    "description": "利用空气发电。",
+    "details": "这颗星球的空气浓度度极高，可产生的电力极高",
+    "size": 3,
+    "armor": 2,
+    "health": 330,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemDuration": 60,
+    "powerProduction": 4,
+    "itemCapacity": 10,
+    "generateEffect": "pulverizeMedium",
+    "consumes": {
+        "liquids": [
+            {
+                "liquid": "原版拓展-氧气",
+                "amount": 0.2
+            }
+        ]
+    },
+    "requirements": [
+        "原版拓展-钻石/50",
+        "红宝石/40",  
+        "钢铁/25",
+        "原版拓展-零件/20"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawArcSmelt",
+                "particleLife": 40,
+                "particleRad": 26,
+                "particleColorFrom": "#8B0000",
+                "particleColorTo": "#8B0000"
+            },
+            {
+                "type": "DrawCrucibleFlame",
+                "particleLife": 60,
+                "particleRad": 15,
+                "particleSize": 5,
+                "alpha": 0.35,
+                "particles": 18,
+                "particleColorFrom": "#8B0000",
+                "particleColorTo": "#8B0000"
+            },
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawWarmupRegion"
+            }
+        ]
+    },
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.04,
+    "category": "power",
+     "research": {
+    "parent": "原版拓展-大功率火力发电机"
+    "objectives": [
+				{
+         "type": "SectorComplete",
+					"preset": "熔岩要塞"
+				}
+			]
+		}
+}

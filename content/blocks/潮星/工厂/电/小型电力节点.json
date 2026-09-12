@@ -1,0 +1,22 @@
+{
+    "type": "PowerNode",
+    "name": "小型电力节点",
+    "description": "利用导电性良好的黄铜制作",
+    "details": "效率可以",
+    "size": 1,
+    "health": 30,
+    "maxNodes": 8,
+    "laserRange": "10",
+    "hasPower": true,
+    "consumesPower": true,
+    "outputsPower": true,
+    "consumes": {
+        "power": 0.1
+    },
+    "requirements": [
+        "原版拓展-黄铜/1",
+        "原版拓展-锰/1"
+    ],
+    "category": "power",
+    "research": "原版拓展-火力发电机"
+}

@@ -1,0 +1,50 @@
+{
+    "type": "GenericCrafter",
+    "name": "金刚石提纯厂",
+    "description": "将金刚石原矿进行提纯，同时需要氧气进行降温",
+    "details": "金刚石提纯厂",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 2,
+        "items": [
+            "原版拓展-金刚石/2"
+        ],
+        "liquids": [
+            {
+                "liquid": "原版拓展-氧气",
+                "amount": 0.2
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-钻石",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钢铁/35",
+        "原版拓展-红宝石/35"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": "原版拓展-钢铁冶炼厂"
+}

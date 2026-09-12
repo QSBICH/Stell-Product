@@ -1,0 +1,13 @@
+{
+    "name": "阵列镜片",
+    "health": 100,
+    "requirements": [
+        "石英/200",
+        "硅/200",
+        "金/10",
+        "钢钛合金/5"
+    ],
+    "size": 1,
+    "category": "logic",
+    "research": "原版拓展-散热单元"
+}

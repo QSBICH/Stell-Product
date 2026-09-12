@@ -1,0 +1,46 @@
+{
+	"type": "GenericCrafter",
+	"name": "大型矿渣焚烧炉",
+	"health": 360,
+	"outputLiquid": {
+		"liquid": "slag",
+		"amount": 0.5
+	},
+	"itemCapacity": 14,
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag"
+			},
+			"DrawDefault"
+		]
+	},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 3,
+			"items": [
+			"scrap/2"
+		],
+		"liquid": "water/0.1"
+	},
+	"requirements": [
+		"thorium/60",
+		"metaglass/50",
+		"原版拓展-铜铅混合体/50"
+	],
+	"category": "crafting",
+	"research": "原版拓展-多重铜铅压缩厂"
+}

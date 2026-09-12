@@ -1,0 +1,153 @@
+{
+    "name": "清剿",
+    "armor": 25,
+    "health": 10000,
+    "speed": 0.8,
+    "hitSize":12,//碰撞箱
+    "boostMultiplier": 1.5,
+    "immunities": ["burning"],
+    "engineOffset": 5,
+    "engineSize": 6,
+    "canBoost": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "剿灭1",
+            "reload": 8,
+            "x": 8,
+            "y": 8,
+            "rotate": true,
+            "inaccuracy": 0,
+            "alternate": true,
+            "top": false,
+            "ejectEffect": "casing1",
+            "shootSound": "pew",
+            "bullet": {
+                "damage": 75,
+                "speed": 8,
+                "lifetime": 36,
+                "width": 8,
+                "height": 10
+            }
+        }, 
+        {
+            "name": "剿灭1",
+            "reload": 8,
+            "x": 8,
+            "y": -2,
+            "rotate": true,
+            "inaccuracy": 0,
+            "alternate": true,
+            "top": false,
+            "ejectEffect": "casing1",
+            "shootSound": "pew",
+            "bullet": {
+                "damage": 75,
+                "speed": 8,
+                "lifetime": 36,
+                "width": 8,
+                "height": 10
+            }
+        }, 
+        {
+            "name": "剿灭2",
+            "reload": 96,
+            "x": 16.1,
+            "y": 0,
+            "reload":40,
+            "rotate": false,
+            "inaccuracy": 0,
+            "alternate": true,
+            "top": false,
+            "ejectEffect": "casing1",
+            "shootSound": "shootArtillery",
+            "buildingDamageMultiplier": 1.5,
+            "bullet": {
+                "damage": 100,
+                "splashDamageRadius": 35,
+                "splashDamage": 80,
+                "homingDelay": 40,
+                "status": "blasted",
+                "hitEffect": "flakExplosionBig",
+                "despawnEffect": "flakExplosionBig",
+                "smokeEffect": "none",
+                "speed": 5,
+                "lifetime": 90,
+                "width": 16,
+                "height": 16
+            }
+        }, 
+	{
+			"name": "剿灭3",
+			"reload": 15,
+			"x": 0,
+                                                   "y": 4,
+			"rotate": false,
+			"inaccuracy": 0,
+			"alternate": false,
+			"top": false,
+                                                   "blockArmorMultiplier": 0.75,
+			"shootSound": "shootFlame",
+			"ejectEffect": "none",
+                                                    "mirror": false,  
+			"shoot": {
+				"shots": 3
+			},
+			"cooldownTime": 120,
+			"bullet": {
+				"type": "BulletType",
+				"lifetime": 8,
+				"speed": 11,
+				"knockback": 0.1,
+				"damage": 30,
+				"ammoMultiplier": 3,
+				"incendAmount": 1,
+				"incendSpread": 8,
+				"incendChance": 0.2,
+				"hittable": false,
+				"absorbable": false,
+				"pierce": true,
+				"makeFire": true,
+				"pierceBuilding": true,
+				"pierceCap": 5,
+				"shootEffect": "shootPyraFlame",
+				"smokeEffect": {
+					"type": "ParticleEffect",
+					"particles": 5,
+					"line": true,
+					"strokeFrom": 1.2,
+					"strokeTo": 0,
+					"lenFrom": 16,
+					"lenTo": 8,
+					"length": 160,
+					"baseLength": 0,
+					"lifetime": 12,
+					"colorFrom": "FFFFFF",
+					"colorTo": "FFE176FF",
+					"cone": 10
+				},
+				"hitEffect": {
+					"type": "ParticleEffect",
+					"particles": 4,
+					"lifetime": 10,
+					"sizeFrom": 3,
+					"sizeTo": 0,
+					"colorFrom": "FF8C00",
+					"colorTo": "FF8C00"
+				},
+				"despawnEffect": "none",
+				"statusDuration": 240,
+				"status": "burning"
+			}
+        } 
+    ],
+    "research": {
+		"parent": "原版拓展-机器人重构厂",
+		"requirements": [
+            "原版拓展-硅/12000",
+            "原版拓展-钻石/8000",
+            "原版拓展-零件/2000",
+            "原版拓展-铀原矿/1000"
+        ],
+    }
+}

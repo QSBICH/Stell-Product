@@ -1,0 +1,19 @@
+{
+"name": "初代载荷传送带"
+"description": "可以3×3载荷，例如炮塔，工厂，墙"
+   "health": 380,
+"size": 3
+"moveTime": 60
+"moveForce": 180
+"payloadLimit": 4
+"category":"units",
+	"research": {
+		"parent": "陆军工厂",
+		"requirements": [
+	"原版拓展-钢铁/80"
+	]
+	}
+"requirements": [
+"原版拓展-钢铁/20"
+]
+}

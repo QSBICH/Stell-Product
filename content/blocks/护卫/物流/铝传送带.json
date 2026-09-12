@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "铝传送带",
+	"health": 100,
+	"requirements": [
+		"原版拓展-铝土矿/1"
+	],
+	"category": "distribution",
+	"speed": 0.1,
+	"displayedSpeed": 10
+	"research": "原版拓展-一阶核心"
+	"bridgeReplacement":"铝制桥梁",//默认桥
+    "junctionReplacement":"铝制交叉器",//默认交叉器
+}

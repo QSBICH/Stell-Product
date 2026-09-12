@@ -1,0 +1,35 @@
+{
+    "name": "战线基地",
+    "description": "装备了更多的装甲，能携带更多的物资",
+    "armor":20,
+    "requirements": [
+        "原版拓展-钢铁/800",
+        "原版拓展-红宝石/600",
+        "原版拓展-钻石/400",
+        "原版拓展-零件/100"
+    ], 
+    "unitType": "原版拓展-报告者",
+    "alwaysUnlocked": false,
+    "armor": 28,
+    "health": 2000,
+    "itemCapacity": 3600,
+    "size": 4,
+    "unitCapModifier": 30,
+    "category": "effect",
+    "breakable": true,
+    "research": {
+		"parent": "原版拓展-前线基地",
+		"requirements": [
+            "原版拓展-钢铁/8000",
+            "原版拓展-红宝石/6000",
+            "原版拓展-钻石/4000",
+            "原版拓展-零件/1000"
+        ],
+	"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "火山口"
+			},
+		],
+	},
+}

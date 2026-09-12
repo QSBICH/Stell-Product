@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "镁钛低温辉石",
+    "description": "强磁材料与动力转换核心。由于其内部含有的的镁和铁元素，这种矿石是制造强力永磁体和电磁体的绝佳材料。它被用于驱动工业用电机、发电机、磁悬浮运输系统，以及各种需要强大磁场的分离和提纯设备中。\n在地壳运动中形成",
+    "details": "是一种内部驱动力的重要材料",
+    "color": "##2F4F4F",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0.1,
+    "flammability": 0,
+    "research": "原版拓展-硅冰石"
+}

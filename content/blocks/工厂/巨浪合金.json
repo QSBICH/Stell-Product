@@ -1,0 +1,38 @@
+{
+    "type": "GenericCrafter",
+    "name": "巨浪合金坩埚",
+    "description": "利用了硫化合物（Pyratite）产生的热量，更快的生产巨浪合金",
+    "details": "好用",
+    "itemCapacity": 50,
+    "liquidCapacity": 50,
+    "health": 120,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": "150",
+    "updateEffect": "none",
+    "consumes": {
+        "power": 15,
+        "items": [
+            "copper/3",
+            "lead/4",
+            "titanium/2",
+            "silicon/3",
+            "pyratite/1"
+        ],
+        "liquids": []  // 移除了水消耗项
+    },
+    "outputItem": {
+        "item": "surge-alloy",
+        "amount": 8
+    },
+    "requirements": [
+        "原版拓展-铜铅混合体/800",
+        "titanium/500",
+        "silicon/600",
+        "thorium/300"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-铜铅压缩厂"
+}

@@ -1,0 +1,38 @@
+{
+    "name":"前哨基地"//名字
+	"description":"可以进行拆卸的核心",//介绍
+	"details":"虽然是一个前哨但本质还是一个核心，可以在前哨进行复活，但是每个区块只能放置两个，否则核心计算量会超出上限"
+	"itemCapacity":800,
+	//容量
+	"armor":1,
+	"hasItems": true,
+	//是否可以存有物品
+	"health":1200,
+	//生命
+	"unitCapModifier":8,
+	//最大单位数量
+	"unitType":"原版拓展-勘探者",
+	"breakable": true,
+	//出生机甲
+	"size":2,
+	//占地边长支持1~9对应贴图1x1=32x32像素.
+	"requirements": [
+	    "原版拓展-铁矿/800",
+	    ],
+	    //建造消耗。
+	"category": "effect",
+	"breakable": true,
+	//菜单栏类别
+		"research": {
+		"parent": "原版拓展-前线基地"
+		"requirements": [
+		"原版拓展-铁矿/2000",
+		],
+		"objectives": [
+		{
+		"type": "SectorComplete",
+		"preset": "机器人组装厂"
+		}
+		]
+	},
+}

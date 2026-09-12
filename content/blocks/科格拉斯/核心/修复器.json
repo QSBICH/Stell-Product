@@ -1,0 +1,67 @@
+{
+	"type": "regenProjector",
+    "category": "effect",//菜单栏
+	"name": "修复器",
+	"description": "修复范围内的建筑，效果不是很好",//描述
+
+	"size": 2,
+	"health":140
+	"healPercent": 0.05,
+	"squareSprite": false,
+
+	"drawer"://特效
+	{"type":"DrawMulti"
+	"drawers":[
+	"DrawDefault",
+	{"type": "DrawLiquidTile",
+	"drawLiquid": "hydrogen",
+	},
+	{"type":"DrawGlowRegion",
+	"color":"D1EFFFFF"
+	}
+	{"type": "DrawPulseShape",
+	"layer":1,
+	"color": "D1EFFFFF"
+	}
+	{"type":"DrawShape",
+	"layer":1,
+	"radius":3.5,
+	"useWarmupRadius":true,
+	"timeScl":2,
+	"color": "D1EFFFFF"
+	}
+	{"type": "DrawRegion",
+	"suffix": "-cap"
+	}	]	}
+
+	"effect":{//修复特效
+	"type":"multiEffect",
+	"effects":[
+	{"type": "ParticleEffect",
+	"region":"circle-bullet",//区域贴图
+	"particles": 3,
+	"length":12,
+	"lifetime":96,
+	"sizeFrom":4,
+	"sizeTo":0,
+	"colorFrom":"D1EFFFFF",
+	"colorTo":"D1EFFFFF"
+	}	]	},
+
+	"range":20,//范围
+	"hasLiquids":true,
+	"hasItems":true,
+
+	"researchCostMultiplier":100,
+	"consumes":{"power":5},
+	"requirements": [//建造消耗
+	"钻石/50",
+	"红宝石/30"
+	],
+	"research":{
+"parent":"前线基地"
+	"requirements":[
+	{"item": "钻石", "amount": 500}
+	{"item": "红宝石", "amount": 300}
+	],	},
+}

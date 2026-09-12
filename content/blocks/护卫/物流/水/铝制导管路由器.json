@@ -1,0 +1,14 @@
+{
+    "type": "LiquidRouter",
+    "name":"铝制导管路由器",
+    "description": "一个方向输入，向三个方向分配流体",
+    "size":1,
+    "health": 220,
+    "liquidCapacity": 20,
+    // "insulated":true,
+    "requirements": [
+	{"item": "原版拓展-铝土矿", "amount": 3},
+	],
+	"category": "liquid",
+    "research":"原版拓展-铝制导管交叉器"
+    }

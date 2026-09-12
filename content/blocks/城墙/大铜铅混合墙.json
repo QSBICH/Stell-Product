@@ -1,0 +1,19 @@
+{
+    "type": "Wall",
+    "name": "铜铅混合墙",
+    "description": "使用了铜铅混合体的强力材料",
+    "details": "铜铅混合体",
+    "health": 5400,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "requirements": [
+        {
+            "item": "原版拓展-铜铅混合体",
+            "amount": 24
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-小铜铅混合墙"
+}

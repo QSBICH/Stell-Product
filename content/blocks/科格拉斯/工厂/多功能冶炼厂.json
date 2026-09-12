@@ -1,0 +1,32 @@
+{
+    "name":"多功能冶炼厂",
+    //"type":"GenericCrafter",
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            }
+        ]
+    },
+    "liquidCapacity":60,
+    "itemCapacity":70,
+    "hasLiquids":true,
+    "hasItems":true,
+    "health":3200,
+    "description":"很全能",
+    "details":"全能",
+    "size":4,
+    "requirements":[
+        "原版拓展-钻石/200",
+        "原版拓展-零件/100",
+        "原版拓展-硅/100"
+    ],
+    "research":"原版拓展-战线基地",
+    "category":"crafting"
+}

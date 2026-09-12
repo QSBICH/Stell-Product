@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "物品2",
+    "description": "这不是简介",
+    "details": "最下面的吐槽",
+    "color": "FFFFFFFF",
+    "cost": 1,
+    "hardness": 3,
+    "explosiveness": 1,
+    "radioactivity": 2,
+    "charge": 0,
+    "flammability": 0,
+    "research": ""
+}

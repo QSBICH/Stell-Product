@@ -1,0 +1,46 @@
+{
+	"name":"蚁后",
+	"hitSize":12,
+	//碰撞箱
+	"range": 72,
+	"rotateSpeed":4.5,
+	//转身速度
+	"itemCapacity":10,
+	//物品容量
+	"canDrown":true,
+	//能否被淹死
+	"forceMultiTarget":true,
+	"speed":0,
+	//移速
+	"health":1000,
+	"lowAltitude":true,
+	"armor":1,
+	"legStraightness": 0.3,//腿部伸直程度
+	"stepShake": 0,//迈步时的屏幕震动幅度
+	"legCount": 6,//腿部数量
+	"legLength": 8,//单条腿的基础长度
+	"lockLegBase": true,
+	"legContinuousMove": true,//腿部连续移动
+	"legExtension": -2,//腿部延伸偏移量
+	"legBaseOffset": 3,//腿部基座与单位中心的偏移距离
+	"legMaxLength": 1.1,//腿部最大伸长倍率
+	"legMinLength": 0.2,//腿部最小收缩倍率
+	"legLengthScl": 0.96,//腿部长度整体缩放
+	"legForwardScl": 1.1,//腿部向前迈步的缩放倍率
+	"legGroupSize": 3,//腿部分组数量
+	"rippleScale": 0.2,//腿部移动时的波纹效果缩放
+	"legMoveSpace": 1,//腿部哼移动所需空间，
+	"allowLegStep": true,//允许迈步开关
+	"hovering": true,//悬浮状态开关
+	"legPhysicsLayer": false,//腿部物理层开关
+	"shadowElevation": 0.1,//单位阴影的高度
+		"abilities":[
+   {
+   "type":"UnitSpawnAbility",
+   "unit":"兵蚁"
+   "spawnTime":300
+   "spawnX":0
+   "spawnY":-5
+   }
+]
+}

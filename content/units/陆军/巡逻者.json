@@ -1,0 +1,31 @@
+{
+	"details": "巡逻者",
+	"armor": 6,
+	"speed": 1.5,
+	"health": 1750,
+	"engineOffset": 5,
+	"engineSize": 2,
+	"canBoost": false,
+	"flying": false,
+	"weapons": [
+		{
+			"name": "x枪",
+			"reload": 10,
+			"x": 4.5,
+			"y": 1,
+			"rotate": false,
+			"inaccuracy": 0,
+			"alternate": true,
+			"top": false,
+			"ejectEffect": "casing1",
+			"shootSound": "shootDuo",
+			"bullet": {
+				"damage": 120,
+				"speed": 8,
+				"lifetime": 24,
+				"width": 5,
+				"height": 8
+			}
+		}
+	]
+}

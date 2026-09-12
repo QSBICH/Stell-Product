@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "硅冰石",
+    "description": "极致多孔的硅酸盐，结构开放稳定。如同冻结的空气海绵，在低温低压下形成。 \n形成条件：低温低压环境。",
+    "details": "能够很好的作为电力材料",
+    "color": "#E0F0FF",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0.1,
+    "flammability": 0,
+    "research": "原版拓展-铝土矿"
+}

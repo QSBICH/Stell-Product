@@ -1,0 +1,11 @@
+{
+	"name": "散热单元",
+	"health": 150,
+	"requirements": [
+		"金/20",
+		"钢钛合金/20"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-激光控制器"
+}

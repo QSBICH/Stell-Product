@@ -1,0 +1,12 @@
+{
+	"requirements": [
+		"copper/200",
+		"lead/200"
+   ],
+	"type": "StorageBlock",
+	"name": "储存罐",
+	"size": 2,
+	"itemCapacity": 150,
+	"research": "原版拓展-铜铅压缩厂",
+	"category": "effect"
+}

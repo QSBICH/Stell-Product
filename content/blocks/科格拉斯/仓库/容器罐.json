@@ -1,0 +1,11 @@
+{
+	"requirements": [
+		"原版拓展-铁矿/100"
+   ],
+	"type": "StorageBlock",
+	"name": "容器罐",
+	"size": 2,
+	"itemCapacity": 300,
+	"research": "原版拓展-铁传送带",
+	"category": "effect"
+}

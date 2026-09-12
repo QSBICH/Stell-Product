@@ -1,0 +1,26 @@
+{
+    "type":"Floor",
+    "name":"沙砾地板",
+    "variants":1,
+    //贴图数量
+    "speedMultiplier":0.5,
+    //单位在上面的速率
+    "dragMultiplier":1,
+    //地板摩擦
+    "damageTaken":0,
+    //单位在上面受到的伤害
+    "hasShadow":true,
+    //是否有阴影
+    "hidden":true,//隐藏
+    "itemDrop": "原版拓展-沙砾",
+    "playerUnmineable":true,//不能自己挖 否 沙子为true
+    // "status":"none",//单位在上面的效果
+    // "statusDuration":12,//效果的持续时间
+    "attributes":{
+            "heat":0,//冷却液
+            "spores":0,//孢子
+            "water":0,//水
+            "oil":0,//石油
+            "石油":0.1//细纱
+    },//地板属性
+}

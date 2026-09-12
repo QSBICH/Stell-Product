@@ -1,0 +1,53 @@
+{
+    "type": "GenericCrafter",
+    "name": "硅工厂",
+    "description": "使用煤炭和沙子进行合成",
+    "details": "硅工厂",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 320,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 1.5,
+        "items": [
+            "原版拓展-沙子/2",
+            "原版拓展-煤矿/1"
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-硅",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钢铁/35",
+        "原版拓展-零件/35"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            }
+        ]
+    },
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-沙砾分离机",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "洛斯河"
+            }
+        ]
+    }
+}

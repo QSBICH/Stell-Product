@@ -1,0 +1,12 @@
+{
+	"name": "导电板",
+	"health": 200,
+	"requirements": [
+		"钢铁/50",
+		"红宝石/10"
+		"硅/30"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-钢钛合金冶炼厂控制器"
+}

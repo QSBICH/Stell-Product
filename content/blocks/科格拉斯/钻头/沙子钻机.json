@@ -1,0 +1,28 @@
+{
+	"type":"SolidPump",
+	"name":"沙子钻机",
+	"description": "采取地下的沙子水。",
+	"size":2,
+	"consumes":{
+	"power":0.15
+	}
+		"hasPower": false,
+		"hasLiquid":true,
+	"health":400,
+	"pumpAmount":0.2,//每帧泵量
+	"baseEfficiency": 1,//基础效率
+	"result":"沙子水",//所泵液体
+	"rotateSpeed":3,//贴图转速
+	"attribute":"沙子水",//地形加成
+	"liquidCapacity":15,
+	"requirements": [
+	"原版拓展-钢铁/15"
+		],
+	"category": "production",
+	"research": {
+	"parent": "原版拓展-铁钻头"//科技树前置
+			"requirements":[
+		"原版拓展-钢铁/150",
+		]
+		},
+}

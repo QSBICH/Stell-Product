@@ -1,0 +1,55 @@
+{
+	"craftTime": 60,
+	"size": 2,
+	"hasLiquids": true,
+	"hasPower": true,
+	"hasItems": true,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawCultivator",
+			{
+				"type":"DrawLiquidRegion",
+				"drawLiquid":"原版拓展-氧气"
+				"suffix":"-皿"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-top"
+			}
+		]
+	},
+	"requirements": [
+		"原版拓展-钢铁/70",
+		"原版拓展-零件/50"
+	],
+	"consumes": {
+		"power": 6,
+		"liquid": {
+			"liquid": "原版拓展-氧气",
+			"amount": 0.05
+		},
+	},
+	"name": "细胞培养皿",
+	"itemCapacity": 20,
+	"liquidCapacity": 20,
+	"outputItem": "原版拓展-细胞/2",
+	"boostScale": 0.445,
+	"attribute": "细胞",
+	//"type": "AttributeCrafter",
+	"category": "production",
+	"research": {
+		"parent": "原版拓展-氧气浓缩厂",
+		"requirements": [
+            "原版拓展-钢铁/700",
+            "原版拓展-零件/100"
+        ],
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "细胞森林"
+			},
+		],
+	},
+}

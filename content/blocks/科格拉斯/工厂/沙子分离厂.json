@@ -1,0 +1,35 @@
+{
+    "type": "GenericCrafter",
+    "name": "沙子分离厂",
+    "description": "从沙子水中分离出沙子，原来的水由于品质太差会进行自动处理",
+    "details": "沙子分离厂",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 220,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 2,
+        "liquids": [
+            {
+                "liquid": "原版拓展-沙子水",
+                "amount": 0.25
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-沙子",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-钢铁/35",
+        "原版拓展-零件/35",
+        "原版拓展-红宝石/20"
+    ],
+    "category": "crafting",
+    "research": "原版拓展-沙砾分离机"
+}

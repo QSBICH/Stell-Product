@@ -1,0 +1,53 @@
+{
+   "type":"UnitAssembler",
+   "name": "机器人重构厂",
+   "description": "利用输入的方块组装大型战机单位，可以通过添加基本装配场模块来增加输出等级",
+   "health":2800,
+   "size":5,
+   "droneType": "组装无人机",
+   "requirements":
+		    [
+		    "原版拓展-铀原矿/300"
+		    "原版拓展-钻石/500"
+		    "原版拓展-零件/100"
+		    ]
+   "consumes":{
+       "power":10,
+       "liquid": {"liquid": "原版拓展-氧气", "amount":0.2 }
+   },
+   "areaSize":13,
+   "plans":[
+       {
+           "unit":"修复",
+           "time":1500,
+           "requirements":[
+        "原版拓展-巡回者/4",
+        "原版拓展-钢铁闸门/6",
+           ]
+       }
+       {
+           "unit":"剿灭",
+           "time":1800,
+           "requirements":[
+        "原版拓展-巡回者/6",
+        "原版拓展-大钻石墙/12",
+           ]
+       }
+   ],
+	"category":"units",
+	"research": {
+		"parent": "原版拓展-机器人改造厂",
+		"requirements":
+		    [
+		    "原版拓展-铀原矿/3000"
+		    "原版拓展-钻石/5000"
+		    "原版拓展-零件/1000"
+		    ]
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "增殖区"
+			},
+		],
+	}
+}

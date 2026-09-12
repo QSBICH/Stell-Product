@@ -1,0 +1,16 @@
+{
+	"memoryCapacity":128,
+	"size":1,
+	"armor":1
+	"health":100,
+	"name":"小型内存元",
+	"description":"存储处理器的信息。"
+	"category": "logic",
+	"requirements": [
+	"原版拓展-硅/20",
+	"原版拓展-钢铁/20"
+	],
+	"research": {
+		"parent":"原版拓展-微型处理器",
+	},
+}

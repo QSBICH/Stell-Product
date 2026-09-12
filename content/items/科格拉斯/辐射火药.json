@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "辐射火药",
+    "description": "很危险",
+    "details": "要谨慎保管",
+    "color": "CFFF70FF",
+    "cost": 2,
+    "hardness": 4,
+    "explosiveness": 1.1,
+    "radioactivity": 1,
+    "charge": 0,
+    "flammability": 1.25,
+    "research": "原版拓展-细胞"
+}

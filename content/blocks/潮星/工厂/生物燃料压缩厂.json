@@ -1,0 +1,39 @@
+{
+    "type": "GenericCrafter",
+    "name": "生物燃料压缩厂",
+    "description": "杂鱼哥！",
+    "details": "杂鱼哥！",
+    "itemCapacity": 20,
+    "liquidCapacity": 20,
+    "health": 330,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 30,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 0.5,
+        "items": [
+            "原版拓展-鱼/5",
+        ],
+                "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-生物燃料",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-黄铜/30",
+        "原版拓展-锰/30"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-分拣机",
+    }
+}

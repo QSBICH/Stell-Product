@@ -1,0 +1,45 @@
+{
+  "details": "组装无人机",
+  "name": "组装无人机",
+  "health": 400,
+  "speed": 1.3,
+  "flying": true,
+  "controller": "AssemblerAI",
+  "hidden": true,
+  "useUnitCap": false,
+  "logicControllable": false,
+  "playerControllable": false,
+  "allowedInPayloads": false,
+  "createWreck": false
+}
+
+/*        assemblyDrone = new ErekirUnitType("assembly-drone"){{
+            controller = u -> new AssemblerAI(),
+
+            flying = true,
+            drag = 0.06f,
+            accel = 0.11f,
+            speed = 1.3f,
+            health = 90,
+            engineSize = 2f,
+            engineOffset = 6.5f,
+            payloadCapacity = 0f,
+            targetable = false,
+            bounded = false,
+
+            outlineColor = Pal.darkOutline,
+            isEnemy = false,
+            hidden = true,
+            useUnitCap = false,
+            logicControllable = false,
+            playerControllable = false,
+            allowedInPayloads = false,
+            createWreck = false,
+            envEnabled = Env.any,
+            envDisabled = Env.none,
+        }},
+
+        //endregion
+    }
+}
+*/

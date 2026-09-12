@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "name": "工业时代",
+    "alwaysUnlocked": false,
+    "description": "解锁第一个科技-铁钻头！",
+    "details": "这只是你对科格拉斯征服之旅的第一步!",
+    "research": {
+        "parent": "前线基地",
+        "objectives": [
+            "原版拓展-铁钻头"
+        ]
+    }
+}

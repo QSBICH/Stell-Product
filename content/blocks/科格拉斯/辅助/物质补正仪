@@ -1,0 +1,38 @@
+{
+	"name": "物质补正仪",
+	"description": "获取数据库中的数据以修理建筑，注意，是修理，不是重建",
+	"health":200,
+	"size": 1,
+	"reload": 300,
+	"range": 40,
+	"healPercent": 10,//一次修复量（百分比）
+	"itemCapacity": 10,
+	"phaseBoost": 10,//速度加成，单位：百分比，实际加成=size²*所填数值，和钻头一样
+	"phaseRangeBoost": 16,//范围加成，单位为1/8
+	"consumes":{
+        "power":1,
+        "optional": true,
+		"booster": true
+        "liquid":{"liquid": "原版拓展-氧气", "amount": 0.1},
+    }
+	"requirements": [
+		"原版拓展-钢铁/100"
+		"原版拓展-零件/100"
+		"原版拓展-红宝石/100"
+	],
+	"category": "effect",
+		"research": {
+		"parent": "铁制电力节点",
+		"requirements": [
+			"原版拓展-钢铁/1000"
+			"原版拓展-零件/1000"
+			"原版拓展-红宝石/500"
+		]
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "机器人组装厂"
+			}
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name":"前线基地",
+	"armor":5,
+	"description": "装备装甲，为了适应新星球的时候，不能携带大量物资",
+	"requirements": [
+		"原版拓展-铁矿/800",
+	],
+	"unitType": "原版拓展-勘探者",
+	"alwaysUnlocked":true,
+	"armor":28,
+	"health": 1000,
+	"itemCapacity": 1600,
+	"size": 3,
+	"unitCapModifier": 12,
+	"breakable": true,
+	"category": "effect"
+}

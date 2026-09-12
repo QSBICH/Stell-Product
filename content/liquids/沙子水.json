@@ -1,0 +1,14 @@
+{
+    "type": "liquid",
+    "name": "沙子水",
+    "color": "FFC861FF",
+    "darColor": "FFC861FF",
+    "lightColor": "FFC861FF",
+    "flammability": 0,
+    "explosiveness": "0",
+    "viscosity": 0,
+    "charge": 0,
+    "heatCapacity": 0,
+    "temperature": 0,
+    "research": "原版拓展-氧气"
+}

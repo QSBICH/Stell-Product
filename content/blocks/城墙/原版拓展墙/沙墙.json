@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "name": "沙墙",
+    "description": "意义不明",
+    "details": "纯纯的狗屎",
+    "health": 6,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+   
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "sand",  // 煤炭
+            "amount": 6       // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-大煤炭墙"
+}

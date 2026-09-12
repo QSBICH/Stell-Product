@@ -1,0 +1,20 @@
+{
+    "type": "SolarGenerator",
+    "name": "太阳能板",
+    "description": "从太阳汲取光能。",
+    "size": 1,
+    "health": 95,
+    	"buildCostMultiplier": 3,
+    "powerProduction": 0.5,//产能（60x/s）
+    "lightRadius":3,//发光范围
+    "requirements": [
+    "原版拓展-硅/6"
+    ],
+    "category": "power",
+    "research": {
+	"parent": "原版拓展-大功率火力发电机"//科技树前置
+			"requirements":[
+		"原版拓展-硅/600",
+		]
+		},
+}

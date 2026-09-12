@@ -1,0 +1,64 @@
+{
+	"name": "长剑",
+	"armor": 10,
+	"speed": 1.,
+	"health": 2250,
+	"boostMultiplier": 1.5,
+	"engineOffset": 5,
+	"engineSize": 4,
+	"canBoost": false,
+	"flying": false,
+	"weapons": [
+		{
+			"name": "z枪",
+			"reload": 8,
+			"x": 6,
+			"y": 1,
+			"rotate": false,
+			"inaccuracy": 0,
+			"shootSound": "shootDuo",
+			"alternate": true,
+			"top": false,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 50,
+				"speed": 8,
+				"lifetime": 30,
+				"width": 5,
+				"height": 8
+			}
+		},
+		{
+			"name": "巫妖2",
+			"reload": 48,
+			"x": 3.5,
+			"y": -1,
+			"shootY": 6,
+			"shoot": {
+				"shots": 3,
+				"shotDelay": 1
+			},
+			"rotate": true,
+			"inaccuracy": 10,
+			"alternate": true,
+			"shootSound": "shootMissile",
+			"ejectEffect": "casing1",
+			"bullet": {
+				"type": "MissileBulletType",
+				"damage": 30,
+				"splashDamageRadius": 36,
+				"splashDamage": 30,
+				"homingDelay": 20,
+				"status": "blasted",
+				"hitEffect": "flakExplosionBig",
+				"despawnEffect": "flakExplosionBig",
+				"smokeEffect": "none",
+				"speed": 5,
+				"lifetime": 48,
+				"width": 7,
+				"height": 8
+			}
+		}
+	]
+	"research": "原版拓展-重构加装厂"
+}

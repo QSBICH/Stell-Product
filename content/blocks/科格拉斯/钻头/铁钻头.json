@@ -1,0 +1,28 @@
+{
+    "type": "Drill",
+    "name": "铁钻头",
+    "description": "利用铁和简单的机械结构，可以低效率挖矿",
+    "details": "效率低的令人发指",
+    "size": 2,
+    "health": 60,
+    "itemCapacity": 10,
+    "liquidCapacity": 10,
+    "tier": 2,
+    "drillTime": 300,
+    "rotateSpeed": 1,
+    "drawMineltem": true,
+    "liquidBoostIntensity": "1.34",
+    "consumes": {
+        "liquid": {
+            "liquid": "原版拓展-氧气",
+            "amount": 0.1,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        "原版拓展-铁矿/12"
+    ],
+    "category": "production",
+    "research": "原版拓展-铁传送带"
+}

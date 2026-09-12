@@ -1,0 +1,34 @@
+{
+    "type": "Reconstructor",
+    "name": "单位加装厂",
+    "size": 3,
+    "consumes": {
+        "power": 5,
+        "items": [
+            "原版拓展-钻石/50",
+            "原版拓展-硅/50"
+        ],
+    },
+    "upgrades": [
+        ["原版拓展-铁刃", "原版拓展-斩杀"] // 添加了缺失的闭合方括号 ']'
+        // 如果有更多升级项，可以在这里继续添加，例如：
+        // ["升级项名称", "升级效果名称"]
+    ],
+    "constructTime": 1200,
+    "requirements": [
+        "原版拓展-硅/100",
+        "原版拓展-钻石/100"
+    ],
+    "category": "units",
+    "buildVisibility": "shown",
+    "researchCostMultiplier": 0,
+    	"research": {
+		"parent": "原版拓展-陆军工厂",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "单位合成区"
+			},
+		],
+	}
+}

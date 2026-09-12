@@ -1,0 +1,13 @@
+{
+	"name": "钢制连接板",
+	"health": 600,
+	"requirements": [
+		"钢铁/50",
+                                  "红宝石/40",
+                                  "零件/20",
+		"硅/10"
+	],
+	"size": 1,
+	"category": "logic",
+	"research": "原版拓展-钢制架构"
+}

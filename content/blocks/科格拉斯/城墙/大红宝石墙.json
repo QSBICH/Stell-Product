@@ -1,0 +1,19 @@
+{
+    //"type": "Wall",
+    "name": "大型强化钢铁墙",
+    "armor":10,
+    "description": "利用红宝石制作的墙",
+    "details": "具有较强的强度",
+    "health": 3800,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements":[
+   "原版拓展-钢铁/16"
+   "原版拓展-红宝石/8"
+   ]
+    "category": "defense",
+    "research": "原版拓展-小红宝石墙"
+}

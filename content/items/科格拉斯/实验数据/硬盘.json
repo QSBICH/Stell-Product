@@ -1,0 +1,14 @@
+{
+    "type": "items",
+    "name": "硬盘",
+    "description": "空白的",
+    "details": "什么也没有啊ORZ",
+    "color": "5C666CFF",
+    "cost": 2,
+    "hardness": 2,
+    "explosiveness": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "flammability": 0,
+    "research": "原版拓展-机器人蓝图"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "name": "爆炸混合物墙",
+    "description": "意义不明",
+    "details": "纯纯的狗屎",
+    "health": 160,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+   
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "blast-compound",  // 煤炭
+            "amount": 6       // 数量设置为6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-大硫化合物墙"
+}

@@ -1,0 +1,20 @@
+{
+    "type": "SolarGenerator",
+    "name": "太阳能板",
+    "description": "从太阳汲取光能，这是我们目前唯一的产电方式。",
+    "size": 1,
+    "health": 50,
+    	"buildCostMultiplier": 3,
+    "powerProduction": 0.15,//产能（60x/s）
+    "lightRadius":2,//发光范围
+    "requirements": [
+    "原版拓展-硅冰石/6"
+    ],
+    "category": "power",
+    "research": {
+	"parent": "原版拓展-铝钻头"//科技树前置
+			"requirements":[
+		"原版拓展-硅冰石/60",
+		]
+		},
+}

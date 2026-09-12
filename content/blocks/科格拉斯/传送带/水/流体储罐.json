@@ -1,0 +1,13 @@
+{
+    "name":"铁制液体储罐",
+    "type": "LiquidRouter",
+    "description": "储存液体",
+    "size":2,
+    "health": 400,
+    "liquidCapacity": 500,
+    "requirements": [
+	{"item": "原版拓展-铁矿", "amount": 50}
+	],
+	"category": "liquid",
+    "research":"原版拓展-铁制导管路由器"
+    }

@@ -1,0 +1,20 @@
+{
+"name":"初代载荷路由器"
+"size":3
+   "health": 380,
+"description": "一个方向输入，三个方向输出"
+"moveTime": 60
+"outputsPayload":true
+"outputFacing":false
+"payloadLimit": 3
+"category":"units",
+	"research": {
+		"parent": "初代载荷传送带",
+		"requirements": [
+	"原版拓展-钢铁/140"
+	]
+	}
+"requirements": [
+"原版拓展-钢铁/35"
+]
+}

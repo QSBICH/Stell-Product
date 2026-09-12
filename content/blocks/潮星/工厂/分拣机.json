@@ -1,0 +1,36 @@
+{
+    "type": "GenericCrafter",
+    "name": "分拣机",
+    "description": "把水中的小杂鱼分拣出来",
+    "details": "杂鱼",
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "health": 330,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 30,
+    "updateEffect": "pulverizeMedium",
+    "consumes": {
+        "power": 3,
+ "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.1
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "原版拓展-鱼",
+        "amount": 1
+    },
+    "requirements": [
+        "原版拓展-黄铜/50",
+        "原版拓展-锰/50"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "原版拓展-火力发电机",
+    }
+}

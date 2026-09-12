@@ -1,0 +1,35 @@
+{
+    "type": "Constructor",
+	"name":"小型构筑器",
+	"description": "构筑建筑......",
+	"details":"我们的科技不能止步于此，粗糙的结构与精细的零件将进行史诗级的碰撞",
+	"health":350,
+	"requirements":[
+		"钻石/150",
+		"零件/150"
+	]
+	"hasItems": true
+	"hasPower" : true,
+	"consumes":{
+		"power":2
+	}
+	"size":3,
+	"category":"units",
+	"filter":[
+		"原版拓展-钢铁闸门"
+		"原版拓展-大钻石墙"
+	]
+	"research": {
+		"parent":"小型机器人组装厂"
+		"requirements":[
+		"钢铁/1500",
+		"零件/1500"
+		]
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "增殖区"
+			},
+		],
+	},
+}

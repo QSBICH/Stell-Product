@@ -1,0 +1,32 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "陂发电机",
+	"size": 3,
+	"health": 280,
+	"hasItems": true,
+	"itemDuration": 120,
+	"powerProduction": 3,
+	"itemCapacity": 10,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawGlowRegion",
+				"glowScale": 4,
+				"alpha": 0.9
+			}
+		]
+	},
+	"generateEffect": "none",
+	"consumes": {
+		"items": ["beryllium/1"]
+	},
+	"requirements": [
+		"beryllium/80"
+	],
+	"ambientSound": "explosion",
+	"ambientSoundVolume": 0.01,
+	"category": "power",
+	"research": "turbine-condenser"
+}

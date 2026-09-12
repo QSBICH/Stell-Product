@@ -1,0 +1,20 @@
+{
+    //"type": "Wall",
+    "name": "钢铁墙",
+    "description": "利用钢铁制作的墙",
+    "details": "具有较强的强度",
+    "health": 800,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "原版拓展-钢铁",
+            "amount": 6
+        }
+    ],
+    "category": "defense",
+    "research": "原版拓展-大铁墙"
+}

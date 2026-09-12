@@ -1,0 +1,42 @@
+{
+    //"type": "GenericCrafter",
+    "name": "火药冶炼厂",
+    "description": "进行火药的冶炼，为防止辐射内部有一层辐射保护层",
+    "details": "进行对火药的冶炼",
+    "itemCapacity": 60,
+    "liquidCapacity": 30,
+    "health": 450,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "updateEffect": "pulverizeMedium",
+    "requirements": [
+        "原版拓展-钢铁/80",
+        "原版拓展-硅/60",
+        "原版拓展-零件/50",
+        "原版拓展-红宝石/50",
+        "原版拓展-铀原矿/10"
+    ],
+    	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
+	},
+    "category": "crafting",
+    "research": {
+		"parent": "原版拓展-金刚石提纯厂",
+		"objectives": [
+			"导弹发射井"
+		],
+	},
+}

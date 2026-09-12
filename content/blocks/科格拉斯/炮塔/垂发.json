@@ -1,0 +1,167 @@
+{
+	"type": "ItemTurret",
+	"name": "导弹发射器",
+	"health": 1850,
+	"size": 3,
+                 "armor": 12,
+                 "maxAmmo": 12,
+	"reload": 150,
+	"range": 600,
+	"customShadow": false,
+	"fogRadiusMultiplier": 0.42,
+	"maxAmmo": 32,
+	"recoil": 0,
+	"shootY": 0,
+    "cooldownTime": 110,
+	"minWarmup": 0.8,
+	"shootWarmupSpeed": 0.055,
+	"warmupMaintainTime": 120,
+	"solid": false,
+	"underBullets": true,
+	"elevation": 0,
+	"unitSort":"weakest",
+	"drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+                "suffix": "-后",
+                "x": 0,
+                "y": 0,
+                "mirror": true,
+			    "moveX": 10,
+			}
+			]
+			}
+	"shoot": {
+		"shots": 8,
+		"shotDelay": 6,
+		"type": "ShootBarrel",
+		"barrels": [
+		7,7,-45,
+		-7,-7,135,
+		7,-7,-135,
+		-7,7,45,
+		-8,0,90,
+		8,0,-90,
+		0,8,0,
+		0,-8,180
+		]
+	},
+	"ammoUseEffect": {
+		"type": "MultiEffect",
+		"effects": [
+			{
+				"type": "ParticleEffect",
+				"particles": 8,
+				"sizeFrom": 4,
+				"sizeTo": 1,
+				"length": 45,
+				"lifetime": 40,
+				"lightOpacity": 0,
+				"colorFrom": "FFFFFF80",
+				"colorTo": "78787870",
+				"cone": 80
+			},
+			{
+				"type": "WaveEffect",
+				"lifetime": 10,
+				"sizeFrom": 0,
+				"sizeTo": 28,
+				"strokeFrom": 2,
+				"strokeTo": 0,
+				"colorFrom": "EEC59180",
+				"colorTo": "FFFFFF"
+			}
+		]
+	},
+	"canOverdrive": false,
+	"consumes": {
+		"power": 10
+	},
+	"shootSound": "shootScathe",
+	"targetGround": true,
+	"targetAir": true,
+	"inaccuracy": 5,
+	"shootCone": 360,
+	"shake": 1,
+	"rotateSpeed": 0,
+	"ammoPerShot": 8,
+	"ammoTypes": {
+		"原版拓展-火药": {
+			"type": "MissileBulletType",
+			"buildingDamageMultiplier": 1.5,
+			"splashDamageRadius": 75,
+			"splashDamage": 75,
+			"knockback": 0.7,
+			"speed": 5,
+			"damage": 50,
+			"lifetime": 200,
+			"homingPower": 0.15,
+			"sprite": "原版拓展-导弹",
+			"backColor": "7D89D8",
+			"frontColor": "E3E3E3",
+			"hitColor": "7D89D8",
+			"trailLength": 15,
+			"trailWidth": 1.5,
+			"trailColor": "FFFFFF80",
+			"trailEffect": "none",
+			"homingDelay": 10,
+			"homingRange": 800,
+			"statusDuration": 300,
+			"width": 10,
+			"height": 40,
+			"hitShake": 1,
+			"ammoMultiplier": 2,
+			"smokeEffect": "shootSmallFlame",
+			"hitEffect": "flakExplosionBig",
+			"despawnEffect": "hitBulletColor"
+		},
+		"原版拓展-辐射火药": {
+			"type": "MissileBulletType",
+			"buildingDamageMultiplier": 1.5,
+			"splashDamageRadius": 50,
+			"splashDamage": 50,
+			"knockback": 0.7,
+			"speed": 2,
+			"damage": 30,
+			"lifetime": 400,
+			"homingPower": 0.15,
+			"sprite": "原版拓展-导弹",
+			"backColor": "7D89D8",
+			"frontColor": "E3E3E3",
+			"hitColor": "7D89D8",
+			"trailLength": 15,
+			"trailWidth": 1.5,
+			"trailColor": "FFFFFF80",
+			"trailEffect": "none",
+			"homingDelay": 10,
+			"homingRange": 800,
+			"status": "原版拓展-核辐射",
+			"statusDuration": 300,
+			"width": 10,
+			"height": 40,
+			"hitShake": 1,
+			"ammoMultiplier": 1,
+			"smokeEffect": "shootSmallFlame",
+			"hitEffect": "flakExplosionBig",
+			"despawnEffect": "hitBulletColor"
+		}
+	},
+	"requirements": [
+		"原版拓展-钻石/200",
+		"原版拓展-零件/100",
+		"原版拓展-硅/50"
+	],
+	"researchCostMultiplier": 0.45,
+	"category": "turret",
+	"research": {
+		"parent": "原版拓展-屏障",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "导弹发射井"
+			},
+		],
+	}
+}

@@ -1,0 +1,28 @@
+"type": "PayloadMassDriver",
+"name": "质量驱动器",
+"requirements": [
+		"原版拓展-钢铁/100",
+		"钻石/80",
+		"红宝石/25",
+		"零件/10",
+		"钢钛合金/5"
+	],
+	"hasPower": true,
+	"hasLiquid": true,
+	"maxPayloadSize": 192,
+	"size": 3,
+	"reload": 120,
+	"chargeTime": 90,
+	"range": 320,
+	"fogRadius": 5,
+	"category":"units",
+	"consumes": {
+        "power": 5,
+        "liquids": [
+            {
+                "liquid": "原版拓展-氧气",
+                "amount": 0.25
+            }
+        ]
+    },
+    "research": "原版拓展-铁制路由器"

@@ -1,0 +1,20 @@
+{
+	"type": "Sorter",//类型,溢流门
+	"size":1,//平方大小
+	"invert":false,//反向
+	"category": "distribution",//菜单栏
+	"name": "铁制分类器",//名字
+	"description": "只允许选中的物品通过，否则向两侧输出",//介绍
+	"details":""
+	"research": "原版拓展-铁制交叉器"//前置科技树
+	"alwaysUnlocked":false,//科技树默认解锁
+	"health":40//血量
+	//"regionRotated":1,//区域旋转
+	"solid":false,//实体
+	"center":true,
+	"requirements": [//建造消耗
+		"原版拓展-铁矿/2"
+		]
+	"speed": 0.08,//运输速度
+	"displayedSpeed":8,//显示速度
+}

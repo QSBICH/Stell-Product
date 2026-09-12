@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "name": "电气时代!",
+    "alwaysUnlocked": false,
+    "description": "摸起来有点麻啊ORZ",
+    "details": "解锁第一个电力产品",
+     "research": {
+        "parent": "成就2",
+        "objectives": [
+            "原版拓展-大功率火力发电机"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "石油发电机",
+    "description": "利用石油转动引擎发电。",
+    "details": "利用石油发电",
+    "size": 3,
+    "armor": 5,
+    "health": 660,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemDuration": 60,
+    "powerProduction": 7.5,
+    "itemCapacity": 10,
+    "generateEffect": "pulverizeMedium",
+    "consumes": {
+        "liquids": [
+            {
+                "liquid": "原版拓展-石油",
+                "amount": 0.25
+            }
+        ]
+    },
+    "requirements": [
+        "原版拓展-零件/50",
+        "原版拓展-硅/20"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        "DrawDefault",
+			{
+				"type":"DrawDefault"
+			},
+            {
+				"type": "DrawRegion",
+				"suffix": "-转",
+				"spinSprite": true,
+				"rotateSpeed": 3
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-小顶",
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-顶",
+			},
+		]
+	}
+    "ambientSound": "转动",
+    "ambientSoundVolume": 0.5,
+    "category": "power",
+     "research": {
+    "parent": "原版拓展-氧气燃烧室"
+    "objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "石油钻井平台"
+			},
+		],
+	}
+}

@@ -1,0 +1,53 @@
+{
+    "type": "PowerTurret",
+    "name": "触电",
+    "health": 600,
+    "armor": 3,
+    "reload": 32,
+    "shootCone": 360,
+    "rotateSpeed": 60,
+    "consumes": {
+        "power": 1
+    },
+    "hasLiquids": false,
+    "targetAir": true,
+    "targetGround": true,
+    "range": 146,
+    "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 4,
+        "length": 48,
+        "baseLength": 0,
+        "lifetime": 13,
+        "line": true,
+        "lenFrom": 8,
+        "lenTo": 18,
+        "strokeFrom": 2,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "FFFFFF"
+    },
+    "recoil": 0,
+    "size": 1,
+    "shoot": {
+        "type": "ShootSpread",
+        "shots": 4
+    },
+    "inaccuracy": 30,
+    "shootSound": "shootArc",
+    "shootY": 0,
+    "shootType": {
+        "type": "LightningBulletType",
+        "damage": 40,
+        "buildingDamageMultiplier": 0.375,
+        "lightningLength": 20,
+        "lightningLengthRand": 8,
+        "ammoMultiplier": 1,
+        "collidesAir": true
+    },
+    "requirements": [
+        "铁矿/50",
+    ],
+    "category": "turret",
+    "research": "原版拓展-大功率火力发电机"
+}

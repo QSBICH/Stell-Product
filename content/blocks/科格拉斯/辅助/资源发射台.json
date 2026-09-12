@@ -1,0 +1,32 @@
+{
+    "name":"资源发射台"
+    "size":4,
+    "category": "effect",
+    "itemCapacity":40,
+    "launchTime":600,
+    "liquidCapacity":40,
+    "acceptMultipleItems":true,
+    "consumes":{
+        "power":5,
+        "liquid":{"liquid": "原版拓展-氧气", "amount": 0.5},
+    }
+    "requirements": [
+		"原版拓展-钢铁/500"
+		"原版拓展-红宝石/500"
+		"原版拓展-零件/200"
+	],
+	    "research": {
+      "parent": "战线基地",
+      "requirements": [
+        "原版拓展-钢铁/1250",
+        "原版拓展-零件/500",
+        "原版拓展-红宝石/1250"
+      ]
+      "objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "资源前哨"
+			},
+		],
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "PowerNode",
+    "name":"电力节点",
+    "description":"向连接的其他节点输送电力，也能从相邻的建筑接收电力或输送",
+    "size":1,
+     "laserColor1":"#BAFFFF",//有电时激光颜色
+    "laserColor2":"#D6FFFF",//没电时激光颜色
+    "health":120,
+    "maxNodes":4,//最大节点数
+    "armor":1,
+    "laserRange":20,//连接半径
+	"hasPower":true,
+	// "consumesPower": true,
+	// "outputsPower": true,
+    "requirements": [
+        "原版拓展-铝土矿/6",
+        "原版拓展-硅冰石/3"
+        ],
+        "category":"power"
+        "research": {
+	"parent": "原版拓展-太阳能板"//科技树前置
+			"requirements":[
+		"原版拓展-硅冰石/60",
+		]
+		},
+}

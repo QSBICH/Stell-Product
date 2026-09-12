@@ -1,0 +1,45 @@
+{
+    "type": "ItemTurret",
+    "name": "穿刺",
+    "pierc": true,
+    "health": 325,
+    "size": 1,
+    "reload": 10,
+    "range": 180,
+    "ammoPerShot": 2,
+        "consumes": {
+        "power": 0.25,
+    },
+    "hasLiquids": false,
+    "shoot": {
+        "shots": 3,
+        "shotDelay": 8,
+        "type": "ShootAlternate",
+        "barrels": 1,
+        "spread": 0
+    },
+    "xRand": 1,
+    "ammoUseEffect": "casing2Double",
+    "inaccuracy": 1,
+    "rotateSpeed": 12,
+    "shake": 1,
+    "ammoTypes": {
+        "原版拓展-锰": {
+            "speed": 3,
+            "buildingDamageMultiplier": 1.25,
+            "damage": 15,
+            "lifetime": 60,
+            "width": 3,
+            "height": 8,
+            "ammoMultiplier": 1,
+            "shootEffect": "shootSmall"
+        }
+    },
+    "researchCostMultiplier": 0.5,
+    "requirements": [
+        "原版拓展-黄铜/100",
+        "原版拓展-锰/80"
+    ],
+    "category": "turret",
+    "research": "原版拓展-起点"
+}

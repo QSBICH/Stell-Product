@@ -1,0 +1,16 @@
+{
+    "type": "Wall",
+    "name": "开疆扩土",
+    "alwaysUnlocked": false,
+    "description": "占领盆地,扩大你的统治范围!",
+    "details": "他们还是这么菜(笑)",
+    "research": {
+        "parent": "成就1",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "盆地"
+            }
+        ]
+    }
+}

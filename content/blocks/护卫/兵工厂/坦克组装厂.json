@@ -1,0 +1,30 @@
+{
+	"type": "UnitFactory",
+	"name": "坦克组装厂",
+	"size":3,
+	"consumes": {
+		"power": 2,
+			}
+	"plans": [
+		{
+			"unit": "原版拓展-围剿",
+			"time": 1200,
+			"requirements": [
+				"原版拓展-铝硅/30",
+				"原版拓展-铝土矿/25"
+			]
+		}
+	],
+	"category":"units",
+	"requirements": [
+		"原版拓展-铝硅/30",
+		"原版拓展-铝土矿/25"
+	]
+	"research": {
+		"parent": "原版拓展-铝矿冶炼厂",
+    "requirements":[
+        "原版拓展-铝矿/200",
+        "原版拓展-硅冰石/100"
+        ]
+	},
+}
